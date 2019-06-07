@@ -1,0 +1,47 @@
+<?page title="all the dataset list" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="all the dataset list" border="normal" apply="com.philip.edu.excel.UploadController">
+<grid>
+	<columns>
+		<column>序号</column>
+		<column>待采集表</column>
+		<column>采集状态</column>
+		<column>数据模板下载</column>
+		<column>数据文件上传</column>
+	</columns>
+	<rows sclass="narrow">
+		<row>
+			<label value="1" />
+			<label value="表1-1 学校概况" />
+			<label value="未采集" />
+			<button label="下载模板" ><attribute name="onClick"><![CDATA[Filedownload.save("/template/test.xls", null);]]></attribute></button>
+    		<button id="uploadButton" label="导入数据" upload="true,maxsize=300"></button>   		
+		</row>
+		<row>
+			<label value="2" />
+			<label value="表1-3 学校相关党政单位" />
+			<label value="未采集" />
+			<button label="下载模板" ><attribute name="onClick"><![CDATA[Filedownload.save("/template/test.xls", null);]]></attribute></button>
+    		<button label="导入数据" upload="true,maxsize=300"></button>   		
+		</row>
+		<row>
+			<label value="3" />
+			<label value="表1-4 学校教学科研单位" />
+			<label value="待导入" />
+			<button label="下载模板"><attribute name="onClick"><![CDATA[Filedownload.save("/template/test.xls", null);]]></attribute></button>
+    		<button label="导入数据" upload="true,maxsize=300" disabled="true" tooltip="dependency"></button>   		
+		</row>
+		<row>
+			<label value="4" />
+			<label value="表1-5-1 专业基本情况" />
+			<label value="待导入" />
+			<button label="下载模板" ><attribute name="onClick"><![CDATA[Filedownload.save("/template/test.xls", null);]]></attribute></button>
+    		<button label="导入数据" upload="true,maxsize=300" disabled="true"></button>   		
+		</row>
+	</rows>
+</grid>
+</window>
+<popup id="dependency" width="300px">
+    <html>依赖表【1-3 学校相关党政单位】未采集完成，请采集完成后再进行该表的采集。</html>
+</popup>
+</zk>

@@ -13,5 +13,11 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/git/educationSystem/WebContent/WEB-INF/lib/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/git/educationSystem/WebContent/WEB-INF/lib/poi-examples-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/git/educationSystem/WebContent/WEB-INF/lib/poi-excelant-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/git/educationSystem/WebContent/WEB-INF/lib/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/git/educationSystem/WebContent/WEB-INF/lib/poi-ooxml-schemas-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/git/educationSystem/WebContent/WEB-INF/lib/poi-scratchpad-4.1.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
