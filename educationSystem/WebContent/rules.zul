@@ -1,0 +1,104 @@
+<?page title="manage rules" contentType="text/html;charset=UTF-8"?>
+<zk>
+<zscript><![CDATA[
+import org.zkoss.zk.ui.metainfo.EventHandler;
+import org.zkoss.zk.ui.metainfo.ZScript; 
+import com.philip.edu.basic.*;
+]]></zscript>
+<window title="校验设计" border="normal">
+<grid>
+<columns>
+<column></column>
+<column></column>
+</columns>
+<rows>
+<row>
+<cell>校验规则模式：<combobox width="300px"><comboitem label="行级校验"/><comboitem label="表级校验"/></combobox> </cell>
+<cell>校验规则名称：<textbox width="300px" /></cell>
+</row>
+<row>
+<cell>校验规则顺序：<textbox width="300px" /></cell>
+<cell>校验失败信息：<textbox width="300px" /></cell>
+</row>
+<row>
+<cell colspan="2">
+<tabbox id="tb" height="300px" orient="vertical">
+    <tabs id="tabs" width="180px">
+        <tab id="A" label="1.字段内关系校验" />
+        <tab id="B" label="2.排他性约束校验" />
+        <tab id="C" label="3.存在性校验" />
+        <tab id="D" label="4.唯一性校验" />
+        <tab id="E" label="5.外表约束校验" />
+        <tab id="F" label="6.时间日期校验" />
+    </tabs>
+    <tabpanels>
+        <tabpanel><button label="前置条件+" onClick="addCondition1()"/><button label="表字段+"/><button label="运算符+"/><button label="文本框+"/>
+        	<html><![CDATA[<hr/>]]></html>
+        <window id="window1">
+        	校验内容如下：
+        </window>	
+        </tabpanel>
+        <tabpanel><button label="表字段+"/><button label="运算符+"/><button label="关联表+"/>
+        	<html><![CDATA[<hr/>]]></html>
+        	校验内容如下：</tabpanel>
+        <tabpanel><button label="前置条件+"/><button label="表字段+"/><button label="运算符+"/><button label="关联表（一字段）+"/><button label="关联表（两字段）+"/><button label="关联表条件+"/><button label="不存在（取反）+"/>
+        	<html><![CDATA[<hr/>]]></html>
+        	校验内容如下：</tabpanel>
+        <tabpanel><button label="前置条件+"/><button label="表字段+"/><button label="运算符+"/>
+        	<html><![CDATA[<hr/>]]></html>
+        	校验内容如下：</tabpanel>
+        <tabpanel><button label="表字段+"/><button label="表字段和+"/><button label="运算符+"/><button label="关联表+"/><button label="汇总表+"/><button label="汇总表条件+"/>
+        	<html><![CDATA[<hr/>]]></html>
+        	校验内容如下：</tabpanel>
+        <tabpanel><button label="前置条件+"/><button label="表字段+"/><button label="运算符+"/><button label="关系运算符+"/><button label="文本框+"/><button label="自然年+"/><button label="月份+"/><button label="日期+"/>
+        	<html><![CDATA[<hr/>]]></html>
+        	校验内容如下：</tabpanel>
+    </tabpanels>
+</tabbox>
+</cell>
+</row>
+</rows>
+</grid>
+<zscript><![CDATA[
+    Div div = new Div();
+    Combobox formCom = new Combobox();
+    Combobox fieldCom = new Combobox();
+    FormManager manager = new FormManager();
+    Image image = new Image("/img/close.jpg");
+    //forms:
+    ArrayList forms = manager.getForms(Constants.USER_ID);
+    for(int i=0; i<forms.size(); i++){
+    	com.philip.edu.basic.Form form = (com.philip.edu.basic.Form)forms.get(i);
+    	Comboitem item = new Comboitem(form.getBus_name());
+    	item.setValue(form.getTbl_name());
+    	formCom.appendChild(item);
+    }
+    //fields:
+    ArrayList fields = manager.getFormFields(Constants.FORM_ID);
+    for(int i=0; i<fields.size(); i++){
+    	FormField field = (FormField)fields.get(i);
+    	Comboitem item = new Comboitem(field.getBus_name());
+    	item.setValue(field.getPhysic_name());
+    	fieldCom.appendChild(item);
+    }
+    //1.1 Condition div:
+    Div divCondition1 = (Div)div.clone();
+    divCondition1.appendChild(fieldCom);
+    divCondition1.appendChild(new Label("="));
+    divCondition1.appendChild(new Textbox());
+    ZScript script = new ZScript("java","delCondition1()");
+	EventHandler evtHdl = new EventHandler(script);
+	image.addEventHandler("onClick", evtHdl);
+	divCondition1.appendChild(image);
+	
+	Div divCon1 = (Div)divCondition1.clone();
+    void addCondition1(){
+		window1.insertBefore(divCon1, null);
+	}
+	
+	void delCondition1(){
+		window1.removeChild(divCon1);
+	}
+]]></zscript>
+</window>
+</zk>
