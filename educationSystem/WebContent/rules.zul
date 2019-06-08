@@ -4,6 +4,7 @@
 import org.zkoss.zk.ui.metainfo.EventHandler;
 import org.zkoss.zk.ui.metainfo.ZScript; 
 import com.philip.edu.basic.*;
+import org.zkoss.zhtml.Input;
 ]]></zscript>
 <window title="校验设计" border="normal">
 <grid>
@@ -34,47 +35,52 @@ import com.philip.edu.basic.*;
     <tabpanels>
         <tabpanel><button label="前置条件+" onClick="addCondition1()"/><button label="表字段+" onClick="addFormField1()"/><button label="运算符+" onClick="addOperator1()"/><button label="文本框+" onClick="addText1()"/>
         	<html><![CDATA[<hr/>]]></html>
-        <window id="window1">
-        	校验内容如下(如果有前置条件请先设置前置条件):
+        <window id="window1" xmlns:h="http://www.w3.org/1999/xhtml">
+        	<div><h:input type="hidden" value="n"/>校验内容如下(如果有前置条件请先设置前置条件):</div>
         </window>	
         </tabpanel>
         <tabpanel><button label="表字段+" onClick="addFormField2()"/><button label="运算符+" onClick="addOp2()"/><button label="关联表+" onClick="addRelateForm2()"/>
         	<html><![CDATA[<hr/>]]></html>
-        <window id="window2">
-        	校验内容如下:
+        <window id="window2" xmlns:h="http://www.w3.org/1999/xhtml">
+        	<div><h:input type="hidden" value="n"/>校验内容如下:</div>
         </window>
         </tabpanel>
         <tabpanel><button label="前置条件+" onClick="addCondition3()"/><button label="表字段+" onClick="addFormField3()"/><button label="运算符+" onClick="addOperator3()"/><button label="关联表（一字段）+" onClick="addRelateForm3()"/><button label="关联表（两字段）+" onClick="addRelateForm32()"/><button label="关联表条件+" onClick="addConditionR3()"/><button label="不存在（取反）+" onClick="addConditionNo3()"/>
         	<html><![CDATA[<hr/>]]></html>    	
-        <window id="window3">
-        	校验内容如下(如果有前置条件请先设置前置条件)：<checkbox label="分号分割多值校验"/>
+        <window id="window3" xmlns:h="http://www.w3.org/1999/xhtml">
+        	<div><h:input type="hidden" value="n"/>校验内容如下(如果有前置条件请先设置前置条件)：<checkbox label="分号分割多值校验"/></div>
         </window>
         </tabpanel>
         <tabpanel><button label="前置条件+" onClick="addCondition4()"/><button label="表字段+" onClick="addFormField4()"/><button label="运算符+" onClick="addOperator4()"/>
         	<html><![CDATA[<hr/>]]></html>
-        <window id="window4">
-        	校验内容如下(最多支持四个字段组成的联合主键)：
+        <window id="window4" xmlns:h="http://www.w3.org/1999/xhtml">
+        	<div><h:input type="hidden" value="n"/>校验内容如下(最多支持四个字段组成的联合主键)：</div>
         </window>
         </tabpanel>
         <tabpanel><button label="表字段+" onClick="addFormField5()"/><button label="表字段和+" onClick="addFormFieldSum5()"/><button label="运算符+" onClick="addOperator5()"/><button label="关联表+" onClick="addRelateForm5()"/><button label="汇总表+" onClick="addForm5()"/><button label="汇总表条件+"/>
         	<html><![CDATA[<hr/>]]></html>
-        <window id="window5">
-        	校验内容如下：
+        <window id="window5" xmlns:h="http://www.w3.org/1999/xhtml">
+        	<div><h:input type="hidden" value="n"/>校验内容如下：</div>
         </window>
         </tabpanel>
         <tabpanel><button label="前置条件+" onClick="addCondition6()"/><button label="表字段+" onClick="addFormField6()"/><button label="运算符+" onClick="addOperator6()"/><button label="关系运算符+" onClick="addRelaOp6()"/><button label="文本框+" onClick="addText6()"/><button label="自然年+" onClick="addYear6()"/><button label="月份+" onClick="addMonth6()"/><button label="日期+" onClick="addDay6()"/>
         	<html><![CDATA[<hr/>]]></html>
-        <window id="window6">
-        	校验内容如下(如果有前置条件请先设置前置条件)：
+        <window id="window6" xmlns:h="http://www.w3.org/1999/xhtml">
+        	<div><h:input type="hidden" value="n"/>校验内容如下(如果有前置条件请先设置前置条件)：
         	日期格式：<combobox id="dateFormat">
         		<comboitem label="yyyy-mm-dd"/>
         		<comboitem label="yyyy-mm"/>
         		<comboitem label="yyyy"/>
-        	</combobox>
+        	</combobox></div>
         </window>
         </tabpanel>
     </tabpanels>
 </tabbox>
+</cell>
+</row>
+<row>
+<cell colspan="2" align="center">
+<button label="新建" onClick="saveRules()" /> <button label="取消"/>
 </cell>
 </row>
 </rows>
@@ -151,6 +157,10 @@ import com.philip.edu.basic.*;
     		Messagebox.show("前置条件最多只有一个！");
     	} else {
     		divCon1[indexCon1] = (Div)div.clone();
+    		Input input = new Input();
+    		input.setType("hidden");
+    		input.setValue("a");
+    		divCon1[indexCon1].appendChild(input);
         	divCon1[indexCon1].appendChild((Combobox)fieldCom.clone());
         	divCon1[indexCon1].appendChild((Combobox)opCom.clone());
         	divCon1[indexCon1].appendChild(new Textbox());
@@ -176,6 +186,10 @@ import com.philip.edu.basic.*;
 	int indexField1 = 0;
 	void addFormField1(){
 		divField1[indexField1] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("b");
+		divField1[indexField1].appendChild(input);
     	divField1[indexField1].appendChild((Combobox)fieldCom.clone());
     	
     	Image imageTemp = (Image)image.clone();
@@ -197,6 +211,10 @@ import com.philip.edu.basic.*;
 	int indexOp1 = 0;
 	void addOperator1(){
 		divOp1[indexOp1] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("c");
+		divOp1[indexOp1].appendChild(input);
 		divOp1[indexOp1].appendChild((Combobox)opCom.clone());
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -218,6 +236,10 @@ import com.philip.edu.basic.*;
 	int indexText1 = 0;
 	void addText1(){
 		divText1[indexText1] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("d");
+		divText1[indexText1].appendChild(input);
 		divText1[indexText1].appendChild(new Textbox());
 		
 		Image imageTemp = (Image)image.clone();
@@ -239,6 +261,10 @@ import com.philip.edu.basic.*;
 	int indexField2 = 0;
 	void addFormField2(){
 		divField2[indexField2] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("b");
+		divField2[indexField2].appendChild(input);
 	    divField2[indexField2].appendChild((Combobox)fieldCom.clone());
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -261,6 +287,10 @@ import com.philip.edu.basic.*;
 	
 	void addOp2(){
 		divOp2[indexOp2] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("e");
+		divOp2[indexOp2].appendChild(input);
 		divOp2[indexOp2].appendChild((Combobox)opCom2.clone());
 		
 		Image imageTemp = (Image)image.clone();
@@ -285,6 +315,10 @@ import com.philip.edu.basic.*;
 	
 	void addRelateForm2(){
 		divRForm2[indexRForm2] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("f");
+		divRForm2[indexRForm2].appendChild(input);
 		formCom2 = (Combobox)formCom.clone();
 		ZScript script = new ZScript("java","loadFields("+indexRForm2+")");
 	    EventHandler evthdl1 = new EventHandler(script);
@@ -331,6 +365,10 @@ import com.philip.edu.basic.*;
     		Messagebox.show("前置条件最多只有一个！");
     	} else {
     		divCon3[indexCon3] = (Div)div.clone();
+    		Input input = new Input();
+    		input.setType("hidden");
+    		input.setValue("a");
+    		divCon3[indexCon3].appendChild(input);
         	divCon3[indexCon3].appendChild((Combobox)fieldCom.clone());
         	divCon3[indexCon3].appendChild((Combobox)opCom.clone());
         	divCon3[indexCon3].appendChild(new Textbox());
@@ -356,6 +394,10 @@ import com.philip.edu.basic.*;
 	int indexField3 = 0;
 	void addFormField3(){
 		divField3[indexField3] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("b");
+		divField3[indexField3].appendChild(input);
     	divField3[indexField3].appendChild((Combobox)fieldCom.clone());
     	
     	Image imageTemp = (Image)image.clone();
@@ -377,6 +419,10 @@ import com.philip.edu.basic.*;
 	int indexOp3 = 0;
 	void addOperator3(){
 		divOp3[indexOp3] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("c");
+		divOp3[indexOp3].appendChild(input);
 		divOp3[indexOp3].appendChild((Combobox)opCom.clone());
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -401,6 +447,10 @@ import com.philip.edu.basic.*;
 	
 	void addRelateForm3(){
 		divRForm3[indexRForm3] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("f");
+		divRForm3[indexRForm3].appendChild(input);
 		formCom3 = (Combobox)formCom.clone();
 		ZScript script = new ZScript("java","loadFields3("+indexRForm3+")");
 	    EventHandler evthdl1 = new EventHandler(script);
@@ -429,6 +479,10 @@ import com.philip.edu.basic.*;
 	
 	void addRelateForm32(){
 		divRForm32[indexRForm32] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("g");
+		divRForm32[indexRForm32].appendChild(input);
 		formCom32 = (Combobox)formCom.clone();
 		ZScript script = new ZScript("java","loadFields32("+indexRForm32+")");
 	    EventHandler evthdl1 = new EventHandler(script);
@@ -496,6 +550,10 @@ import com.philip.edu.basic.*;
 
     void addConditionR3(){
     	divConR3[indexConR3] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("g");
+		divConR3[indexConR3].appendChild(input);
     	divConR3[indexConR3].appendChild(new Label("且当"));
         divConR3[indexConR3].appendChild((Combobox)fieldCom.clone());
 		divConR3[indexConR3].appendChild(new Label("="));
@@ -521,6 +579,10 @@ import com.philip.edu.basic.*;
 
 	    void addConditionNo3(){
 	    	divConNo3[indexConNo3] = (Div)div.clone();
+    		Input input = new Input();
+    		input.setType("hidden");
+    		input.setValue("h");
+    		divConNo3[indexConNo3].appendChild(input);
 	    	divConNo3[indexConNo3].appendChild(new Label("不"));
 
 	        Image imageTemp = (Image)image.clone();
@@ -547,6 +609,10 @@ import com.philip.edu.basic.*;
     		Messagebox.show("前置条件最多只有一个！");
     	} else {
     		divCon4[indexCon4] = (Div)div.clone();
+    		Input input = new Input();
+    		input.setType("hidden");
+    		input.setValue("a");
+    		divCon4[indexCon4].appendChild(input);
         	divCon4[indexCon4].appendChild((Combobox)fieldCom.clone());
         	divCon4[indexCon4].appendChild((Combobox)opCom.clone());
         	divCon4[indexCon4].appendChild(new Textbox());
@@ -572,6 +638,10 @@ import com.philip.edu.basic.*;
 	int indexField4 = 0;
 	void addFormField4(){
 		divField4[indexField4] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("b");
+		divField4[indexField4].appendChild(input);
 	    divField4[indexField4].appendChild((Combobox)fieldCom.clone());
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -593,6 +663,10 @@ import com.philip.edu.basic.*;
 	int indexOp4 = 0;
 	void addOperator4(){
 		divOp4[indexOp4] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("c");
+		divOp4[indexOp4].appendChild(input);
 		divOp4[indexOp4].appendChild((Combobox)opCom.clone());
 		    	
 		Image imageTemp = (Image)image.clone();
@@ -614,6 +688,10 @@ import com.philip.edu.basic.*;
 	int indexField5 = 0;
 	void addFormField5(){
 		divField5[indexField5] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("b");
+		divField5[indexField5].appendChild(input);
 	    divField5[indexField5].appendChild((Combobox)fieldCom.clone());
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -635,6 +713,10 @@ import com.philip.edu.basic.*;
 	int indexFieldSum5 = 0;
 	void addFormFieldSum5(){
 		divFieldSum5[indexFieldSum5] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("i");
+		divFieldSum5[indexFieldSum5].appendChild(input);
 	    divFieldSum5[indexFieldSum5].appendChild((Combobox)fieldCom.clone());
 	    divFieldSum5[indexFieldSum5].appendChild(new Label("之和"));
 	    	
@@ -657,6 +739,10 @@ import com.philip.edu.basic.*;
 	int indexOp5 = 0;
 	void addOperator5(){
 		divOp5[indexOp5] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("c");
+		divOp5[indexOp5].appendChild(input);
 		divOp5[indexOp5].appendChild((Combobox)opCom.clone());
 		    	
 		Image imageTemp = (Image)image.clone();
@@ -681,6 +767,10 @@ import com.philip.edu.basic.*;
 	
 	void addRelateForm5(){
 		divRForm5[indexRForm5] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("f");
+		divRForm5[indexRForm5].appendChild(input);
 		formCom5 = (Combobox)formCom.clone();
 		ZScript script = new ZScript("java","loadFields5("+indexRForm5+")");
 	    EventHandler evthdl1 = new EventHandler(script);
@@ -723,6 +813,10 @@ import com.philip.edu.basic.*;
 	int indexForm5 = 0;
 	void addForm5(){
 		divForm5[indexForm5] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("j");
+		divForm5[indexForm5].appendChild(input);
 	    divForm5[indexForm5].appendChild((Combobox)formCom.clone());
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -749,6 +843,10 @@ import com.philip.edu.basic.*;
     		Messagebox.show("前置条件最多只有一个！");
     	} else {
     		divCon6[indexCon6] = (Div)div.clone();
+    		Input input = new Input();
+    		input.setType("hidden");
+    		input.setValue("a");
+    		divCon6[indexCon6].appendChild(input);
         	divCon6[indexCon6].appendChild((Combobox)fieldCom.clone());
         	divCon6[indexCon6].appendChild((Combobox)opCom.clone());
         	divCon6[indexCon6].appendChild(new Textbox());
@@ -774,6 +872,10 @@ import com.philip.edu.basic.*;
 	int indexField6 = 0;
 	void addFormField6(){
 		divField6[indexField6] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("b");
+		divField6[indexField6].appendChild(input);
 	    divField6[indexField6].appendChild((Combobox)fieldCom.clone());
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -795,6 +897,10 @@ import com.philip.edu.basic.*;
 	int indexOp6 = 0;
 	void addOperator6(){
 		divOp6[indexOp6] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("c");
+		divOp6[indexOp6].appendChild(input);
 		divOp6[indexOp6].appendChild((Combobox)opCom.clone());
 		    	
 		Image imageTemp = (Image)image.clone();
@@ -817,6 +923,10 @@ import com.philip.edu.basic.*;
 	void addRelaOp6(){
 		divOpR6[indexOpR6] = (Div)div.clone();
 		Combobox tempCom = new Combobox();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("k");
+		divOpR6[indexOpR6].appendChild(input);
 		Comboitem cItem = new Comboitem(Constants.OR);
 		cItem.setValue(Constants.V_OR);
 		tempCom.appendChild(cItem);
@@ -841,6 +951,10 @@ import com.philip.edu.basic.*;
 	int indexText6 = 0;
 	void addText6(){
 		divText6[indexText6] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("d");
+		divText6[indexText6].appendChild(input);
 		divText6[indexText6].appendChild(new Textbox());
 		
 		Image imageTemp = (Image)image.clone();
@@ -862,6 +976,10 @@ import com.philip.edu.basic.*;
 	int indexYear6 = 0;
 	void addYear6(){
 		divYear6[indexYear6] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("l");
+		divYear6[indexYear6].appendChild(input);
 		divYear6[indexYear6].appendChild(new Label("自然年"));
 		
 		Combobox yearCom = new Combobox();
@@ -891,6 +1009,10 @@ import com.philip.edu.basic.*;
 	int indexMonth6 = 0;
 	void addMonth6(){
 		divMonth6[indexMonth6] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("m");
+		divMonth6[indexMonth6].appendChild(input);
 		divMonth6[indexMonth6].appendChild(new Textbox());
 		
 		Image imageTemp = (Image)image.clone();
@@ -912,6 +1034,10 @@ import com.philip.edu.basic.*;
 	int indexDay6 = 0;
 	void addDay6(){
 		divDay6[indexDay6] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("m");
+		divDay6[indexDay6].appendChild(input);
 		divDay6[indexDay6].appendChild(new Textbox());
 		
 		Image imageTemp = (Image)image.clone();
@@ -926,6 +1052,18 @@ import com.philip.edu.basic.*;
 	
 	void delDay6(int index){
 		window6.removeChild(divDay6[index]);
+	}
+	
+	void saveRules() {
+		String message = "";
+		List rule1 = window1.getChildren();
+		for(int i=0; i<rule1.size(); i++){
+			Div div = (Div)rule1.get(i);
+			List ruleH1 = div.getChildren();
+			Input input = (Input)ruleH1.get(0);
+			message += "," + input.getValue();			
+		}
+		Messagebox.show(message);
 	}
 ]]></zscript>
 </window>
