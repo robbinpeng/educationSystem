@@ -9,6 +9,9 @@ import org.zkoss.zul.Combobox;
 import org.zkoss.zul.Comboitem;
 import org.zkoss.zul.Div;
 import org.zkoss.zul.Image;
+import org.zkoss.zul.Layout;
+import org.zkoss.zul.Messagebox;
+import org.zkoss.zul.Window;
 
 public class conditionWindow extends SelectorComposer<Component> {
 	private static final long serialVersionUID = 1L;
@@ -21,5 +24,8 @@ public class conditionWindow extends SelectorComposer<Component> {
 		Image image = new Image("/test");
 		ZScript script = new ZScript("java","delItem()");
 		image.addEventHandler("onClick", new EventHandler(script));
+		Messagebox.show(Messagebox.ERROR, Messagebox.ON_OK, Messagebox.OK, null);
+		
+		combox.getItems().clear();
 	}
 }

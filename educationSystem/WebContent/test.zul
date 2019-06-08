@@ -1,0 +1,26 @@
+<?page title="do some test" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="do some test" border="normal">
+<button label="do test" onClick="showValue()"/>
+<listbox id="mylist">
+	<listitem label="here"/>
+	<listitem label="go"/>
+</listbox>
+<combobox id="my">
+	<comboitem label="1" value="one"/>
+	<comboitem label="2" value="two"/>
+</combobox>
+</window>
+<zscript><![CDATA[
+	void testArray(int index){
+		String[] test = new String[20];
+		test[0] = "11111111";
+		test[1] = "22222222";
+		test[2] = "33333333";
+		Messagebox.show(Messagebox.ERROR, test[index], Messagebox.OK, null);
+	}
+	void showValue(){
+		Messagebox.show(my.getSelectedItem().getValue());
+	}
+]]></zscript>
+</zk>
