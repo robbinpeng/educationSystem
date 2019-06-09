@@ -52,4 +52,19 @@ public class FormManagerTest {
 					System.out.println("field physic name: " + field.getPhysic_name());
 				}
 	}
+	
+	@Test
+	public void testSaveRule(){
+		Rule rule = new Rule();
+		rule.setUser_id(Constants.USER_ID);
+		rule.setForm_id(Constants.FORM_ID);
+		rule.setRule_seq(1);
+		rule.setRule_class(Constants.RULE_CLASS);
+		rule.setRule_active(Constants.RULE_ACTIVE);
+		rule.setRule_content("test");
+		rule.setRule_name("test rule");
+		rule.setRule_pattern('T');
+		
+		manager.saveRule(rule);
+	}
 }

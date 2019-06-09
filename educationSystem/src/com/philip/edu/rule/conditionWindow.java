@@ -43,5 +43,17 @@ public class conditionWindow extends SelectorComposer<Component> {
 		}
 		
 		Input input = new Input();
+		Window window = new Window();
+		
+		char testA = 'a';
+		switch(testA){
+			case 'a':
+				System.out.println(testA);
+				break;
+			default:
+				//do nothing.
+		}
+		
+		Integer.parseInt("");
 	}
 }

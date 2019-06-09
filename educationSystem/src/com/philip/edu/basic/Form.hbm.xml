@@ -37,4 +37,20 @@
 		<property name="compute" column="compute" type="java.lang.String" />
 		<property name="form_id" column="form_id" type="int" />
 	</class>
+	
+	<class name="com.philip.edu.basic.Rule" lazy="true" table="tbl_form_rules">
+		<id name="id">
+			<column name="id" />
+			<generator class="native"/>
+		</id>
+		<property name="user_id" column="user_id" type="int" />
+		<property name="form_id" column="form_id" type="int" />
+		<property name="rule_name" column="rule_name" type="java.lang.String" />
+		<property name="rule_class" column="rule_class" type="int" />
+		<property name="rule_content" column="rule_content" type="java.lang.String" />
+		<property name="fail_information" column="fail_information" type="java.lang.String" />
+		<property name="rule_pattern" column="rule_pattern" type="java.lang.Character" />
+		<property name="rule_seq" column="rule_seq" type="int" />
+		<property name="rule_active" column="rule_active" type="java.lang.Character" />
+	</class>
 </hibernate-mapping>

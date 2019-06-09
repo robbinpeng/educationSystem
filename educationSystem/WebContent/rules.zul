@@ -5,7 +5,8 @@ import org.zkoss.zk.ui.metainfo.EventHandler;
 import org.zkoss.zk.ui.metainfo.ZScript; 
 import com.philip.edu.basic.*;
 import org.zkoss.zhtml.Input;
-]]></zscript>
+import org.json.*;
+]]></zscript> 
 <window title="校验设计" border="normal">
 <grid>
 <columns>
@@ -14,12 +15,12 @@ import org.zkoss.zhtml.Input;
 </columns>
 <rows>
 <row>
-<cell>校验规则模式：<combobox width="300px"><comboitem label="行级校验"/><comboitem label="表级校验"/></combobox> </cell>
-<cell>校验规则名称：<textbox width="300px" /></cell>
+<cell>校验规则模式：<combobox id="rule_pattern" width="300px"><comboitem label="行级校验" value="1"/><comboitem label="表级校验" value="2"/></combobox> </cell>
+<cell>校验规则名称：<textbox id="rule_name" width="300px" /></cell>
 </row>
 <row>
-<cell>校验规则顺序：<textbox width="300px" /></cell>
-<cell>校验失败信息：<textbox width="300px" /></cell>
+<cell>校验规则顺序：<textbox id="rule_seq" width="300px" /></cell>
+<cell>校验失败信息：<textbox id="fail_information" width="300px" /></cell>
 </row>
 <row>
 <cell colspan="2">
@@ -552,7 +553,7 @@ import org.zkoss.zhtml.Input;
     	divConR3[indexConR3] = (Div)div.clone();
 		Input input = new Input();
 		input.setType("hidden");
-		input.setValue("g");
+		input.setValue("o");
 		divConR3[indexConR3].appendChild(input);
     	divConR3[indexConR3].appendChild(new Label("且当"));
         divConR3[indexConR3].appendChild((Combobox)fieldCom.clone());
@@ -1036,7 +1037,7 @@ import org.zkoss.zhtml.Input;
 		divDay6[indexDay6] = (Div)div.clone();
 		Input input = new Input();
 		input.setType("hidden");
-		input.setValue("m");
+		input.setValue("p");
 		divDay6[indexDay6].appendChild(input);
 		divDay6[indexDay6].appendChild(new Textbox());
 		
@@ -1055,15 +1056,225 @@ import org.zkoss.zhtml.Input;
 	}
 	
 	void saveRules() {
-		String message = "";
-		List rule1 = window1.getChildren();
-		for(int i=0; i<rule1.size(); i++){
-			Div div = (Div)rule1.get(i);
-			List ruleH1 = div.getChildren();
-			Input input = (Input)ruleH1.get(0);
-			message += "," + input.getValue();			
+		//test:
+		boolean is_new = false;
+		//window1:
+			//window's rules:
+			//Messagebox.show("winodw1");
+			Rule rule = new Rule();
+			rule.setUser_id(Constants.USER_ID);
+			rule.setForm_id(Constants.FORM_ID);
+			rule.setRule_seq(Integer.parseInt(rule_seq.getValue()));
+			rule.setFail_information(fail_information.getValue());
+			rule.setRule_pattern(rule_pattern.getSelectedItem().getValue().charAt(0));
+			rule.setRule_name(rule_name.getValue());
+			rule.setRule_active(Constants.RULE_ACTIVE);
+			
+			JSONObject rules = getWindowRules(window1);
+			if(rules!=null){
+				rule.setRule_class(1);
+				rule.setRule_content(rules.toString());
+				
+				/*System.out.println(rule.getUser_id());
+				System.out.println(rule.getForm_id());
+				System.out.println(rule.getRule_seq());
+				System.out.println(rule.getFail_information());
+				System.out.println(rule.getRule_pattern());
+				System.out.println(rule.getRule_name());
+				System.out.println(rule.getRule_active());
+				System.out.println(rule.getRule_class());
+				System.out.println(rule.getRule_content());*/
+				
+				manager.saveRule(rule);
+				is_new = true;
+			}
+		//window2:
+			//Messagebox.show("winodw2");
+			rules = getWindowRules(window2);
+			if(rules!=null){
+				rule.setRule_class(2);
+				rule.setRule_content(rules.toString());
+				
+				manager.saveRule(rule);
+				is_new = true;
+			}
+		//window3:
+			//Messagebox.show("winodw3");
+			rules = getWindowRules(window3);
+			if(rules!=null){
+				rule.setRule_class(3);
+				rule.setRule_content(rules.toString());
+				
+				manager.saveRule(rule);
+				is_new = true;
+			}
+		//window4:	
+			//Messagebox.show("winodw4");
+			rules = getWindowRules(window4);
+			if(rules!=null){
+				rule.setRule_class(4);
+				rule.setRule_content(rules.toString());
+				
+				manager.saveRule(rule);
+				is_new = true;
+			}
+		//window5:
+			//Messagebox.show("winodw5");
+			rules = getWindowRules(window5);
+			if(rules!=null){
+				rule.setRule_class(5);
+				rule.setRule_content(rules.toString());
+				
+				manager.saveRule(rule);
+				is_new = true;
+			}
+		//window6:
+			//Messagebox.show("winodw6");
+			rules = getWindowRules(window6);
+			if(rules!=null){
+				rule.setRule_class(6);
+				rule.setRule_content(rules.toString());
+				
+				manager.saveRule(rule);
+				is_new = true;
+			}
+			
+		if(is_new)Messagebox.show("规则成功保存！");
+		else Messagebox.show("没有条件没选中!");
+	}
+	
+	JSONObject getWindowRules(Window window){
+		List rules = window.getChildren();
+		JSONObject result = new JSONObject();
+		JSONArray rulesArray = new JSONArray();
+		
+		for(int i=0; i<rules.size(); i++){
+			Div divRule = (Div)rules.get(i);
+			List divChildren = divRule.getChildren();
+			Input input = (Input)divChildren.get(0);
+			char type = input.getValue().charAt(0);
+			System.out.println("type is " + type);
+			switch(type){
+				case 'a':
+					//Combobox,Combobox,Textbox.
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox fieldCom = (Combobox)divChildren.get(1);
+					String fieldValue = fieldCom.getSelectedItem().getValue();
+					Combobox opCom = (Combobox)divChildren.get(2);
+					String opValue = opCom.getSelectedItem().getValue();
+					Textbox tbValue = (Textbox)divChildren.get(3);
+					String textValue = tbValue.getValue();
+					fieldObj.put("value",textValue).put("operator",opValue).put("field",fieldValue).put("type",Constants.RULE_CONDITION);
+					rulesArray.put(fieldObj);
+					break;
+				case 'b':
+					//Combobox:
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox fieldCom = (Combobox)divChildren.get(1);
+					String fieldValue = fieldCom.getSelectedItem().getValue();
+					fieldObj.put("field",fieldValue).put("type",Constants.RULE_FORMFIELD);
+					rulesArray.put(fieldObj);
+					break;
+				case 'c':
+					//Combobox:
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox opCom = (Combobox)divChildren.get(1);
+					String opValue = opCom.getSelectedItem().getValue();
+					fieldObj.put("operator",opValue).put("type",Constants.RULE_OPERATOR);
+					rulesArray.put(fieldObj);
+					break;
+				case 'd':
+					//Textbox:
+					JSONObject fieldObj = new JSONObject(true);
+					Textbox textB = (Textbox)divChildren.get(1);
+					String textValue = textB.getValue();
+					fieldObj.put("value",textValue).put("type",Constants.RULE_TEXTBOX);
+					rulesArray.put(fieldObj);
+					break;
+				case 'e':
+					//Combobox:
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox opCom = (Combobox)divChildren.get(1);
+					String opValue = opCom.getSelectedItem().getValue();
+					fieldObj.put("operator1",opValue).put("type",Constants.RULE_OP_AND);
+					rulesArray.put(fieldObj);
+					break;
+				case 'f':
+					//Combobox,Combobox:
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox formCom = (Combobox)divChildren.get(1);
+					String formValue = formCom.getSelectedItem().getValue();
+					Combobox fieldCom = (Combobox)divChildren.get(2);
+					String fieldValue = fieldCom.getSelectedItem().getValue();
+					fieldObj.put("relateField",fieldValue).put("relateForm",formValue).put("type",Constants.RULE_RELATE_FORM);
+					rulesArray.put(fieldObj);
+					break;
+				case 'g':
+					//Combobox,Combobox,Combobox:
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox formCom = (Combobox)divChildren.get(1);
+					String formValue = formCom.getSelectedItem().getValue();
+					Combobox fieldCom1 = (Combobox)divChildren.get(2);
+					String fieldValue1 = fieldCom1.getSelectedItem().getValue();
+					Combobox fieldCom2 = (Combobox)divChildren.get(3);
+					String fieldValue2 = fieldCom2.getSelectedItem().getValue();
+					fieldObj.put("relateField2",fieldValue2).put("relateField1",fieldValue1).put("relateForm",formValue).put("type",Constants.RULE_RELATE_FORM_TWO);
+					rulesArray.put(fieldObj);
+					break;
+				case 'o':
+					//Label,Combobox,Label,Textbox:
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox fieldCom = (Combobox)divChildren.get(2);
+					String fieldValue = fieldCom.getSelectedItem().getValue();
+					Textbox fieldtx = (Textbox)divChildren.get(4);
+					String txValue = fieldtx.getValue();
+					fieldObj.put("value",fieldValue).put("field",txValue).put("type",Constants.RULE_FIELD_EQUAL);
+					rulesArray.put(fieldObj);
+					break;
+				case 'h':
+					//Label:
+					JSONObject fieldObj = new JSONObject(true);
+					fieldObj.put("value",Constants.RULE_NO).put("type",Constants.RULE_NO);
+					rulesArray.put(fieldObj);
+					break;
+				case 'i':
+					break;
+				case 'k':
+					JSONObject fieldObj = new JSONObject(true);
+					fieldObj.put("value",Constants.RULE_OR).put("type",Constants.RULE_OR);
+					rulesArray.put(fieldObj);
+					break;
+				case 'l':
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox yearCom = (Combobox)divChildren.get(2);
+					String yearValue = yearCom.getSelectedItem().getValue();
+					fieldObj.put("value",yearValue).put("type", Constants.RULE_YEAR_ADD);
+					rulesArray.put(fieldObj);
+					break;
+				case 'm':
+					//Textbox:
+					JSONObject fieldObj = new JSONObject(true);
+					Textbox textB = (Textbox)divChildren.get(1);
+					String textValue = textB.getValue();
+					fieldObj.put("value",textValue).put("type",Constants.RULE_MONTH);
+					rulesArray.put(fieldObj);
+					break;
+				case 'p':
+					//Textbox:
+					JSONObject fieldObj = new JSONObject(true);
+					Textbox textB = (Textbox)divChildren.get(1);
+					String textValue = textB.getValue();
+					fieldObj.put("value",textValue).put("type",Constants.RULE_DAY);
+					rulesArray.put(fieldObj);
+					break;
+				default:
+					//do nothing.
+			}
 		}
-		Messagebox.show(message);
+		if(rulesArray.length()!=0)result.put("rules",rulesArray);
+		else result=null;
+		
+		return result;
 	}
 ]]></zscript>
 </window>

@@ -21,4 +21,8 @@ public class FormManager {
 	public ArrayList getFormFieldsByFormName(int user_id, String table_name){
 		return dao.getFormFieldsByFormName(user_id, table_name);
 	}
+	
+	public void saveRule(Rule rule){
+		dao.saveRule(rule);
+	}
 }

@@ -86,4 +86,22 @@ public class FormDAO {
 		
 		return fields;
 	}
+
+	public void saveRule(Rule rule) {
+		// TODO Auto-generated method stub
+		Session session = null;
+		
+		try{
+			session = HibernateUtil.getSession();
+			session.beginTransaction();
+			
+			session.save(rule);
+			
+			session.getTransaction().commit();
+		} catch(HibernateException e) {
+			e.printStackTrace();
+		} finally {
+			HibernateUtil.closeSession(session);
+		}
+	}
 }
