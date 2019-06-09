@@ -25,4 +25,12 @@ public class FormManager {
 	public void saveRule(Rule rule){
 		dao.saveRule(rule);
 	}
+	
+	public Form getFormByName(int user_id, String name){
+		return dao.getFormByName(user_id, name);
+	}
+	
+	public FormField getFieldByPhysicName(int form_id, String field_name){
+		return dao.getFormFieldByPhysicName(form_id, field_name);
+	}
 }

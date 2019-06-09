@@ -104,4 +104,47 @@ public class FormDAO {
 			HibernateUtil.closeSession(session);
 		}
 	}
+	
+	public Form getFormByName(int user_id, String name){
+		Session session = null;
+		Form form = null;
+		
+		try{
+			session = HibernateUtil.getSession();
+			session.beginTransaction();
+			
+			List al = session.createQuery("From Form where user_id=" + user_id + " AND tbl_name='" + name + "'").list();
+			for(int i=0; i<al.size(); i++){
+				form = (Form)al.get(i);
+				break;
+			}
+		} catch(HibernateException e) {
+			e.printStackTrace();
+		} finally {
+			HibernateUtil.closeSession(session);
+		}
+		
+		return form;
+	}
+	
+	public FormField getFormFieldByPhysicName(int form_id, String field_name){
+		Session session = null;
+		FormField field = null;
+		
+		try{
+			session = HibernateUtil.getSession();
+			session.beginTransaction();
+			
+			List l = session.createQuery("from FormField where form_id=" + form_id + " and physic_name='" + field_name + "'").list();
+			
+			field = (FormField) l.get(0);
+			
+		} catch(HibernateException e) {
+			e.printStackTrace();
+		} finally {
+			HibernateUtil.closeSession(session);
+		}
+		
+		return field;
+	}
 }

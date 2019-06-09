@@ -65,6 +65,32 @@ public class FormManagerTest {
 		rule.setRule_name("test rule");
 		rule.setRule_pattern('T');
 		
-		manager.saveRule(rule);
+		//manager.saveRule(rule);
+	}
+	
+	@Test
+	public void testGetFormByName(){
+		String name = Constants.FORM_NAME;
+		
+		Form form = manager.getFormByName(Constants.USER_ID, name);
+		
+		assertNotEquals(form, null);
+		
+		System.out.println(form.getBus_name());
+		System.out.println(form.getTbl_name());
+		System.out.println(form.getPhsic_name());
+			
+	}
+	
+	@Test
+	public void testGetFieldByPhysicName(){
+		String field_name = Constants.FIELD_NAME;
+		FormField field = manager.getFieldByPhysicName(Constants.FORM_ID_TEST, field_name);
+		
+		assertNotEquals(field, null);
+		
+		System.out.println(field.getBus_name());
+		System.out.println(field.getPhysic_name());
+		System.out.println(field.getData_type());
 	}
 }

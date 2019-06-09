@@ -3,7 +3,9 @@ package com.philip.edu.basic;
 public class Constants {
 	public static final int USER_ID = 1;
 	public static final int FORM_ID = 2;
+	public static final int FORM_ID_TEST = 3;
 	public static final String FORM_NAME = "XXGK";
+	public static final String FIELD_NAME = "XQMC";
 	public static final int RULE_CLASS = 3;
 	public static final char RULE_ACTIVE = 'Y';
 	
@@ -55,4 +57,7 @@ public class Constants {
 	public static final String RULE_YEAR_ADD = "addYear";
 	public static final String RULE_MONTH = "month";
 	public static final String RULE_DAY = "day";
+	
+	public static final String DB_USER = "root";
+	public static final String DB_PASSWORD = "1982214";
 }

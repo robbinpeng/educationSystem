@@ -267,6 +267,7 @@ import org.json.*;
 		input.setValue("b");
 		divField2[indexField2].appendChild(input);
 	    divField2[indexField2].appendChild((Combobox)fieldCom.clone());
+	    divField2[indexField2].appendChild(new Label("不重复"));
 	    	
 	    Image imageTemp = (Image)image.clone();
 	    ZScript script = new ZScript("java","delFormField2("+indexField2+")");

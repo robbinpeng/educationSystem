@@ -13,6 +13,7 @@
 		<property name="user_id" column="user_id" type="int" />
 		<property name="tbl_name" column="tbl_name" type="java.lang.String" />
 		<property name="bus_name" column="bus_name" type="java.lang.String" />
+		<property name="phsic_name" column="phsic_name" type="java.lang.String" />
 		<property name="stats_time" column="stats_time" type="java.util.Date" />
 		<property name="form_type" column="form_type" type="java.lang.String" />
 		<property name="dependency_form" column="dependency_form" type="int" />
