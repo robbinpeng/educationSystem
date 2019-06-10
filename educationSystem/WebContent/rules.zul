@@ -667,9 +667,13 @@ import org.json.*;
 		divOp4[indexOp4] = (Div)div.clone();
 		Input input = new Input();
 		input.setType("hidden");
-		input.setValue("c");
+		input.setValue("q");
 		divOp4[indexOp4].appendChild(input);
-		divOp4[indexOp4].appendChild((Combobox)opCom.clone());
+		Combobox op4Com = new Combobox();
+		Comboitem op4Item = new Comboitem(Constants.ADD);
+		op4Item.setValue(Constants.V_ADD);
+		op4Com.appendChild(op4Item);
+		divOp4[indexOp4].appendChild(op4Com);
 		    	
 		Image imageTemp = (Image)image.clone();
 		ZScript script = new ZScript("java","delOperator4("+indexOp4+")");
@@ -1268,6 +1272,11 @@ import org.json.*;
 					fieldObj.put("value",textValue).put("type",Constants.RULE_DAY);
 					rulesArray.put(fieldObj);
 					break;
+				case 'q':
+					//Add:
+					JSONObject fieldObj = new JSONObject(true);
+					fieldObj.put("value",Constants.V_ADD).put("type",Constants.RULE_SIMPLE_ADD);
+					rulesArray.put(fieldObj);
 				default:
 					//do nothing.
 			}

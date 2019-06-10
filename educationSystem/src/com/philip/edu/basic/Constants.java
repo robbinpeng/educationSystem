@@ -57,6 +57,12 @@ public class Constants {
 	public static final String RULE_YEAR_ADD = "addYear";
 	public static final String RULE_MONTH = "month";
 	public static final String RULE_DAY = "day";
+	public static final String RULE_SIMPLE_ADD = "sAdd";
+	
+	public static final int RULECHECK_MESSAGE_NOT_IMPLEMENT = 0;
+	public static final int RULECHECK_MESSAGE_SUCCESS = 1;
+	public static final int RULECHECK_MESSAGE_FORMAT_WRONG = 2;
+	public static final int RULECHECK_MESSAGE_RULE_FAIL = 3;
 	
 	public static final String DB_USER = "root";
 	public static final String DB_PASSWORD = "1982214";

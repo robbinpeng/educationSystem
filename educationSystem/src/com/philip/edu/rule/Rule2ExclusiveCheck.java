@@ -3,7 +3,9 @@ package com.philip.edu.rule;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +15,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.jfree.util.Log;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -21,94 +24,74 @@ import com.philip.edu.basic.Form;
 import com.philip.edu.basic.FormField;
 import com.philip.edu.basic.FormManager;
 
+import org.apache.log4j.Logger;
+
 public class Rule2ExclusiveCheck {
 	
+	private Logger logger = Logger.getLogger(Rule2ExclusiveCheck.class);
+	
 	private static FormManager manager = new FormManager();
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String rule = "{\"rules\":[{\"field\":\"XXMC\",\"type\":\"field\"},{\"relateField\":\"XQMC\",\"type\":\"relateForm\",\"relateForm\":\"XQDZ\"}]}";
-		JSONObject object = new JSONObject(rule);
-		Rule2ExclusiveCheck engine = new Rule2ExclusiveCheck();
-		ArrayList al = null;
+	private static ExcelHelper helper = new ExcelHelper();
+	
+	public MessageInfo getMessage(Workbook wb, JSONObject object, int form_id){
+		logger.info("start to check the uploaded excel:");
+		
+		MessageInfo message = new MessageInfo();
+		ArrayList messageList = new ArrayList();
 		String ruleSQL = null;
 		String bus_name = null;
+		String relate_table = null;
+		String relate_field = null;
+		ArrayList al = null;
 		
 		//1. fetch the sql:
 		try {
-			al = engine.TranslateRuleSimple(object);
+			al = this.TranslateRuleSimple(object);
 			
 			ruleSQL = (String) al.get(0);
 			bus_name = (String) al.get(1);
+			relate_table = (String) al.get(2);
+			relate_field = (String) al.get(3);
 		} catch (NotImplementException e1) {
 			// TODO Auto-generated catch block
-			System.out.println(e1.getErrorMessage());
+			logger.error(e1.getErrorMessage());
 			e1.printStackTrace();
+			
+			message.setMessage_type(Constants.RULECHECK_MESSAGE_NOT_IMPLEMENT);
+			messageList.add("规则条件较为复杂，系统不能处理。");
+			message.setMessage_info(messageList);
+			return message;
 		}
 		
-		//2. check process:
-		FileInputStream in = null;
-		Workbook wb = null;
-		
-		try {
-			in = new FileInputStream("D:/Develop/education/test/1-1.xls");
-			wb = WorkbookFactory.create(in);
+	
+			//2. make sure columns are the same:
+			int excelColumns = helper.getExcelColumns(wb);
+			boolean format_right = helper.is_format_right(wb, form_id);
 			
-			Sheet sheet = wb.getSheetAt(0);
-			
-			//0. make sure columns are the same:
-			int excelColumns=0;
-			int tableColumns=0;
-			Row row = sheet.getRow(0);
-			int i = 1;
-			while(i > 0){
-				Cell cell = row.getCell(i-1);
-				if(cell==null || "".equals(cell.getStringCellValue().trim()))break;
-				i++;
+			if(format_right==false){
+				message.setMessage_type(Constants.RULECHECK_MESSAGE_FORMAT_WRONG);
+				messageList.add("上传的表格与模板不符，请校验！");
+				message.setMessage_info(messageList);
+				return message;
 			}
-			excelColumns = i -1;
-			List al1 = manager.getFormFields(Constants.FORM_ID);
-			tableColumns = al1.size() - 1;
-			if(excelColumns != tableColumns){System.out.println("导入数据表格式不正确！");return;}
 			
-			//1. make sure the column:
-			String columnName = bus_name;
-			row = sheet.getRow(0);
-			int j = 0;
-			for(j = 0; j<excelColumns; j++){
-				Cell cell = row.getCell(j);
-				if(columnName.trim().equals(cell.getStringCellValue().trim()))break;
-			}
-			int theColumn = j;
-			
-			//2. make sure total lines:
+			//3. make sure total lines:
 			int lines = 0;
-			int index = 0;
-			while(index+1 > 0){
-				Row row1 = sheet.getRow(index);
-				if(row1==null)break;
-				Cell cell1 = row1.getCell(0);
-				if(cell1==null || "".equals(cell1.getStringCellValue().trim()))break;
-				index++;
-			}
-			lines = index;
+			lines = helper.getExcelLines(wb);
 			
-			//3. cycle the column to end:
+			//4. get the correct column:
+			int column = helper.getColumn2Check(wb, bus_name, excelColumns);
 			
-
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (EncryptedDocumentException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+			//5. cycle the column to end:
+			message = checkRule(ruleSQL, wb, column, lines, bus_name, relate_table, relate_field);
+			
+		return message;
 	}
 	
 	private ArrayList TranslateRuleSimple(JSONObject rule) throws NotImplementException{
+		
+		logger.info("begin to translate rule simple.");
+		
 		String ruleSQL = new String();
 		JSONArray array = (JSONArray) rule.get("rules");
 		ArrayList result = new ArrayList();
@@ -120,18 +103,23 @@ public class Rule2ExclusiveCheck {
 		String table_name = obj.get("relateForm").toString();
 		Form form = manager.getFormByName(Constants.USER_ID, table_name);
 		String table = form.getPhsic_name();
+		String relate_table = form.getBus_name();
 		//get field:
 		String field = obj.get("relateField").toString();
+		FormField formField = manager.getFieldByPhysicName(Constants.FORM_ID_TEST, field);
+		String relate_field = formField.getBus_name();
 		ruleSQL = "select * from " + table + " where " + field + "=?";
 		
 		//get check fieldName:
 		obj = (JSONObject) array.get(0);
 		String field_name = obj.get("field").toString();
-		FormField formField = manager.getFieldByPhysicName(Constants.FORM_ID, field_name);
+		formField = manager.getFieldByPhysicName(Constants.FORM_ID, field_name);
 		String bus_name = formField.getBus_name();
 		
 		result.add(ruleSQL);
 		result.add(bus_name);
+		result.add(relate_table);
+		result.add(relate_field);
 		
 		return result;
 	}
@@ -154,5 +142,44 @@ public class Rule2ExclusiveCheck {
 		
 		return ruleSQL;
 	}
+	
+	private MessageInfo checkRule(String sql, Workbook wb, int column, int lines, String bus_name, String relate_table, String relate_field){
+		Sheet sheet = wb.getSheetAt(0);
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		MessageInfo message = new MessageInfo();
+		ArrayList messageList = new ArrayList();
+		message.setMessage_type(Constants.RULECHECK_MESSAGE_SUCCESS);
+		
+		try {
+			Connection conn = DBHelper.getConnection();
+			ps = conn.prepareStatement(sql);
+			
+			for(int i=1; i<=lines-1; i++){			
+				Row row = sheet.getRow(i);
+				String fieldValue = row.getCell(column).getStringCellValue();
+				ps.setString(1, fieldValue);
+				
+				rs = ps.executeQuery();
+				
+				if(rs.next()){
+					messageList.add("'" + bus_name + "'中的'" + fieldValue + "'在关联表'" + relate_table + "'的'" + relate_field + "'中有重复！");
+				}
+			}
+			
+			if(messageList.size()!=0){
+				message.setMessage_type(Constants.RULECHECK_MESSAGE_RULE_FAIL);
+				message.setMessage_info(messageList);
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			logger.error(e);
+		} finally {
+			DBHelper.closeConnection();
+		}
+		
+		return message;
 
+	}
 }

@@ -3,13 +3,12 @@ package com.philip.edu.basic;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 
-import jxl.common.Logger;
-
 public class FormDAO {
-	//private Logger logger = Logger.getLogger(FormDAO.class);
+	private Logger logger = Logger.getLogger(FormDAO.class);
 	
 	public ArrayList getForms(int user_id){
 		Session session = null;
@@ -31,6 +30,28 @@ public class FormDAO {
 		}
 		
 		return forms;
+	}
+	
+	public Form getFormById(int form_id){
+		Session session = null;
+		Form form = null;
+		
+		try{
+			session = HibernateUtil.getSession();
+			session.beginTransaction();
+			
+			List al = session.createQuery("From Form where id=" + form_id).list();
+			for(int i=0; i<al.size(); i++){
+				form = (Form)al.get(i);
+				break;
+			}
+		} catch(HibernateException e) {
+			e.printStackTrace();
+		} finally {
+			HibernateUtil.closeSession(session);
+		}
+		
+		return form;
 	}
 	
 	public ArrayList getFormFields(int form_id){

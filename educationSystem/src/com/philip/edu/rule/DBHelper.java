@@ -3,6 +3,7 @@ package com.philip.edu.rule;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 import com.philip.edu.basic.Constants;
 
@@ -26,11 +27,23 @@ public class DBHelper {
 	public static Connection getConnection() throws Exception{
 		if(conn==null){
 			conn = DriverManager.getConnection(url,username,password);
+			conn.setAutoCommit(false);
 			return conn;
 		}
 		return conn;
 	}
 
+	public static void closeConnection(){
+		if(conn!=null){
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try{

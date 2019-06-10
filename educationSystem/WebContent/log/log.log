@@ -1,0 +1,1140 @@
+2019-06-10 08:13:21 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 08:13:21 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 08:13:21 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 08:13:21 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 08:13:23 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 08:13:23 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 08:13:23 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 08:13:23 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 08:13:23 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 08:13:23 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 08:13:24 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58c540cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 08:13:24 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 08:14:43 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 08:14:43 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 08:14:43 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 08:14:43 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 08:14:45 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 08:14:45 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 08:14:45 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 08:14:45 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 08:14:45 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 08:14:45 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 08:14:46 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58c540cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 08:14:47 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 08:20:30 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 08:20:30 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 08:20:30 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 08:20:30 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 08:20:31 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 08:20:31 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 08:20:31 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 08:20:31 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 08:20:31 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 08:20:32 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 08:20:32 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58c540cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 08:20:33 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 08:22:33 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 08:22:33 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 08:22:33 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 08:22:33 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 08:22:34 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 08:22:34 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 08:22:34 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 08:22:34 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 08:22:34 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 08:22:35 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 08:22:36 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58c540cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 08:22:36 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 08:25:45 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 08:25:45 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 08:25:45 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 08:25:45 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 08:25:47 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 08:25:47 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 08:25:47 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 08:25:47 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 08:25:47 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 08:25:47 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 08:25:48 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46aa712c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 08:25:49 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 08:29:34 [ main ] begin to translate rule simple.
+2019-06-10 08:29:34 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 08:29:34 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 08:29:34 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 08:29:34 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 08:29:36 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 08:29:36 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 08:29:36 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 08:29:36 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 08:29:36 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 08:29:36 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 08:29:37 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@16fb356] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 08:29:37 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:02:45 [ main ] start to check the uploaded excel:
+2019-06-10 10:02:45 [ main ] begin to translate rule simple.
+2019-06-10 10:02:45 [ main ] Translate many conditions using and has not been implemented!
+2019-06-10 10:04:38 [ main ] start to check the uploaded excel:
+2019-06-10 10:04:38 [ main ] begin to translate rule simple.
+2019-06-10 10:04:38 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:04:38 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:04:38 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:04:38 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:04:39 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:04:39 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:04:39 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:04:39 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:04:39 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:04:40 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:04:40 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ae66c85] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:04:41 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:04:41 [ main ] to count the excel columns
+2019-06-10 10:04:41 [ main ] the excel has 12 columns!
+2019-06-10 10:04:41 [ main ] begin to check whether excel format is right.
+2019-06-10 10:04:41 [ main ] to count the excel columns
+2019-06-10 10:04:41 [ main ] the excel has 12 columns!
+2019-06-10 10:04:41 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 10:09:06 [ main ] start to check the uploaded excel:
+2019-06-10 10:09:06 [ main ] begin to translate rule simple.
+2019-06-10 10:09:06 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:09:06 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:09:06 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:09:06 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:09:07 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:09:07 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:09:07 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:09:07 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:09:07 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:09:08 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:09:09 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@47dd778] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:09:09 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:09:09 [ main ] to count the excel columns
+2019-06-10 10:09:09 [ main ] the excel has 13 columns!
+2019-06-10 10:09:09 [ main ] begin to check whether excel format is right.
+2019-06-10 10:09:09 [ main ] to count the excel columns
+2019-06-10 10:09:09 [ main ] the excel has 13 columns!
+2019-06-10 10:09:09 [ main ] to count the excel lines
+2019-06-10 10:09:09 [ main ] the excel has 2 lines
+2019-06-10 10:09:09 [ main ] to decide which column to check
+2019-06-10 10:09:09 [ main ] java.sql.SQLException: Parameter index out of range (0 < 1 ).
+2019-06-10 10:10:40 [ main ] start to check the uploaded excel:
+2019-06-10 10:10:40 [ main ] begin to translate rule simple.
+2019-06-10 10:10:40 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:10:40 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:10:40 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:10:40 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:10:42 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:10:42 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:10:42 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:10:42 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:10:42 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:10:42 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:10:43 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@101a461c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:10:43 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:10:44 [ main ] to count the excel columns
+2019-06-10 10:10:44 [ main ] the excel has 13 columns!
+2019-06-10 10:10:44 [ main ] begin to check whether excel format is right.
+2019-06-10 10:10:44 [ main ] to count the excel columns
+2019-06-10 10:10:44 [ main ] the excel has 13 columns!
+2019-06-10 10:10:44 [ main ] to count the excel lines
+2019-06-10 10:10:44 [ main ] the excel has 2 lines
+2019-06-10 10:10:44 [ main ] to decide which column to check
+2019-06-10 10:11:01 [ main ] java.sql.SQLException: Parameter index out of range (0 < 1 ).
+2019-06-10 10:13:13 [ main ] start to check the uploaded excel:
+2019-06-10 10:13:13 [ main ] begin to translate rule simple.
+2019-06-10 10:13:13 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:13:13 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:13:13 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:13:13 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:13:15 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:13:15 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:13:15 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:13:15 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:13:15 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:13:15 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:13:16 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7377781e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:13:16 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:13:17 [ main ] to count the excel columns
+2019-06-10 10:13:17 [ main ] the excel has 13 columns!
+2019-06-10 10:13:17 [ main ] begin to check whether excel format is right.
+2019-06-10 10:13:17 [ main ] to count the excel columns
+2019-06-10 10:13:17 [ main ] the excel has 13 columns!
+2019-06-10 10:13:17 [ main ] to count the excel lines
+2019-06-10 10:13:17 [ main ] the excel has 2 lines
+2019-06-10 10:13:17 [ main ] to decide which column to check
+2019-06-10 10:14:00 [ main ] java.sql.SQLException: Parameter index out of range (0 < 1 ).
+2019-06-10 10:16:42 [ main ] start to check the uploaded excel:
+2019-06-10 10:16:42 [ main ] begin to translate rule simple.
+2019-06-10 10:16:42 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:16:42 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:16:43 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:16:43 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:16:44 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:16:44 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:16:44 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:16:44 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:16:44 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:16:44 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:16:45 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@47dd778] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:16:45 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:16:45 [ main ] to count the excel columns
+2019-06-10 10:16:45 [ main ] the excel has 13 columns!
+2019-06-10 10:16:45 [ main ] begin to check whether excel format is right.
+2019-06-10 10:16:45 [ main ] to count the excel columns
+2019-06-10 10:16:45 [ main ] the excel has 13 columns!
+2019-06-10 10:16:45 [ main ] to count the excel lines
+2019-06-10 10:16:45 [ main ] the excel has 2 lines
+2019-06-10 10:16:45 [ main ] to decide which column to check
+2019-06-10 10:16:45 [ main ] java.lang.NullPointerException
+2019-06-10 10:17:56 [ main ] start to check the uploaded excel:
+2019-06-10 10:17:56 [ main ] begin to translate rule simple.
+2019-06-10 10:17:56 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:17:56 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:17:56 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:17:56 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:17:57 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:17:57 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:17:57 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:17:57 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:17:57 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:17:58 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:17:58 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2577d6c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:17:59 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:17:59 [ main ] to count the excel columns
+2019-06-10 10:17:59 [ main ] the excel has 13 columns!
+2019-06-10 10:17:59 [ main ] begin to check whether excel format is right.
+2019-06-10 10:17:59 [ main ] to count the excel columns
+2019-06-10 10:17:59 [ main ] the excel has 13 columns!
+2019-06-10 10:17:59 [ main ] to count the excel lines
+2019-06-10 10:17:59 [ main ] the excel has 2 lines
+2019-06-10 10:17:59 [ main ] to decide which column to check
+2019-06-10 10:17:59 [ main ] java.lang.NullPointerException
+2019-06-10 10:18:23 [ main ] start to check the uploaded excel:
+2019-06-10 10:18:23 [ main ] begin to translate rule simple.
+2019-06-10 10:18:24 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:18:24 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:18:24 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:18:24 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:18:25 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:18:25 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:18:25 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:18:25 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:18:25 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:18:26 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:18:27 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6848a051] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:18:27 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:18:27 [ main ] to count the excel columns
+2019-06-10 10:18:27 [ main ] the excel has 13 columns!
+2019-06-10 10:18:27 [ main ] begin to check whether excel format is right.
+2019-06-10 10:18:27 [ main ] to count the excel columns
+2019-06-10 10:18:27 [ main ] the excel has 13 columns!
+2019-06-10 10:18:27 [ main ] to count the excel lines
+2019-06-10 10:18:27 [ main ] the excel has 2 lines
+2019-06-10 10:18:27 [ main ] to decide which column to check
+2019-06-10 10:19:16 [ main ] java.lang.NullPointerException
+2019-06-10 10:19:35 [ main ] start to check the uploaded excel:
+2019-06-10 10:19:35 [ main ] begin to translate rule simple.
+2019-06-10 10:19:35 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:19:35 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:19:36 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:19:36 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:19:37 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:19:37 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:19:37 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:19:37 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:19:37 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:19:37 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:19:38 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@47dd778] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:19:38 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:19:38 [ main ] to count the excel columns
+2019-06-10 10:19:38 [ main ] the excel has 13 columns!
+2019-06-10 10:19:38 [ main ] begin to check whether excel format is right.
+2019-06-10 10:19:38 [ main ] to count the excel columns
+2019-06-10 10:19:38 [ main ] the excel has 13 columns!
+2019-06-10 10:19:38 [ main ] to count the excel lines
+2019-06-10 10:19:38 [ main ] the excel has 2 lines
+2019-06-10 10:19:38 [ main ] to decide which column to check
+2019-06-10 10:20:17 [ main ] start to check the uploaded excel:
+2019-06-10 10:20:17 [ main ] begin to translate rule simple.
+2019-06-10 10:20:18 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:20:18 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:20:18 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:20:18 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:20:19 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:20:19 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:20:19 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:20:19 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:20:19 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:20:19 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:20:20 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a4ed68f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:20:20 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:20:21 [ main ] to count the excel columns
+2019-06-10 10:20:21 [ main ] the excel has 13 columns!
+2019-06-10 10:20:21 [ main ] begin to check whether excel format is right.
+2019-06-10 10:20:21 [ main ] to count the excel columns
+2019-06-10 10:20:21 [ main ] the excel has 13 columns!
+2019-06-10 10:20:21 [ main ] to count the excel lines
+2019-06-10 10:20:21 [ main ] the excel has 3 lines
+2019-06-10 10:20:21 [ main ] to decide which column to check
+2019-06-10 10:44:32 [ main ] start to check the uploaded excel:
+2019-06-10 10:44:32 [ main ] begin to translate rule simple.
+2019-06-10 10:44:32 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:44:32 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:44:33 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:44:33 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:44:34 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:44:34 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:44:34 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:44:34 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:44:34 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:44:34 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:44:35 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a4ed68f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:44:35 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:44:35 [ main ] to count the excel columns
+2019-06-10 10:44:35 [ main ] the excel has 13 columns!
+2019-06-10 10:44:35 [ main ] begin to check whether excel format is right.
+2019-06-10 10:44:35 [ main ] to count the excel columns
+2019-06-10 10:44:35 [ main ] the excel has 13 columns!
+2019-06-10 10:44:35 [ main ] to count the excel lines
+2019-06-10 10:44:35 [ main ] the excel has 3 lines
+2019-06-10 10:44:35 [ main ] to decide which column to check
+2019-06-10 10:46:13 [ main ] start to check the uploaded excel:
+2019-06-10 10:46:13 [ main ] begin to translate rule simple.
+2019-06-10 10:46:13 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:46:13 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:46:14 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:46:14 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:46:15 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:46:15 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:46:15 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:46:15 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:46:15 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:46:15 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:46:16 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a4ed68f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:46:16 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:46:16 [ main ] to count the excel columns
+2019-06-10 10:46:16 [ main ] the excel has 13 columns!
+2019-06-10 10:46:16 [ main ] begin to check whether excel format is right.
+2019-06-10 10:46:16 [ main ] to count the excel columns
+2019-06-10 10:46:16 [ main ] the excel has 13 columns!
+2019-06-10 10:46:17 [ main ] to count the excel lines
+2019-06-10 10:46:17 [ main ] the excel has 3 lines
+2019-06-10 10:46:17 [ main ] to decide which column to check
+2019-06-10 10:58:22 [ main ] start to check the uploaded excel:
+2019-06-10 10:58:22 [ main ] begin to translate rule simple.
+2019-06-10 10:58:22 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 10:58:22 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 10:58:22 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 10:58:22 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 10:58:24 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 10:58:24 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 10:58:24 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 10:58:24 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 10:58:24 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 10:58:24 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 10:58:25 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a4ed68f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 10:58:25 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 10:58:25 [ main ] to count the excel columns
+2019-06-10 10:58:25 [ main ] the excel has 13 columns!
+2019-06-10 10:58:25 [ main ] begin to check whether excel format is right.
+2019-06-10 10:58:25 [ main ] to count the excel columns
+2019-06-10 10:58:25 [ main ] the excel has 13 columns!
+2019-06-10 10:58:25 [ main ] to count the excel lines
+2019-06-10 10:58:25 [ main ] the excel has 3 lines
+2019-06-10 10:58:25 [ main ] to decide which column to check
+2019-06-10 11:01:11 [ main ] start to check the uploaded excel:
+2019-06-10 11:01:11 [ main ] begin to translate rule simple.
+2019-06-10 11:01:11 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 11:01:11 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 11:01:11 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 11:01:11 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 11:01:12 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 11:01:12 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 11:01:12 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 11:01:12 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 11:01:12 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 11:01:13 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 11:01:13 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea94d6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 11:01:14 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 11:01:14 [ main ] to count the excel columns
+2019-06-10 11:01:14 [ main ] the excel has 13 columns!
+2019-06-10 11:01:14 [ main ] begin to check whether excel format is right.
+2019-06-10 11:01:14 [ main ] to count the excel columns
+2019-06-10 11:01:14 [ main ] the excel has 13 columns!
+2019-06-10 11:01:14 [ main ] to count the excel lines
+2019-06-10 11:01:14 [ main ] the excel has 3 lines
+2019-06-10 11:01:14 [ main ] to decide which column to check
+2019-06-10 11:26:09 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 11:26:09 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 11:26:09 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 11:26:09 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 11:26:10 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 11:26:11 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 11:26:11 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 11:26:11 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 11:26:11 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 11:26:11 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 11:26:11 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e78fcf5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 11:26:12 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 11:26:12 [ main ] start to check the uploaded excel:
+2019-06-10 11:26:12 [ main ] begin to translate rule simple.
+2019-06-10 11:26:12 [ main ] to count the excel columns
+2019-06-10 11:26:12 [ main ] the excel has 13 columns!
+2019-06-10 11:26:12 [ main ] begin to check whether excel format is right.
+2019-06-10 11:26:12 [ main ] to count the excel columns
+2019-06-10 11:26:12 [ main ] the excel has 13 columns!
+2019-06-10 11:26:12 [ main ] to count the excel lines
+2019-06-10 11:26:12 [ main ] the excel has 3 lines
+2019-06-10 11:26:12 [ main ] to decide which column to check
+2019-06-10 11:45:09 [ http-nio-8080-exec-9 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 11:45:09 [ http-nio-8080-exec-9 ] HHH000206: hibernate.properties not found
+2019-06-10 11:45:10 [ http-nio-8080-exec-9 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 11:45:10 [ http-nio-8080-exec-9 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 11:45:12 [ http-nio-8080-exec-9 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 11:45:12 [ http-nio-8080-exec-9 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 11:45:12 [ http-nio-8080-exec-9 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 11:45:12 [ http-nio-8080-exec-9 ] HHH10001003: Autocommit mode: false
+2019-06-10 11:45:12 [ http-nio-8080-exec-9 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 11:45:13 [ http-nio-8080-exec-9 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 11:45:15 [ http-nio-8080-exec-9 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@14e64e8c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 11:45:15 [ http-nio-8080-exec-9 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:15:01 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:15:01 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:15:01 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:15:01 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:15:02 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:15:02 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:15:02 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:15:02 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:15:02 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:15:02 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:15:03 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b9c69a9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:15:03 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:15:04 [ main ] start to check the uploaded excel:
+2019-06-10 13:15:04 [ main ] begin to translate rule simple.
+2019-06-10 13:15:04 [ main ] to count the excel columns
+2019-06-10 13:15:04 [ main ] the excel has 12 columns!
+2019-06-10 13:15:04 [ main ] begin to check whether excel format is right.
+2019-06-10 13:15:04 [ main ] to count the excel columns
+2019-06-10 13:15:04 [ main ] the excel has 12 columns!
+2019-06-10 13:15:04 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:15:04 [ main ] rule 4: begin to check
+2019-06-10 13:15:04 [ main ] to count the excel columns
+2019-06-10 13:15:04 [ main ] the excel has 12 columns!
+2019-06-10 13:15:04 [ main ] to count the excel lines
+2019-06-10 13:15:04 [ main ] the excel has 2 lines
+2019-06-10 13:15:04 [ main ] begin to translate the rule
+2019-06-10 13:15:04 [ main ] to decide which column to check
+2019-06-10 13:15:04 [ main ] to decide which column to check
+2019-06-10 13:15:04 [ main ] to decide which column to check
+2019-06-10 13:15:04 [ main ] to decide which column to check
+2019-06-10 13:15:40 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:15:40 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:15:40 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:15:40 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:15:41 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:15:41 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:15:41 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:15:41 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:15:41 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:15:42 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:15:43 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@65f00478] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:15:43 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:15:43 [ main ] start to check the uploaded excel:
+2019-06-10 13:15:43 [ main ] begin to translate rule simple.
+2019-06-10 13:15:43 [ main ] to count the excel columns
+2019-06-10 13:15:43 [ main ] the excel has 12 columns!
+2019-06-10 13:15:43 [ main ] begin to check whether excel format is right.
+2019-06-10 13:15:43 [ main ] to count the excel columns
+2019-06-10 13:15:43 [ main ] the excel has 12 columns!
+2019-06-10 13:15:43 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:15:43 [ main ] rule 4: begin to check
+2019-06-10 13:15:43 [ main ] to count the excel columns
+2019-06-10 13:15:43 [ main ] the excel has 12 columns!
+2019-06-10 13:15:43 [ main ] to count the excel lines
+2019-06-10 13:15:43 [ main ] the excel has 3 lines
+2019-06-10 13:15:43 [ main ] begin to translate the rule
+2019-06-10 13:15:43 [ main ] to decide which column to check
+2019-06-10 13:15:43 [ main ] to decide which column to check
+2019-06-10 13:15:43 [ main ] to decide which column to check
+2019-06-10 13:15:43 [ main ] to decide which column to check
+2019-06-10 13:16:20 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:16:20 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:16:21 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:16:21 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:16:22 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:16:22 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:16:22 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:16:22 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:16:22 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:16:22 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:16:23 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@65f00478] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:16:23 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:16:23 [ main ] start to check the uploaded excel:
+2019-06-10 13:16:23 [ main ] begin to translate rule simple.
+2019-06-10 13:16:23 [ main ] to count the excel columns
+2019-06-10 13:16:23 [ main ] the excel has 12 columns!
+2019-06-10 13:16:23 [ main ] begin to check whether excel format is right.
+2019-06-10 13:16:23 [ main ] to count the excel columns
+2019-06-10 13:16:23 [ main ] the excel has 12 columns!
+2019-06-10 13:16:23 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:16:23 [ main ] rule 4: begin to check
+2019-06-10 13:16:23 [ main ] to count the excel columns
+2019-06-10 13:16:23 [ main ] the excel has 12 columns!
+2019-06-10 13:16:23 [ main ] to count the excel lines
+2019-06-10 13:16:23 [ main ] the excel has 4 lines
+2019-06-10 13:16:23 [ main ] begin to translate the rule
+2019-06-10 13:16:23 [ main ] to decide which column to check
+2019-06-10 13:16:23 [ main ] to decide which column to check
+2019-06-10 13:16:23 [ main ] to decide which column to check
+2019-06-10 13:16:23 [ main ] to decide which column to check
+2019-06-10 13:16:39 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:16:39 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:16:40 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:16:40 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:16:41 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:16:41 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:16:41 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:16:41 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:16:41 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:16:41 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:16:42 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea94d6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:16:42 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:16:43 [ main ] start to check the uploaded excel:
+2019-06-10 13:16:43 [ main ] begin to translate rule simple.
+2019-06-10 13:16:43 [ main ] to count the excel columns
+2019-06-10 13:16:43 [ main ] the excel has 12 columns!
+2019-06-10 13:16:43 [ main ] begin to check whether excel format is right.
+2019-06-10 13:16:43 [ main ] to count the excel columns
+2019-06-10 13:16:43 [ main ] the excel has 12 columns!
+2019-06-10 13:16:43 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:16:43 [ main ] rule 4: begin to check
+2019-06-10 13:16:43 [ main ] to count the excel columns
+2019-06-10 13:16:43 [ main ] the excel has 12 columns!
+2019-06-10 13:16:43 [ main ] to count the excel lines
+2019-06-10 13:16:43 [ main ] the excel has 4 lines
+2019-06-10 13:16:43 [ main ] begin to translate the rule
+2019-06-10 13:16:43 [ main ] to decide which column to check
+2019-06-10 13:16:43 [ main ] to decide which column to check
+2019-06-10 13:16:43 [ main ] to decide which column to check
+2019-06-10 13:16:43 [ main ] to decide which column to check
+2019-06-10 13:17:19 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:17:19 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:17:20 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:17:20 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:17:21 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:17:21 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:17:21 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:17:21 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:17:21 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:17:21 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:17:22 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a97b17c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:17:23 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:17:23 [ main ] start to check the uploaded excel:
+2019-06-10 13:17:23 [ main ] begin to translate rule simple.
+2019-06-10 13:17:23 [ main ] to count the excel columns
+2019-06-10 13:17:23 [ main ] the excel has 12 columns!
+2019-06-10 13:17:23 [ main ] begin to check whether excel format is right.
+2019-06-10 13:17:23 [ main ] to count the excel columns
+2019-06-10 13:17:23 [ main ] the excel has 12 columns!
+2019-06-10 13:17:23 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:17:23 [ main ] rule 4: begin to check
+2019-06-10 13:17:23 [ main ] to count the excel columns
+2019-06-10 13:17:23 [ main ] the excel has 12 columns!
+2019-06-10 13:17:23 [ main ] to count the excel lines
+2019-06-10 13:17:23 [ main ] the excel has 4 lines
+2019-06-10 13:17:23 [ main ] begin to translate the rule
+2019-06-10 13:17:23 [ main ] to decide which column to check
+2019-06-10 13:17:23 [ main ] to decide which column to check
+2019-06-10 13:17:23 [ main ] to decide which column to check
+2019-06-10 13:17:23 [ main ] to decide which column to check
+2019-06-10 13:18:41 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:18:41 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:18:42 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:18:42 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:18:43 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:18:43 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:18:43 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:18:43 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:18:43 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:18:43 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:18:44 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea94d6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:18:45 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:18:45 [ main ] start to check the uploaded excel:
+2019-06-10 13:18:45 [ main ] begin to translate rule simple.
+2019-06-10 13:18:45 [ main ] to count the excel columns
+2019-06-10 13:18:45 [ main ] the excel has 12 columns!
+2019-06-10 13:18:45 [ main ] begin to check whether excel format is right.
+2019-06-10 13:18:45 [ main ] to count the excel columns
+2019-06-10 13:18:45 [ main ] the excel has 12 columns!
+2019-06-10 13:18:45 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:18:45 [ main ] rule 4: begin to check
+2019-06-10 13:18:45 [ main ] to count the excel columns
+2019-06-10 13:18:45 [ main ] the excel has 12 columns!
+2019-06-10 13:18:45 [ main ] to count the excel lines
+2019-06-10 13:18:45 [ main ] the excel has 4 lines
+2019-06-10 13:18:45 [ main ] begin to translate the rule
+2019-06-10 13:18:45 [ main ] to decide which column to check
+2019-06-10 13:18:45 [ main ] to decide which column to check
+2019-06-10 13:18:45 [ main ] to decide which column to check
+2019-06-10 13:18:45 [ main ] to decide which column to check
+2019-06-10 13:19:07 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:19:07 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:19:07 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:19:07 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:19:08 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:19:08 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:19:08 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:19:08 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:19:08 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:19:09 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:19:09 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea94d6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:19:10 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:19:10 [ main ] start to check the uploaded excel:
+2019-06-10 13:19:10 [ main ] begin to translate rule simple.
+2019-06-10 13:19:10 [ main ] to count the excel columns
+2019-06-10 13:19:10 [ main ] the excel has 12 columns!
+2019-06-10 13:19:10 [ main ] begin to check whether excel format is right.
+2019-06-10 13:19:10 [ main ] to count the excel columns
+2019-06-10 13:19:10 [ main ] the excel has 12 columns!
+2019-06-10 13:19:10 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:19:10 [ main ] rule 4: begin to check
+2019-06-10 13:19:10 [ main ] to count the excel columns
+2019-06-10 13:19:10 [ main ] the excel has 12 columns!
+2019-06-10 13:19:10 [ main ] to count the excel lines
+2019-06-10 13:19:10 [ main ] the excel has 4 lines
+2019-06-10 13:19:10 [ main ] begin to translate the rule
+2019-06-10 13:19:10 [ main ] to decide which column to check
+2019-06-10 13:19:10 [ main ] to decide which column to check
+2019-06-10 13:19:10 [ main ] to decide which column to check
+2019-06-10 13:19:10 [ main ] to decide which column to check
+2019-06-10 13:20:52 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:20:52 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:20:52 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:20:52 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:20:54 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:20:54 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:20:54 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:20:54 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:20:54 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:20:54 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:20:55 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a97b17c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:20:55 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:20:56 [ main ] start to check the uploaded excel:
+2019-06-10 13:20:56 [ main ] begin to translate rule simple.
+2019-06-10 13:20:56 [ main ] to count the excel columns
+2019-06-10 13:20:56 [ main ] the excel has 12 columns!
+2019-06-10 13:20:56 [ main ] begin to check whether excel format is right.
+2019-06-10 13:20:56 [ main ] to count the excel columns
+2019-06-10 13:20:56 [ main ] the excel has 12 columns!
+2019-06-10 13:20:56 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:20:56 [ main ] rule 4: begin to check
+2019-06-10 13:20:56 [ main ] to count the excel columns
+2019-06-10 13:20:56 [ main ] the excel has 12 columns!
+2019-06-10 13:20:56 [ main ] to count the excel lines
+2019-06-10 13:20:56 [ main ] the excel has 4 lines
+2019-06-10 13:20:56 [ main ] begin to translate the rule
+2019-06-10 13:20:56 [ main ] to decide which column to check
+2019-06-10 13:20:56 [ main ] to decide which column to check
+2019-06-10 13:20:56 [ main ] to decide which column to check
+2019-06-10 13:20:56 [ main ] to decide which column to check
+2019-06-10 13:24:03 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:24:03 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:24:04 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:24:04 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:24:05 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:24:05 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:24:05 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:24:05 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:24:05 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:24:05 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:24:06 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea94d6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:24:06 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:24:06 [ main ] start to check the uploaded excel:
+2019-06-10 13:24:06 [ main ] begin to translate rule simple.
+2019-06-10 13:24:06 [ main ] to count the excel columns
+2019-06-10 13:24:06 [ main ] the excel has 12 columns!
+2019-06-10 13:24:06 [ main ] begin to check whether excel format is right.
+2019-06-10 13:24:06 [ main ] to count the excel columns
+2019-06-10 13:24:06 [ main ] the excel has 12 columns!
+2019-06-10 13:24:06 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:24:06 [ main ] rule 4: begin to check
+2019-06-10 13:24:06 [ main ] to count the excel columns
+2019-06-10 13:24:06 [ main ] the excel has 12 columns!
+2019-06-10 13:24:06 [ main ] to count the excel lines
+2019-06-10 13:24:06 [ main ] the excel has 4 lines
+2019-06-10 13:24:06 [ main ] begin to translate the rule
+2019-06-10 13:24:06 [ main ] to decide which column to check
+2019-06-10 13:24:06 [ main ] to decide which column to check
+2019-06-10 13:24:06 [ main ] to decide which column to check
+2019-06-10 13:24:06 [ main ] to decide which column to check
+2019-06-10 13:24:27 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:24:27 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:24:28 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:24:28 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:24:30 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:24:30 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:24:30 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:24:30 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:24:30 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:24:30 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:24:31 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a97b17c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:24:31 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:24:32 [ main ] start to check the uploaded excel:
+2019-06-10 13:24:32 [ main ] begin to translate rule simple.
+2019-06-10 13:24:32 [ main ] to count the excel columns
+2019-06-10 13:24:32 [ main ] the excel has 12 columns!
+2019-06-10 13:24:32 [ main ] begin to check whether excel format is right.
+2019-06-10 13:24:32 [ main ] to count the excel columns
+2019-06-10 13:24:32 [ main ] the excel has 12 columns!
+2019-06-10 13:24:32 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:24:32 [ main ] rule 4: begin to check
+2019-06-10 13:24:32 [ main ] to count the excel columns
+2019-06-10 13:24:32 [ main ] the excel has 12 columns!
+2019-06-10 13:24:32 [ main ] to count the excel lines
+2019-06-10 13:24:32 [ main ] the excel has 4 lines
+2019-06-10 13:24:32 [ main ] begin to translate the rule
+2019-06-10 13:24:32 [ main ] to decide which column to check
+2019-06-10 13:24:32 [ main ] to decide which column to check
+2019-06-10 13:24:32 [ main ] to decide which column to check
+2019-06-10 13:24:32 [ main ] to decide which column to check
+2019-06-10 13:29:28 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:29:28 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:29:28 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:29:28 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:29:30 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:29:30 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:29:30 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:29:30 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:29:30 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:29:30 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:29:31 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@30b9eadd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:29:31 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:29:31 [ main ] start to check the uploaded excel:
+2019-06-10 13:29:31 [ main ] begin to translate rule simple.
+2019-06-10 13:29:31 [ main ] to count the excel columns
+2019-06-10 13:29:31 [ main ] the excel has 12 columns!
+2019-06-10 13:29:31 [ main ] begin to check whether excel format is right.
+2019-06-10 13:29:31 [ main ] to count the excel columns
+2019-06-10 13:29:31 [ main ] the excel has 12 columns!
+2019-06-10 13:29:31 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:29:31 [ main ] rule 4: begin to check
+2019-06-10 13:29:31 [ main ] to count the excel columns
+2019-06-10 13:29:31 [ main ] the excel has 12 columns!
+2019-06-10 13:29:31 [ main ] to count the excel lines
+2019-06-10 13:29:31 [ main ] the excel has 4 lines
+2019-06-10 13:29:31 [ main ] begin to translate the rule
+2019-06-10 13:29:31 [ main ] to decide which column to check
+2019-06-10 13:29:31 [ main ] to decide which column to check
+2019-06-10 13:29:31 [ main ] to decide which column to check
+2019-06-10 13:29:31 [ main ] to decide which column to check
+2019-06-10 13:30:17 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:30:17 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:30:17 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:30:17 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:30:19 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:30:19 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:30:19 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:30:19 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:30:19 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:30:19 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:30:20 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea94d6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:30:20 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:30:20 [ main ] start to check the uploaded excel:
+2019-06-10 13:30:20 [ main ] begin to translate rule simple.
+2019-06-10 13:30:20 [ main ] to count the excel columns
+2019-06-10 13:30:20 [ main ] the excel has 12 columns!
+2019-06-10 13:30:20 [ main ] begin to check whether excel format is right.
+2019-06-10 13:30:20 [ main ] to count the excel columns
+2019-06-10 13:30:20 [ main ] the excel has 12 columns!
+2019-06-10 13:30:20 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:30:20 [ main ] rule 4: begin to check
+2019-06-10 13:30:20 [ main ] to count the excel columns
+2019-06-10 13:30:20 [ main ] the excel has 12 columns!
+2019-06-10 13:30:20 [ main ] to count the excel lines
+2019-06-10 13:30:20 [ main ] the excel has 4 lines
+2019-06-10 13:30:20 [ main ] begin to translate the rule
+2019-06-10 13:30:20 [ main ] to decide which column to check
+2019-06-10 13:30:20 [ main ] to decide which column to check
+2019-06-10 13:30:20 [ main ] to decide which column to check
+2019-06-10 13:30:20 [ main ] to decide which column to check
+2019-06-10 13:31:05 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:31:05 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:31:06 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:31:06 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:31:07 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:31:07 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:31:07 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:31:07 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:31:07 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:31:07 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:31:08 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@748ac6f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:31:09 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:31:09 [ main ] start to check the uploaded excel:
+2019-06-10 13:31:09 [ main ] begin to translate rule simple.
+2019-06-10 13:31:09 [ main ] to count the excel columns
+2019-06-10 13:31:09 [ main ] the excel has 12 columns!
+2019-06-10 13:31:09 [ main ] begin to check whether excel format is right.
+2019-06-10 13:31:09 [ main ] to count the excel columns
+2019-06-10 13:31:09 [ main ] the excel has 12 columns!
+2019-06-10 13:31:09 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:31:09 [ main ] rule 4: begin to check
+2019-06-10 13:31:09 [ main ] to count the excel columns
+2019-06-10 13:31:09 [ main ] the excel has 12 columns!
+2019-06-10 13:31:09 [ main ] to count the excel lines
+2019-06-10 13:31:09 [ main ] the excel has 4 lines
+2019-06-10 13:31:09 [ main ] begin to translate the rule
+2019-06-10 13:31:09 [ main ] to decide which column to check
+2019-06-10 13:31:09 [ main ] to decide which column to check
+2019-06-10 13:31:09 [ main ] to decide which column to check
+2019-06-10 13:31:09 [ main ] to decide which column to check
+2019-06-10 13:34:49 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:34:49 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:34:49 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:34:49 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:34:50 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:34:50 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:34:50 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:34:50 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:34:50 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:34:51 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:34:52 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@314b9e4b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:34:52 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:34:52 [ main ] start to check the uploaded excel:
+2019-06-10 13:34:52 [ main ] begin to translate rule simple.
+2019-06-10 13:34:52 [ main ] to count the excel columns
+2019-06-10 13:34:52 [ main ] the excel has 12 columns!
+2019-06-10 13:34:52 [ main ] begin to check whether excel format is right.
+2019-06-10 13:34:52 [ main ] to count the excel columns
+2019-06-10 13:34:52 [ main ] the excel has 12 columns!
+2019-06-10 13:34:52 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:34:52 [ main ] rule 4: begin to check
+2019-06-10 13:34:52 [ main ] to count the excel columns
+2019-06-10 13:34:52 [ main ] the excel has 12 columns!
+2019-06-10 13:34:52 [ main ] to count the excel lines
+2019-06-10 13:34:52 [ main ] the excel has 4 lines
+2019-06-10 13:34:52 [ main ] begin to translate the rule
+2019-06-10 13:34:52 [ main ] to decide which column to check
+2019-06-10 13:34:52 [ main ] to decide which column to check
+2019-06-10 13:34:52 [ main ] to decide which column to check
+2019-06-10 13:34:52 [ main ] to decide which column to check
+2019-06-10 13:35:29 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:35:29 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:35:29 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:35:29 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:35:31 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:35:31 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:35:31 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:35:31 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:35:31 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:35:31 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:35:33 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a97b17c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:35:33 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:35:33 [ main ] start to check the uploaded excel:
+2019-06-10 13:35:33 [ main ] begin to translate rule simple.
+2019-06-10 13:35:33 [ main ] to count the excel columns
+2019-06-10 13:35:33 [ main ] the excel has 12 columns!
+2019-06-10 13:35:33 [ main ] begin to check whether excel format is right.
+2019-06-10 13:35:33 [ main ] to count the excel columns
+2019-06-10 13:35:33 [ main ] the excel has 12 columns!
+2019-06-10 13:35:33 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:35:33 [ main ] rule 4: begin to check
+2019-06-10 13:35:33 [ main ] to count the excel columns
+2019-06-10 13:35:33 [ main ] the excel has 12 columns!
+2019-06-10 13:35:33 [ main ] to count the excel lines
+2019-06-10 13:35:33 [ main ] the excel has 4 lines
+2019-06-10 13:35:33 [ main ] begin to translate the rule
+2019-06-10 13:35:33 [ main ] to decide which column to check
+2019-06-10 13:35:33 [ main ] to decide which column to check
+2019-06-10 13:35:33 [ main ] to decide which column to check
+2019-06-10 13:35:33 [ main ] to decide which column to check
+2019-06-10 13:38:58 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:38:58 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:38:58 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:38:58 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:39:00 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:39:00 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:39:00 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:39:00 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:39:00 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:39:00 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:39:01 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea94d6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:39:01 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:39:01 [ main ] start to check the uploaded excel:
+2019-06-10 13:39:01 [ main ] begin to translate rule simple.
+2019-06-10 13:39:01 [ main ] to count the excel columns
+2019-06-10 13:39:01 [ main ] the excel has 12 columns!
+2019-06-10 13:39:01 [ main ] begin to check whether excel format is right.
+2019-06-10 13:39:01 [ main ] to count the excel columns
+2019-06-10 13:39:01 [ main ] the excel has 12 columns!
+2019-06-10 13:39:01 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:39:01 [ main ] rule 4: begin to check
+2019-06-10 13:39:01 [ main ] to count the excel columns
+2019-06-10 13:39:01 [ main ] the excel has 12 columns!
+2019-06-10 13:39:01 [ main ] to count the excel lines
+2019-06-10 13:39:01 [ main ] the excel has 4 lines
+2019-06-10 13:39:01 [ main ] begin to translate the rule
+2019-06-10 13:39:02 [ main ] to decide which column to check
+2019-06-10 13:39:02 [ main ] to decide which column to check
+2019-06-10 13:39:02 [ main ] to decide which column to check
+2019-06-10 13:39:02 [ main ] to decide which column to check
+2019-06-10 13:39:54 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:39:54 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:39:54 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:39:54 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:39:55 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:39:55 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:39:55 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:39:55 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:39:55 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:39:56 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:39:57 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@65f00478] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:39:57 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:39:57 [ main ] start to check the uploaded excel:
+2019-06-10 13:39:57 [ main ] begin to translate rule simple.
+2019-06-10 13:39:57 [ main ] to count the excel columns
+2019-06-10 13:39:57 [ main ] the excel has 12 columns!
+2019-06-10 13:39:57 [ main ] begin to check whether excel format is right.
+2019-06-10 13:39:57 [ main ] to count the excel columns
+2019-06-10 13:39:57 [ main ] the excel has 12 columns!
+2019-06-10 13:39:57 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:39:57 [ main ] rule 4: begin to check
+2019-06-10 13:39:57 [ main ] to count the excel columns
+2019-06-10 13:39:57 [ main ] the excel has 12 columns!
+2019-06-10 13:39:57 [ main ] to count the excel lines
+2019-06-10 13:39:57 [ main ] the excel has 4 lines
+2019-06-10 13:39:57 [ main ] begin to translate the rule
+2019-06-10 13:39:57 [ main ] to decide which column to check
+2019-06-10 13:39:57 [ main ] to decide which column to check
+2019-06-10 13:39:57 [ main ] to decide which column to check
+2019-06-10 13:39:57 [ main ] to decide which column to check
+2019-06-10 13:42:36 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 13:42:36 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 13:42:36 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 13:42:36 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 13:42:38 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 13:42:38 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 13:42:38 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 13:42:38 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 13:42:38 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 13:42:38 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 13:42:39 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@65f00478] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 13:42:39 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 13:42:39 [ main ] start to check the uploaded excel:
+2019-06-10 13:42:39 [ main ] begin to translate rule simple.
+2019-06-10 13:42:39 [ main ] to count the excel columns
+2019-06-10 13:42:39 [ main ] the excel has 12 columns!
+2019-06-10 13:42:39 [ main ] begin to check whether excel format is right.
+2019-06-10 13:42:39 [ main ] to count the excel columns
+2019-06-10 13:42:39 [ main ] the excel has 12 columns!
+2019-06-10 13:42:39 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 13:42:39 [ main ] rule 4: begin to check
+2019-06-10 13:42:39 [ main ] to count the excel columns
+2019-06-10 13:42:39 [ main ] the excel has 12 columns!
+2019-06-10 13:42:39 [ main ] to count the excel lines
+2019-06-10 13:42:39 [ main ] the excel has 4 lines
+2019-06-10 13:42:39 [ main ] begin to translate the rule
+2019-06-10 13:42:39 [ main ] to decide which column to check
+2019-06-10 13:42:39 [ main ] to decide which column to check
+2019-06-10 13:42:39 [ main ] to decide which column to check
+2019-06-10 13:42:39 [ main ] to decide which column to check
+2019-06-10 14:16:21 [ http-nio-8080-exec-8 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 14:16:21 [ http-nio-8080-exec-8 ] HHH000206: hibernate.properties not found
+2019-06-10 14:16:21 [ http-nio-8080-exec-8 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 14:16:21 [ http-nio-8080-exec-8 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 14:16:22 [ http-nio-8080-exec-8 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 14:16:22 [ http-nio-8080-exec-8 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 14:16:22 [ http-nio-8080-exec-8 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 14:16:22 [ http-nio-8080-exec-8 ] HHH10001003: Autocommit mode: false
+2019-06-10 14:16:22 [ http-nio-8080-exec-8 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 14:16:23 [ http-nio-8080-exec-8 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 14:16:24 [ http-nio-8080-exec-8 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4fc65973] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 14:16:25 [ http-nio-8080-exec-8 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 16:50:56 [ main ] to count the excel columns
+2019-06-10 16:50:56 [ main ] the excel has 12 columns!
+2019-06-10 16:50:56 [ main ] to count the excel lines
+2019-06-10 16:50:56 [ main ] the excel has 4 lines
+2019-06-10 16:50:56 [ main ] begin to check whether excel format is right.
+2019-06-10 16:50:56 [ main ] to count the excel columns
+2019-06-10 16:50:56 [ main ] the excel has 12 columns!
+2019-06-10 16:50:56 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 16:50:56 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 16:50:57 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 16:50:57 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 16:50:58 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 16:50:58 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 16:50:58 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 16:50:58 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 16:50:58 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 16:50:58 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 16:50:59 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@36a7abe1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 16:51:00 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 16:51:00 [ main ] ----------ERROR:导入数据表格式不正确！---------
+2019-06-10 16:58:39 [ main ] to count the excel columns
+2019-06-10 16:58:39 [ main ] the excel has 13 columns!
+2019-06-10 16:58:39 [ main ] to count the excel lines
+2019-06-10 16:58:39 [ main ] the excel has 4 lines
+2019-06-10 16:58:39 [ main ] begin to check whether excel format is right.
+2019-06-10 16:58:39 [ main ] to count the excel columns
+2019-06-10 16:58:39 [ main ] the excel has 13 columns!
+2019-06-10 16:58:39 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 16:58:39 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 16:58:40 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 16:58:40 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 16:58:41 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 16:58:41 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 16:58:41 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 16:58:41 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 16:58:41 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 16:58:41 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 16:58:42 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@36a7abe1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 16:58:42 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 16:58:42 [ main ] SQL Error: 1054, SQLState: 42S22
+2019-06-10 16:58:42 [ main ] Unknown column 'form_id' in 'where clause'
+2019-06-10 17:02:44 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 17:02:44 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 17:02:44 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 17:02:44 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 17:02:46 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 17:02:46 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 17:02:46 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 17:02:46 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 17:02:46 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 17:02:46 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 17:02:47 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@649f2009] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 17:02:47 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 17:03:00 [ main ] to count the excel columns
+2019-06-10 17:03:00 [ main ] the excel has 13 columns!
+2019-06-10 17:03:00 [ main ] to count the excel lines
+2019-06-10 17:03:00 [ main ] the excel has 4 lines
+2019-06-10 17:03:00 [ main ] begin to check whether excel format is right.
+2019-06-10 17:03:00 [ main ] to count the excel columns
+2019-06-10 17:03:00 [ main ] the excel has 13 columns!
+2019-06-10 17:03:00 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 17:03:00 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 17:03:00 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 17:03:00 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 17:03:02 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 17:03:02 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 17:03:02 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 17:03:02 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 17:03:02 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 17:03:02 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 17:03:03 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@36a7abe1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 17:03:03 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 17:03:03 [ main ] 插入数据库语句:insert into 1_tbl_xxgk( XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')
+2019-06-10 17:03:03 [ main ] 插入数据库语句:insert into 1_tbl_xxgk( XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZLXDH, TBFZRLXDZYX)XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')'北京天花学校', '13822288096', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '13822288096', '1257628759@qq.com')
+2019-06-10 17:03:03 [ main ] 插入数据库语句:insert into 1_tbl_xxgk( XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZLXDH, TBFZRLXDZYX)XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZLXDH, TBFZRLXDZYX)XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')'北京天花学校', '13822288096', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '13822288096', '1257628759@qq.com')'上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-10 17:03:03 [ main ] 连接数据库错误！
+2019-06-10 17:10:48 [ main ] to count the excel columns
+2019-06-10 17:10:48 [ main ] the excel has 13 columns!
+2019-06-10 17:10:48 [ main ] to count the excel lines
+2019-06-10 17:10:48 [ main ] the excel has 4 lines
+2019-06-10 17:10:48 [ main ] begin to check whether excel format is right.
+2019-06-10 17:10:48 [ main ] to count the excel columns
+2019-06-10 17:10:48 [ main ] the excel has 13 columns!
+2019-06-10 17:10:48 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 17:10:48 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 17:10:49 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 17:10:49 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 17:10:50 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 17:10:50 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 17:10:50 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 17:10:50 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 17:10:50 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 17:10:50 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 17:10:51 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6c000e0c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 17:10:51 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 17:10:52 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')
+2019-06-10 17:10:52 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('北京天花学校', '13822288096', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '13822288096', '1257628759@qq.com')
+2019-06-10 17:10:52 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-10 17:10:52 [ main ] 连接数据库错误！
+2019-06-10 17:13:23 [ main ] to count the excel columns
+2019-06-10 17:13:23 [ main ] the excel has 13 columns!
+2019-06-10 17:13:23 [ main ] to count the excel lines
+2019-06-10 17:13:23 [ main ] the excel has 4 lines
+2019-06-10 17:13:23 [ main ] begin to check whether excel format is right.
+2019-06-10 17:13:23 [ main ] to count the excel columns
+2019-06-10 17:13:23 [ main ] the excel has 13 columns!
+2019-06-10 17:13:23 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 17:13:23 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 17:13:24 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 17:13:24 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 17:13:25 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 17:13:25 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 17:13:25 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 17:13:25 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 17:13:25 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 17:13:25 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 17:13:26 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@36a7abe1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 17:13:26 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 17:13:26 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')
+2019-06-10 17:13:26 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('北京天花学校', '13822288096', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '13822288096', '1257628759@qq.com')
+2019-06-10 17:13:26 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-10 17:15:57 [ main ] to count the excel columns
+2019-06-10 17:15:57 [ main ] the excel has 13 columns!
+2019-06-10 17:15:57 [ main ] to count the excel lines
+2019-06-10 17:15:57 [ main ] the excel has 4 lines
+2019-06-10 17:15:57 [ main ] begin to check whether excel format is right.
+2019-06-10 17:15:57 [ main ] to count the excel columns
+2019-06-10 17:15:57 [ main ] the excel has 13 columns!
+2019-06-10 17:15:57 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 17:15:57 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 17:15:57 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 17:15:57 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 17:15:58 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 17:15:58 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 17:15:58 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 17:15:58 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 17:15:58 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 17:15:59 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 17:16:00 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1f86099a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 17:16:00 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 17:16:00 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')
+2019-06-10 17:16:00 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('北京天花学校', '13822288096', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '13822288096', '1257628759@qq.com')
+2019-06-10 17:16:00 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-10 18:50:44 [ main ] to count the excel columns
+2019-06-10 18:50:44 [ main ] the excel has 13 columns!
+2019-06-10 18:50:44 [ main ] to count the excel lines
+2019-06-10 18:50:44 [ main ] the excel has 4 lines
+2019-06-10 18:50:44 [ main ] begin to check whether excel format is right.
+2019-06-10 18:50:44 [ main ] to count the excel columns
+2019-06-10 18:50:44 [ main ] the excel has 13 columns!
+2019-06-10 18:50:44 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 18:50:44 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 18:50:45 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 18:50:45 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 18:50:46 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 18:50:46 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 18:50:46 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 18:50:46 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 18:50:46 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 18:50:46 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 18:50:48 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1f86099a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 18:50:48 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 18:50:48 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')
+2019-06-10 18:50:48 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('北京天花学校', '13822288096', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '13822288096', '1257628759@qq.com')
+2019-06-10 18:50:48 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-10 18:50:48 [ main ] 连接数据库错误！
+2019-06-10 18:53:44 [ main ] to count the excel columns
+2019-06-10 18:53:44 [ main ] the excel has 13 columns!
+2019-06-10 18:53:44 [ main ] to count the excel lines
+2019-06-10 18:53:44 [ main ] the excel has 4 lines
+2019-06-10 18:53:44 [ main ] begin to check whether excel format is right.
+2019-06-10 18:53:44 [ main ] to count the excel columns
+2019-06-10 18:53:44 [ main ] the excel has 13 columns!
+2019-06-10 18:53:44 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-10 18:53:44 [ main ] HHH000206: hibernate.properties not found
+2019-06-10 18:53:44 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-10 18:53:44 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-10 18:53:46 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-10 18:53:46 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-10 18:53:46 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-10 18:53:46 [ main ] HHH10001003: Autocommit mode: false
+2019-06-10 18:53:46 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-10 18:53:46 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-10 18:53:47 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@39aa45a1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-10 18:53:47 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 18:53:47 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('星海音乐学院', '10587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '13822288096', '1257628759@qq.com')
+2019-06-10 18:53:47 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('北京天花学校', '13822288096', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '13822288096', '1257628759@qq.com')
+2019-06-10 18:53:47 [ main ] 插入数据库语句:insert into 1_tbl_xxgk(XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values('上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')

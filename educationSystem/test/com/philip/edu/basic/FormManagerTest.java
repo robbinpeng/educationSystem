@@ -93,4 +93,17 @@ public class FormManagerTest {
 		System.out.println(field.getPhysic_name());
 		System.out.println(field.getData_type());
 	}
+	
+	@Test 
+	public void testGetFormById(){
+		int id = Constants.FORM_ID;
+		
+		Form form = manager.getFormById(id);
+		
+		assertNotEquals(form, null);
+		
+		System.out.println(form.getBus_name());
+		System.out.println(form.getTbl_name());
+		System.out.println(form.getPhsic_name());
+	}
 }

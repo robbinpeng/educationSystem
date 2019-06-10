@@ -33,4 +33,8 @@ public class FormManager {
 	public FormField getFieldByPhysicName(int form_id, String field_name){
 		return dao.getFormFieldByPhysicName(form_id, field_name);
 	}
+	
+	public Form getFormById(int form_id){
+		return dao.getFormById(form_id);
+	}
 }
