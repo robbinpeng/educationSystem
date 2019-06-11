@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.zkoss.zhtml.Input;
 import org.zkoss.zk.ui.Component;
+import org.zkoss.zk.ui.Executions;
 import org.zkoss.zk.ui.metainfo.EventHandler;
 import org.zkoss.zk.ui.metainfo.ZScript;
 import org.zkoss.zk.ui.select.SelectorComposer;
@@ -55,5 +56,8 @@ public class conditionWindow extends SelectorComposer<Component> {
 		}
 		
 		Integer.parseInt("");
+		
+		window.getFirstChild().setAttribute("value", "test");
+		//out.print(Executions.getCurrent().getArg().get("message"));
 	}
 }

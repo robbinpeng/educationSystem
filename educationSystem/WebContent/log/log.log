@@ -4950,3 +4950,1460 @@
 2019-06-11 13:52:51 [ main ] to decide which column to check
 2019-06-11 13:52:51 [ main ] to decide which column to check
 2019-06-11 13:52:51 [ main ] to decide which column to check
+2019-06-11 15:06:34 [ http-nio-8080-exec-2 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:06:34 [ http-nio-8080-exec-2 ] HHH000206: hibernate.properties not found
+2019-06-11 15:06:35 [ http-nio-8080-exec-2 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:06:35 [ http-nio-8080-exec-2 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:06:37 [ http-nio-8080-exec-2 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:06:37 [ http-nio-8080-exec-2 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:06:37 [ http-nio-8080-exec-2 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:06:37 [ http-nio-8080-exec-2 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:06:37 [ http-nio-8080-exec-2 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:06:37 [ http-nio-8080-exec-2 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:06:39 [ http-nio-8080-exec-2 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@20744061] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:06:39 [ http-nio-8080-exec-2 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] 处理第一类规则
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] 处理第一类规则
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] 处理第二类规则
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] start to check the uploaded excel:
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] begin to translate rule simple.
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] begin to check whether excel format is right.
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] 处理第四类规则
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] rule 4: begin to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] begin to translate the rule
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:06:40 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-11 15:38:20 [ http-nio-8080-exec-22 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:38:20 [ http-nio-8080-exec-22 ] HHH000206: hibernate.properties not found
+2019-06-11 15:38:20 [ http-nio-8080-exec-22 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:38:20 [ http-nio-8080-exec-22 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:38:21 [ http-nio-8080-exec-22 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:38:21 [ http-nio-8080-exec-22 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:38:21 [ http-nio-8080-exec-22 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:38:21 [ http-nio-8080-exec-22 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:38:21 [ http-nio-8080-exec-22 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:38:21 [ http-nio-8080-exec-22 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:38:23 [ http-nio-8080-exec-22 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@390b84a5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:38:23 [ http-nio-8080-exec-22 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] 处理第一类规则
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] 处理第一类规则
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] 处理第二类规则
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] start to check the uploaded excel:
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] begin to translate rule simple.
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] begin to check whether excel format is right.
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] 处理第四类规则
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] rule 4: begin to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] begin to translate the rule
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:38:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 15:39:24 [ http-nio-8080-exec-14 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:39:24 [ http-nio-8080-exec-14 ] HHH000206: hibernate.properties not found
+2019-06-11 15:39:24 [ http-nio-8080-exec-14 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:39:24 [ http-nio-8080-exec-14 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:39:25 [ http-nio-8080-exec-14 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:39:25 [ http-nio-8080-exec-14 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:39:25 [ http-nio-8080-exec-14 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:39:25 [ http-nio-8080-exec-14 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:39:25 [ http-nio-8080-exec-14 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:39:26 [ http-nio-8080-exec-14 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:39:27 [ http-nio-8080-exec-14 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@aa7dde2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:39:27 [ http-nio-8080-exec-14 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] 处理第一类规则
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel columns
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 13 columns!
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 4 lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] 处理第一类规则
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel columns
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 13 columns!
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 4 lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] 处理第二类规则
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] start to check the uploaded excel:
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] begin to translate rule simple.
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel columns
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 13 columns!
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] begin to check whether excel format is right.
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel columns
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 13 columns!
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 4 lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] 处理第四类规则
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] rule 4: begin to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel columns
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 13 columns!
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to count the excel lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] the excel has 4 lines
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] begin to translate the rule
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:39:28 [ http-nio-8080-exec-14 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] 处理第一类规则
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel columns
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 13 columns!
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 4 lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] 处理第一类规则
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel columns
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 13 columns!
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 4 lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] 处理第二类规则
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] start to check the uploaded excel:
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] begin to translate rule simple.
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel columns
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 13 columns!
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] begin to check whether excel format is right.
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel columns
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 13 columns!
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 4 lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] 处理第四类规则
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] rule 4: begin to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel columns
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 13 columns!
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to count the excel lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] the excel has 4 lines
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] begin to translate the rule
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:43:05 [ http-nio-8080-exec-33 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] 处理第一类规则
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] 处理第一类规则
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] 处理第二类规则
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] start to check the uploaded excel:
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] begin to translate rule simple.
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] begin to check whether excel format is right.
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] 处理第四类规则
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] rule 4: begin to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] begin to translate the rule
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:45:41 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 15:50:47 [ http-nio-8080-exec-40 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:50:47 [ http-nio-8080-exec-40 ] HHH000206: hibernate.properties not found
+2019-06-11 15:50:47 [ http-nio-8080-exec-40 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:50:47 [ http-nio-8080-exec-40 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:50:48 [ http-nio-8080-exec-40 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:50:48 [ http-nio-8080-exec-40 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:50:48 [ http-nio-8080-exec-40 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:50:48 [ http-nio-8080-exec-40 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:50:48 [ http-nio-8080-exec-40 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:50:49 [ http-nio-8080-exec-40 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:50:50 [ http-nio-8080-exec-40 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@298b12ff] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] 处理第一类规则
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel columns
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 13 columns!
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 4 lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] 处理第一类规则
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel columns
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 13 columns!
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 4 lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] 处理第二类规则
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] start to check the uploaded excel:
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] begin to translate rule simple.
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel columns
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 13 columns!
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] begin to check whether excel format is right.
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel columns
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 13 columns!
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 4 lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] 处理第四类规则
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] rule 4: begin to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel columns
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 13 columns!
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to count the excel lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] the excel has 4 lines
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] begin to translate the rule
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:50:51 [ http-nio-8080-exec-40 ] to decide which column to check
+2019-06-11 15:51:28 [ http-nio-8080-exec-27 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:51:28 [ http-nio-8080-exec-27 ] HHH000206: hibernate.properties not found
+2019-06-11 15:51:28 [ http-nio-8080-exec-27 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:51:28 [ http-nio-8080-exec-27 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:51:30 [ http-nio-8080-exec-27 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:51:30 [ http-nio-8080-exec-27 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:51:30 [ http-nio-8080-exec-27 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:51:30 [ http-nio-8080-exec-27 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:51:30 [ http-nio-8080-exec-27 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:51:30 [ http-nio-8080-exec-27 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:51:32 [ http-nio-8080-exec-27 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@21e91f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:51:32 [ http-nio-8080-exec-27 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] 处理第一类规则
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] 处理第一类规则
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] 处理第二类规则
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] start to check the uploaded excel:
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] begin to translate rule simple.
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] begin to check whether excel format is right.
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] 处理第四类规则
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] rule 4: begin to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] begin to translate the rule
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:51:44 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:25 [ http-nio-8080-exec-41 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:53:25 [ http-nio-8080-exec-41 ] HHH000206: hibernate.properties not found
+2019-06-11 15:53:25 [ http-nio-8080-exec-41 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:53:25 [ http-nio-8080-exec-41 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:53:27 [ http-nio-8080-exec-41 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:53:27 [ http-nio-8080-exec-41 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:53:27 [ http-nio-8080-exec-41 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:53:27 [ http-nio-8080-exec-41 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:53:27 [ http-nio-8080-exec-41 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:53:27 [ http-nio-8080-exec-41 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:53:28 [ http-nio-8080-exec-41 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4bfa3486] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] 处理第一类规则
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] 处理第一类规则
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] 处理第二类规则
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] start to check the uploaded excel:
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] begin to translate rule simple.
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] begin to check whether excel format is right.
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] 处理第四类规则
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] rule 4: begin to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel columns
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 13 columns!
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to count the excel lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] the excel has 4 lines
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] begin to translate the rule
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:53:29 [ http-nio-8080-exec-41 ] to decide which column to check
+2019-06-11 15:54:29 [ http-nio-8080-exec-56 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:54:29 [ http-nio-8080-exec-56 ] HHH000206: hibernate.properties not found
+2019-06-11 15:54:29 [ http-nio-8080-exec-56 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:54:29 [ http-nio-8080-exec-56 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:54:31 [ http-nio-8080-exec-56 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:54:31 [ http-nio-8080-exec-56 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:54:31 [ http-nio-8080-exec-56 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:54:31 [ http-nio-8080-exec-56 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:54:31 [ http-nio-8080-exec-56 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:54:31 [ http-nio-8080-exec-56 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ed1c4bf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] 处理第一类规则
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel columns
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 13 columns!
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 4 lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] 处理第一类规则
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel columns
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 13 columns!
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 4 lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] 处理第二类规则
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] start to check the uploaded excel:
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] begin to translate rule simple.
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel columns
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 13 columns!
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] begin to check whether excel format is right.
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel columns
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 13 columns!
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 4 lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] 处理第四类规则
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] rule 4: begin to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel columns
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 13 columns!
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to count the excel lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] the excel has 4 lines
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] begin to translate the rule
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:54:33 [ http-nio-8080-exec-56 ] to decide which column to check
+2019-06-11 15:56:42 [ http-nio-8080-exec-68 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 15:56:42 [ http-nio-8080-exec-68 ] HHH000206: hibernate.properties not found
+2019-06-11 15:56:43 [ http-nio-8080-exec-68 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 15:56:43 [ http-nio-8080-exec-68 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 15:56:44 [ http-nio-8080-exec-68 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 15:56:44 [ http-nio-8080-exec-68 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 15:56:44 [ http-nio-8080-exec-68 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 15:56:44 [ http-nio-8080-exec-68 ] HHH10001003: Autocommit mode: false
+2019-06-11 15:56:44 [ http-nio-8080-exec-68 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 15:56:45 [ http-nio-8080-exec-68 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 15:56:46 [ http-nio-8080-exec-68 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4d42bc02] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 15:56:46 [ http-nio-8080-exec-68 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] 处理第一类规则
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel columns
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 13 columns!
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 4 lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] 处理第一类规则
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel columns
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 13 columns!
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 4 lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] 处理第二类规则
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] start to check the uploaded excel:
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] begin to translate rule simple.
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel columns
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 13 columns!
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] begin to check whether excel format is right.
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel columns
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 13 columns!
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 4 lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] 处理第四类规则
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] rule 4: begin to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel columns
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 13 columns!
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to count the excel lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] the excel has 4 lines
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] begin to translate the rule
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 15:56:47 [ http-nio-8080-exec-68 ] to decide which column to check
+2019-06-11 16:11:59 [ http-nio-8080-exec-76 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 16:11:59 [ http-nio-8080-exec-76 ] HHH000206: hibernate.properties not found
+2019-06-11 16:12:00 [ http-nio-8080-exec-76 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 16:12:00 [ http-nio-8080-exec-76 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 16:12:01 [ http-nio-8080-exec-76 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 16:12:01 [ http-nio-8080-exec-76 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 16:12:01 [ http-nio-8080-exec-76 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 16:12:01 [ http-nio-8080-exec-76 ] HHH10001003: Autocommit mode: false
+2019-06-11 16:12:01 [ http-nio-8080-exec-76 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 16:12:01 [ http-nio-8080-exec-76 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@bb8eca6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] 处理第一类规则
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to count the excel columns
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] the excel has 13 columns!
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to count the excel lines
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] the excel has 4 lines
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] 处理第一类规则
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to count the excel columns
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] the excel has 13 columns!
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to count the excel lines
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] the excel has 4 lines
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] 处理第二类规则
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] start to check the uploaded excel:
+2019-06-11 16:12:03 [ http-nio-8080-exec-76 ] begin to translate rule simple.
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to count the excel columns
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] the excel has 13 columns!
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] begin to check whether excel format is right.
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to count the excel columns
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] the excel has 13 columns!
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to count the excel lines
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] the excel has 4 lines
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] 处理第四类规则
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] rule 4: begin to check
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to count the excel columns
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] the excel has 13 columns!
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to count the excel lines
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] the excel has 4 lines
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] begin to translate the rule
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:12:04 [ http-nio-8080-exec-76 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] 处理第一类规则
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] 处理第一类规则
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] 处理第二类规则
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] start to check the uploaded excel:
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] begin to translate rule simple.
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] begin to check whether excel format is right.
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] 处理第四类规则
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] rule 4: begin to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] begin to translate the rule
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:13:39 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] 处理第一类规则
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] 处理第一类规则
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] 处理第二类规则
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] start to check the uploaded excel:
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] begin to translate rule simple.
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] begin to check whether excel format is right.
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] 处理第四类规则
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] rule 4: begin to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel columns
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 13 columns!
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to count the excel lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] the excel has 4 lines
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] begin to translate the rule
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:16:59 [ http-nio-8080-exec-82 ] to decide which column to check
+2019-06-11 16:25:10 [ http-nio-8080-exec-80 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 16:25:10 [ http-nio-8080-exec-80 ] HHH000206: hibernate.properties not found
+2019-06-11 16:25:10 [ http-nio-8080-exec-80 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 16:25:10 [ http-nio-8080-exec-80 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 16:25:12 [ http-nio-8080-exec-80 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 16:25:12 [ http-nio-8080-exec-80 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 16:25:12 [ http-nio-8080-exec-80 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 16:25:12 [ http-nio-8080-exec-80 ] HHH10001003: Autocommit mode: false
+2019-06-11 16:25:12 [ http-nio-8080-exec-80 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 16:25:12 [ http-nio-8080-exec-80 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 16:25:14 [ http-nio-8080-exec-80 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2e779dae] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 16:25:14 [ http-nio-8080-exec-80 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] 处理第一类规则
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel columns
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 13 columns!
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 4 lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] 处理第一类规则
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel columns
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 13 columns!
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 4 lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] 处理第二类规则
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] start to check the uploaded excel:
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] begin to translate rule simple.
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel columns
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 13 columns!
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] begin to check whether excel format is right.
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel columns
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 13 columns!
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 4 lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] 处理第四类规则
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] rule 4: begin to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel columns
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 13 columns!
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to count the excel lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] the excel has 4 lines
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] begin to translate the rule
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:25:30 [ http-nio-8080-exec-88 ] to decide which column to check
+2019-06-11 16:26:37 [ http-nio-8080-exec-8 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 16:26:37 [ http-nio-8080-exec-8 ] HHH000206: hibernate.properties not found
+2019-06-11 16:26:38 [ http-nio-8080-exec-8 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 16:26:38 [ http-nio-8080-exec-8 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 16:26:40 [ http-nio-8080-exec-8 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 16:26:40 [ http-nio-8080-exec-8 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 16:26:40 [ http-nio-8080-exec-8 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 16:26:40 [ http-nio-8080-exec-8 ] HHH10001003: Autocommit mode: false
+2019-06-11 16:26:40 [ http-nio-8080-exec-8 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 16:26:40 [ http-nio-8080-exec-8 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 16:26:42 [ http-nio-8080-exec-8 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@685252e6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 16:26:42 [ http-nio-8080-exec-8 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] 处理第一类规则
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel columns
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 13 columns!
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 4 lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] 处理第一类规则
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel columns
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 13 columns!
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 4 lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] 处理第二类规则
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] start to check the uploaded excel:
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] begin to translate rule simple.
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel columns
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 13 columns!
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] begin to check whether excel format is right.
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel columns
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 13 columns!
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 4 lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] 处理第四类规则
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] rule 4: begin to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel columns
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 13 columns!
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to count the excel lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] the excel has 4 lines
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] begin to translate the rule
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:26:58 [ http-nio-8080-exec-6 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] 处理第一类规则
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 4 lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] 处理第一类规则
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 4 lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] 处理第二类规则
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] start to check the uploaded excel:
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] begin to translate rule simple.
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] begin to check whether excel format is right.
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 4 lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] 处理第四类规则
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] rule 4: begin to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to count the excel lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] the excel has 4 lines
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] begin to translate the rule
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:24 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-11 16:28:54 [ http-nio-8080-exec-11 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 16:28:54 [ http-nio-8080-exec-11 ] HHH000206: hibernate.properties not found
+2019-06-11 16:28:54 [ http-nio-8080-exec-11 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 16:28:54 [ http-nio-8080-exec-11 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 16:28:55 [ http-nio-8080-exec-11 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 16:28:55 [ http-nio-8080-exec-11 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 16:28:55 [ http-nio-8080-exec-11 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 16:28:55 [ http-nio-8080-exec-11 ] HHH10001003: Autocommit mode: false
+2019-06-11 16:28:55 [ http-nio-8080-exec-11 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 16:28:56 [ http-nio-8080-exec-11 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 16:28:57 [ http-nio-8080-exec-11 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@611ff313] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] 处理第一类规则
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 4 lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] 处理第一类规则
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 4 lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] 处理第二类规则
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] start to check the uploaded excel:
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] begin to translate rule simple.
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] begin to check whether excel format is right.
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 4 lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] 处理第四类规则
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] rule 4: begin to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to count the excel lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] the excel has 4 lines
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] begin to translate the rule
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:28:58 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-11 16:45:27 [ http-nio-8080-exec-4 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 16:45:27 [ http-nio-8080-exec-4 ] HHH000206: hibernate.properties not found
+2019-06-11 16:45:27 [ http-nio-8080-exec-4 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 16:45:28 [ http-nio-8080-exec-4 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 16:45:30 [ http-nio-8080-exec-4 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 16:45:30 [ http-nio-8080-exec-4 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 16:45:30 [ http-nio-8080-exec-4 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 16:45:30 [ http-nio-8080-exec-4 ] HHH10001003: Autocommit mode: false
+2019-06-11 16:45:30 [ http-nio-8080-exec-4 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 16:45:30 [ http-nio-8080-exec-4 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 16:45:32 [ http-nio-8080-exec-4 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6c421b0d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 16:45:32 [ http-nio-8080-exec-4 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] 处理第一类规则
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to count the excel columns
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] the excel has 13 columns!
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to count the excel lines
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] the excel has 4 lines
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] 处理第一类规则
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to count the excel columns
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] the excel has 13 columns!
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to count the excel lines
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] the excel has 4 lines
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:44 [ http-nio-8080-exec-1 ] 处理第二类规则
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] start to check the uploaded excel:
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] begin to translate rule simple.
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to count the excel columns
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] the excel has 13 columns!
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] begin to check whether excel format is right.
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to count the excel columns
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] the excel has 13 columns!
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to count the excel lines
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] the excel has 4 lines
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] 处理第四类规则
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] rule 4: begin to check
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to count the excel columns
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] the excel has 13 columns!
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to count the excel lines
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] the excel has 4 lines
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] begin to translate the rule
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:45:45 [ http-nio-8080-exec-1 ] to decide which column to check
+2019-06-11 16:46:57 [ http-nio-8080-exec-8 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 16:46:57 [ http-nio-8080-exec-8 ] HHH000206: hibernate.properties not found
+2019-06-11 16:46:57 [ http-nio-8080-exec-8 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 16:46:57 [ http-nio-8080-exec-8 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 16:46:58 [ http-nio-8080-exec-8 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 16:46:58 [ http-nio-8080-exec-8 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 16:46:58 [ http-nio-8080-exec-8 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 16:46:58 [ http-nio-8080-exec-8 ] HHH10001003: Autocommit mode: false
+2019-06-11 16:46:58 [ http-nio-8080-exec-8 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 16:46:59 [ http-nio-8080-exec-8 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 16:47:00 [ http-nio-8080-exec-8 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6c712a84] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 16:47:00 [ http-nio-8080-exec-8 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] 处理第一类规则
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] 处理第一类规则
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] 处理第二类规则
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] start to check the uploaded excel:
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] begin to translate rule simple.
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] begin to check whether excel format is right.
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] 处理第四类规则
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] rule 4: begin to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] begin to translate the rule
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:47:01 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-11 16:56:44 [ http-nio-8080-exec-21 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 16:56:44 [ http-nio-8080-exec-21 ] HHH000206: hibernate.properties not found
+2019-06-11 16:56:44 [ http-nio-8080-exec-21 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 16:56:44 [ http-nio-8080-exec-21 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 16:56:45 [ http-nio-8080-exec-21 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 16:56:45 [ http-nio-8080-exec-21 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 16:56:45 [ http-nio-8080-exec-21 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 16:56:45 [ http-nio-8080-exec-21 ] HHH10001003: Autocommit mode: false
+2019-06-11 16:56:45 [ http-nio-8080-exec-21 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 16:56:46 [ http-nio-8080-exec-21 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 16:56:47 [ http-nio-8080-exec-21 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41dbef26] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 16:56:47 [ http-nio-8080-exec-21 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] 处理第一类规则
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] 处理第一类规则
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] 处理第二类规则
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] start to check the uploaded excel:
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] begin to translate rule simple.
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] begin to check whether excel format is right.
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] 处理第四类规则
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] rule 4: begin to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] begin to translate the rule
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:56:48 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] 处理第一类规则
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] 处理第一类规则
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] 处理第二类规则
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] start to check the uploaded excel:
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] begin to translate rule simple.
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] begin to check whether excel format is right.
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] 处理第四类规则
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] rule 4: begin to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel columns
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 13 columns!
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to count the excel lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] the excel has 4 lines
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] begin to translate the rule
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:57:18 [ http-nio-8080-exec-21 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] 处理第一类规则
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] 处理第一类规则
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] 处理第二类规则
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] start to check the uploaded excel:
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] begin to translate rule simple.
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] begin to check whether excel format is right.
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] 处理第四类规则
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] rule 4: begin to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel columns
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 13 columns!
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to count the excel lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] the excel has 4 lines
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] begin to translate the rule
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:58:24 [ http-nio-8080-exec-22 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] 处理第一类规则
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] 处理第一类规则
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] 处理第二类规则
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] start to check the uploaded excel:
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] begin to translate rule simple.
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] begin to check whether excel format is right.
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] 处理第四类规则
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] rule 4: begin to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] begin to translate the rule
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] 处理第一类规则
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel columns
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 13 columns!
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 4 lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] 处理第一类规则
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel columns
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 13 columns!
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 4 lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] 处理第二类规则
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] start to check the uploaded excel:
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] begin to translate rule simple.
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel columns
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 13 columns!
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] begin to check whether excel format is right.
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel columns
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 13 columns!
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 4 lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] 处理第四类规则
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] rule 4: begin to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel columns
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 13 columns!
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to count the excel lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] the excel has 4 lines
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] begin to translate the rule
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] to decide which column to check
+2019-06-11 17:06:38 [ http-nio-8080-exec-19 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 17:06:38 [ http-nio-8080-exec-19 ] HHH000206: hibernate.properties not found
+2019-06-11 17:06:38 [ http-nio-8080-exec-19 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 17:06:38 [ http-nio-8080-exec-19 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 17:06:39 [ http-nio-8080-exec-19 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 17:06:39 [ http-nio-8080-exec-19 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 17:06:39 [ http-nio-8080-exec-19 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 17:06:39 [ http-nio-8080-exec-19 ] HHH10001003: Autocommit mode: false
+2019-06-11 17:06:39 [ http-nio-8080-exec-19 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 17:06:40 [ http-nio-8080-exec-19 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 17:06:41 [ http-nio-8080-exec-19 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a7b61d4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] 处理第一类规则
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 4 lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] 处理第一类规则
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 4 lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] 处理第二类规则
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] start to check the uploaded excel:
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] begin to translate rule simple.
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] begin to check whether excel format is right.
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 4 lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] 处理第四类规则
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] rule 4: begin to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to count the excel lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] the excel has 4 lines
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] begin to translate the rule
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:06:42 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-11 17:10:49 [ http-nio-8080-exec-32 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 17:10:49 [ http-nio-8080-exec-32 ] HHH000206: hibernate.properties not found
+2019-06-11 17:10:49 [ http-nio-8080-exec-32 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 17:10:49 [ http-nio-8080-exec-32 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 17:10:50 [ http-nio-8080-exec-32 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 17:10:50 [ http-nio-8080-exec-32 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 17:10:50 [ http-nio-8080-exec-32 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 17:10:50 [ http-nio-8080-exec-32 ] HHH10001003: Autocommit mode: false
+2019-06-11 17:10:50 [ http-nio-8080-exec-32 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 17:10:51 [ http-nio-8080-exec-32 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 17:10:52 [ http-nio-8080-exec-32 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46fafbb8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] 处理第一类规则
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] 处理第一类规则
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] 处理第二类规则
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] start to check the uploaded excel:
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] begin to translate rule simple.
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] begin to check whether excel format is right.
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] 处理第四类规则
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] rule 4: begin to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel columns
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 13 columns!
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to count the excel lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] the excel has 4 lines
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] begin to translate the rule
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:10:53 [ http-nio-8080-exec-32 ] to decide which column to check
+2019-06-11 17:58:13 [ http-nio-8080-exec-48 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 17:58:13 [ http-nio-8080-exec-48 ] HHH000206: hibernate.properties not found
+2019-06-11 17:58:14 [ http-nio-8080-exec-48 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 17:58:14 [ http-nio-8080-exec-48 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 17:58:15 [ http-nio-8080-exec-48 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 17:58:15 [ http-nio-8080-exec-48 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 17:58:15 [ http-nio-8080-exec-48 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 17:58:15 [ http-nio-8080-exec-48 ] HHH10001003: Autocommit mode: false
+2019-06-11 17:58:15 [ http-nio-8080-exec-48 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 17:58:16 [ http-nio-8080-exec-48 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 17:58:17 [ http-nio-8080-exec-48 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@210f31fd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 17:58:18 [ http-nio-8080-exec-48 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 18:13:05 [ http-nio-8080-exec-54 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 18:13:05 [ http-nio-8080-exec-54 ] HHH000206: hibernate.properties not found
+2019-06-11 18:13:05 [ http-nio-8080-exec-54 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 18:13:05 [ http-nio-8080-exec-54 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 18:13:06 [ http-nio-8080-exec-54 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 18:13:06 [ http-nio-8080-exec-54 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 18:13:06 [ http-nio-8080-exec-54 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 18:13:06 [ http-nio-8080-exec-54 ] HHH10001003: Autocommit mode: false
+2019-06-11 18:13:06 [ http-nio-8080-exec-54 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 18:13:07 [ http-nio-8080-exec-54 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 18:13:08 [ http-nio-8080-exec-54 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b15c2a3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 18:13:09 [ http-nio-8080-exec-54 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 18:18:16 [ http-nio-8080-exec-59 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 18:18:16 [ http-nio-8080-exec-59 ] HHH000206: hibernate.properties not found
+2019-06-11 18:18:16 [ http-nio-8080-exec-59 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 18:18:16 [ http-nio-8080-exec-59 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 18:18:17 [ http-nio-8080-exec-59 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 18:18:17 [ http-nio-8080-exec-59 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 18:18:17 [ http-nio-8080-exec-59 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 18:18:17 [ http-nio-8080-exec-59 ] HHH10001003: Autocommit mode: false
+2019-06-11 18:18:17 [ http-nio-8080-exec-59 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 18:18:18 [ http-nio-8080-exec-59 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 18:18:19 [ http-nio-8080-exec-59 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1ea633d6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 18:18:20 [ http-nio-8080-exec-59 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 18:43:59 [ http-nio-8080-exec-70 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 18:43:59 [ http-nio-8080-exec-70 ] HHH000206: hibernate.properties not found
+2019-06-11 18:43:59 [ http-nio-8080-exec-70 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 18:43:59 [ http-nio-8080-exec-70 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 18:44:01 [ http-nio-8080-exec-70 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 18:44:01 [ http-nio-8080-exec-70 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 18:44:01 [ http-nio-8080-exec-70 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 18:44:01 [ http-nio-8080-exec-70 ] HHH10001003: Autocommit mode: false
+2019-06-11 18:44:01 [ http-nio-8080-exec-70 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 18:44:01 [ http-nio-8080-exec-70 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 18:44:03 [ http-nio-8080-exec-70 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2033436b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 18:44:03 [ http-nio-8080-exec-70 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 18:48:15 [ http-nio-8080-exec-83 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 18:48:15 [ http-nio-8080-exec-83 ] HHH000206: hibernate.properties not found
+2019-06-11 18:48:15 [ http-nio-8080-exec-83 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 18:48:15 [ http-nio-8080-exec-83 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 18:48:16 [ http-nio-8080-exec-83 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 18:48:16 [ http-nio-8080-exec-83 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 18:48:16 [ http-nio-8080-exec-83 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 18:48:16 [ http-nio-8080-exec-83 ] HHH10001003: Autocommit mode: false
+2019-06-11 18:48:16 [ http-nio-8080-exec-83 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 18:48:17 [ http-nio-8080-exec-83 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 18:48:18 [ http-nio-8080-exec-83 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19bc1654] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 18:48:19 [ http-nio-8080-exec-83 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 18:59:14 [ http-nio-8080-exec-7 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 18:59:14 [ http-nio-8080-exec-7 ] HHH000206: hibernate.properties not found
+2019-06-11 18:59:14 [ http-nio-8080-exec-7 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 18:59:14 [ http-nio-8080-exec-7 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 18:59:16 [ http-nio-8080-exec-7 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 18:59:16 [ http-nio-8080-exec-7 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 18:59:16 [ http-nio-8080-exec-7 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 18:59:16 [ http-nio-8080-exec-7 ] HHH10001003: Autocommit mode: false
+2019-06-11 18:59:16 [ http-nio-8080-exec-7 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 18:59:17 [ http-nio-8080-exec-7 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 18:59:18 [ http-nio-8080-exec-7 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@29723468] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 18:59:19 [ http-nio-8080-exec-7 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 19:13:01 [ http-nio-8080-exec-11 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 19:13:01 [ http-nio-8080-exec-11 ] HHH000206: hibernate.properties not found
+2019-06-11 19:13:02 [ http-nio-8080-exec-11 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 19:13:02 [ http-nio-8080-exec-11 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 19:13:03 [ http-nio-8080-exec-11 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 19:13:03 [ http-nio-8080-exec-11 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 19:13:03 [ http-nio-8080-exec-11 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 19:13:03 [ http-nio-8080-exec-11 ] HHH10001003: Autocommit mode: false
+2019-06-11 19:13:03 [ http-nio-8080-exec-11 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 19:13:03 [ http-nio-8080-exec-11 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 19:13:05 [ http-nio-8080-exec-11 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@51e44e92] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 19:13:05 [ http-nio-8080-exec-11 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 21:37:43 [ http-nio-8080-exec-17 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 21:37:43 [ http-nio-8080-exec-17 ] HHH000206: hibernate.properties not found
+2019-06-11 21:37:43 [ http-nio-8080-exec-17 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 21:37:43 [ http-nio-8080-exec-17 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 21:37:45 [ http-nio-8080-exec-17 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 21:37:45 [ http-nio-8080-exec-17 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 21:37:45 [ http-nio-8080-exec-17 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 21:37:45 [ http-nio-8080-exec-17 ] HHH10001003: Autocommit mode: false
+2019-06-11 21:37:45 [ http-nio-8080-exec-17 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 21:37:45 [ http-nio-8080-exec-17 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 21:37:46 [ http-nio-8080-exec-17 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@71b13625] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 21:37:47 [ http-nio-8080-exec-17 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:00:57 [ http-nio-8080-exec-39 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:00:57 [ http-nio-8080-exec-39 ] HHH000206: hibernate.properties not found
+2019-06-11 23:00:57 [ http-nio-8080-exec-39 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:00:57 [ http-nio-8080-exec-39 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:00:58 [ http-nio-8080-exec-39 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:00:58 [ http-nio-8080-exec-39 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:00:58 [ http-nio-8080-exec-39 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:00:58 [ http-nio-8080-exec-39 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:00:58 [ http-nio-8080-exec-39 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:00:59 [ http-nio-8080-exec-39 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:01:00 [ http-nio-8080-exec-39 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37d817c1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:01:01 [ http-nio-8080-exec-39 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:06:45 [ http-nio-8080-exec-40 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:06:45 [ http-nio-8080-exec-40 ] HHH000206: hibernate.properties not found
+2019-06-11 23:06:45 [ http-nio-8080-exec-40 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:06:45 [ http-nio-8080-exec-40 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:06:46 [ http-nio-8080-exec-40 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:06:46 [ http-nio-8080-exec-40 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:06:46 [ http-nio-8080-exec-40 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:06:46 [ http-nio-8080-exec-40 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:06:46 [ http-nio-8080-exec-40 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:06:47 [ http-nio-8080-exec-40 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:06:48 [ http-nio-8080-exec-40 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4880b64a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:06:48 [ http-nio-8080-exec-40 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:09:42 [ http-nio-8080-exec-48 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:09:42 [ http-nio-8080-exec-48 ] HHH000206: hibernate.properties not found
+2019-06-11 23:09:43 [ http-nio-8080-exec-48 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:09:43 [ http-nio-8080-exec-48 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:09:44 [ http-nio-8080-exec-48 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:09:44 [ http-nio-8080-exec-48 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:09:44 [ http-nio-8080-exec-48 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:09:44 [ http-nio-8080-exec-48 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:09:44 [ http-nio-8080-exec-48 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:09:44 [ http-nio-8080-exec-48 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:09:46 [ http-nio-8080-exec-48 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1e791f01] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:09:46 [ http-nio-8080-exec-48 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:13:38 [ http-nio-8080-exec-51 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:13:38 [ http-nio-8080-exec-51 ] HHH000206: hibernate.properties not found
+2019-06-11 23:13:39 [ http-nio-8080-exec-51 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:13:39 [ http-nio-8080-exec-51 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:13:40 [ http-nio-8080-exec-51 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:13:40 [ http-nio-8080-exec-51 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:13:40 [ http-nio-8080-exec-51 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:13:40 [ http-nio-8080-exec-51 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:13:40 [ http-nio-8080-exec-51 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:13:41 [ http-nio-8080-exec-51 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:13:42 [ http-nio-8080-exec-51 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@39c9fd84] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:13:42 [ http-nio-8080-exec-51 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:15:14 [ http-nio-8080-exec-64 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:15:14 [ http-nio-8080-exec-64 ] HHH000206: hibernate.properties not found
+2019-06-11 23:15:15 [ http-nio-8080-exec-64 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:15:15 [ http-nio-8080-exec-64 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:15:16 [ http-nio-8080-exec-64 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:15:16 [ http-nio-8080-exec-64 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:15:16 [ http-nio-8080-exec-64 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:15:16 [ http-nio-8080-exec-64 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:15:16 [ http-nio-8080-exec-64 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:15:17 [ http-nio-8080-exec-64 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:15:19 [ http-nio-8080-exec-64 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4974b788] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:15:19 [ http-nio-8080-exec-64 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:20:05 [ http-nio-8080-exec-78 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:20:05 [ http-nio-8080-exec-78 ] HHH000206: hibernate.properties not found
+2019-06-11 23:20:05 [ http-nio-8080-exec-78 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:20:05 [ http-nio-8080-exec-78 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:20:07 [ http-nio-8080-exec-78 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:20:07 [ http-nio-8080-exec-78 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:20:07 [ http-nio-8080-exec-78 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:20:07 [ http-nio-8080-exec-78 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:20:07 [ http-nio-8080-exec-78 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:20:07 [ http-nio-8080-exec-78 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:20:09 [ http-nio-8080-exec-78 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@707f8130] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:20:09 [ http-nio-8080-exec-78 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:23:12 [ http-nio-8080-exec-83 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:23:12 [ http-nio-8080-exec-83 ] HHH000206: hibernate.properties not found
+2019-06-11 23:23:12 [ http-nio-8080-exec-83 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:23:12 [ http-nio-8080-exec-83 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:23:14 [ http-nio-8080-exec-83 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:23:14 [ http-nio-8080-exec-83 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:23:14 [ http-nio-8080-exec-83 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:23:14 [ http-nio-8080-exec-83 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:23:14 [ http-nio-8080-exec-83 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:23:14 [ http-nio-8080-exec-83 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:23:15 [ http-nio-8080-exec-83 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e4297e6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:23:16 [ http-nio-8080-exec-83 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] 处理第一类规则
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to count the excel columns
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] the excel has 13 columns!
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to count the excel lines
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] the excel has 4 lines
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] 处理第一类规则
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to count the excel columns
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] the excel has 13 columns!
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to count the excel lines
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] the excel has 4 lines
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] 处理第二类规则
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] start to check the uploaded excel:
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] begin to translate rule simple.
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to count the excel columns
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] the excel has 13 columns!
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] begin to check whether excel format is right.
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to count the excel columns
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] the excel has 13 columns!
+2019-06-11 23:23:33 [ http-nio-8080-exec-86 ] to count the excel lines
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] the excel has 4 lines
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] 处理第四类规则
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] rule 4: begin to check
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] to count the excel columns
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] the excel has 13 columns!
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] to count the excel lines
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] the excel has 4 lines
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] begin to translate the rule
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:23:34 [ http-nio-8080-exec-86 ] to decide which column to check
+2019-06-11 23:54:23 [ http-nio-8080-exec-101 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:54:23 [ http-nio-8080-exec-101 ] HHH000206: hibernate.properties not found
+2019-06-11 23:54:23 [ http-nio-8080-exec-101 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:54:23 [ http-nio-8080-exec-101 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:54:25 [ http-nio-8080-exec-101 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:54:25 [ http-nio-8080-exec-101 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:54:25 [ http-nio-8080-exec-101 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:54:25 [ http-nio-8080-exec-101 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:54:25 [ http-nio-8080-exec-101 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:54:25 [ http-nio-8080-exec-101 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:54:27 [ http-nio-8080-exec-101 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@536d6141] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:54:27 [ http-nio-8080-exec-101 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:57:04 [ http-nio-8080-exec-97 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:57:04 [ http-nio-8080-exec-97 ] HHH000206: hibernate.properties not found
+2019-06-11 23:57:04 [ http-nio-8080-exec-97 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:57:04 [ http-nio-8080-exec-97 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:57:05 [ http-nio-8080-exec-97 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:57:05 [ http-nio-8080-exec-97 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:57:05 [ http-nio-8080-exec-97 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:57:05 [ http-nio-8080-exec-97 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:57:05 [ http-nio-8080-exec-97 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:57:06 [ http-nio-8080-exec-97 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:57:07 [ http-nio-8080-exec-97 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23df732b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:57:07 [ http-nio-8080-exec-97 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:59:10 [ http-nio-8080-exec-6 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-11 23:59:10 [ http-nio-8080-exec-6 ] HHH000206: hibernate.properties not found
+2019-06-11 23:59:11 [ http-nio-8080-exec-6 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-11 23:59:11 [ http-nio-8080-exec-6 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-11 23:59:13 [ http-nio-8080-exec-6 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-11 23:59:13 [ http-nio-8080-exec-6 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-11 23:59:13 [ http-nio-8080-exec-6 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-11 23:59:13 [ http-nio-8080-exec-6 ] HHH10001003: Autocommit mode: false
+2019-06-11 23:59:13 [ http-nio-8080-exec-6 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-11 23:59:13 [ http-nio-8080-exec-6 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-11 23:59:15 [ http-nio-8080-exec-6 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@385aee9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-11 23:59:16 [ http-nio-8080-exec-6 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-11 23:59:34 [ main ] SQL Error: 0, SQLState: 08S01
+2019-06-11 23:59:34 [ main ] The last packet successfully received from the server was 37,160,502 milliseconds ago.  The last packet sent successfully to the server was 37,160,502 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.

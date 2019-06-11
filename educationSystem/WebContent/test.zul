@@ -3,13 +3,14 @@
 <window title="do some test" border="normal">
 <button label="do test" onClick="showValue()"/>
 <listbox id="mylist">
-	<listitem label="here"/>
+	<listitem label="${param.form_id}"/>
 	<listitem label="go"/>
 </listbox>
 <combobox id="my">
 	<comboitem label="1" value="one"/>
 	<comboitem label="2" value="two"/>
 </combobox>
+<textbox rows="10" cols="50"></textbox>
 </window>
 <zscript><![CDATA[
 	void testArray(int index){
