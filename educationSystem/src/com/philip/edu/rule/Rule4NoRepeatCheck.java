@@ -19,15 +19,15 @@ public class Rule4NoRepeatCheck {
 	private Logger logger = Logger.getLogger(Rule4NoRepeatCheck.class);
 	private static ExcelHelper helper = new ExcelHelper();
 	private static FormManager manager = new FormManager();
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		JSONObject object = new JSONObject();
-	}
 
-	public MessageInfo getMessage(Workbook wb, JSONObject object){
+	public MessageInfo getMessage(Workbook wb, JSONObject object, int form_id){
 		int[] columns = new int[10];
 		logger.info("rule 4: begin to check");
+		int bit = 0;
+		boolean isCondition = false;
+		int conditionColumn = 0;
+		String conOperator = "";
+		String conValue = "";
 		
 		MessageInfo message = new MessageInfo();
 		message.setMessage_type(Constants.RULECHECK_MESSAGE_SUCCESS);
@@ -36,9 +36,23 @@ public class Rule4NoRepeatCheck {
 		int excelColumns = helper.getExcelColumns(wb);
 		int lines = helper.getExcelLines(wb);
 		
+		//Precondition:
+		JSONArray preArray = (JSONArray) object.get("rules");
+		JSONObject preObj = (JSONObject) preArray.get(0);
+		String type = preObj.getString("type");
+		if(Constants.RULE_CONDITION.equals(type)){
+			isCondition = true;
+			String physic_name = preObj.getString("field");
+			FormField field = manager.getFieldByPhysicName(form_id, physic_name);
+			conditionColumn = helper.getColumn2Check(wb, field.getBus_name(), excelColumns);
+			conOperator = preObj.getString("operator");
+			conValue = preObj.getString("value");
+		}
+		
 		String keyInfo = "(";
 		
-		ArrayList al = translateRules(object);
+		ArrayList al = translateRules(object, form_id);
+		bit = al.size();
 		for(int i=0; i<al.size(); i++){
 			FormField field = (FormField)al.get(i);
 			keyInfo += field.getBus_name() + ",";
@@ -49,26 +63,60 @@ public class Rule4NoRepeatCheck {
 		
 		Sheet sheet = wb.getSheetAt(0);
 		for(int j=1; j<lines; j++){
+			
+			Row row = sheet.getRow(j);
+			//1. check the precondition:
+			if(isCondition){
+				Cell conCell = row.getCell(conditionColumn);
+				String testValue = conCell.getStringCellValue();
+				
+				//operator:
+				if(Constants.V_EQUAL.equals(conOperator)){
+					// = 
+					if(!conValue.equals(testValue))continue;
+				} else {
+					int left = 0;
+					int right = 0;
+					try{
+						left = Integer.parseInt(testValue);	
+						right = Integer.parseInt(conValue);
+						if(Constants.V_GREATT.equals(conOperator)){
+							if(!(left>right))continue;
+						} else if(Constants.V_GREATTE.equals(conOperator)){
+							if(!(left>=right))continue;
+						} else if(Constants.V_LESST.equals(conOperator)){
+							if(!(left<right))continue;
+						} else if(Constants.V_LESSTE.equals(conOperator)){
+							if(!(left<=right))continue;
+						}
+					} catch (NumberFormatException e) {
+						message.setMessage_type(Constants.RULECHECK_MESSAGE_RULE_FAIL);
+						messageList.add("第" + (j+1) + "行的条件不是数字！");
+					}
+					
+				}
+			}
+			
+			//2. check the rule:
 			String key = null;
 
-			Row row = sheet.getRow(j);
-			String result = "";
+			StringBuffer result = new StringBuffer("");
 			
-			for(int k=0; k<columns.length; k++){
+			for(int k=0; k<bit; k++){
 				Cell cell = row.getCell(columns[k]);
-				if(cell!=null) result += cell.getStringCellValue();
+				if(cell!=null) result.append(cell.getStringCellValue());
 			}
 			
 			for(int l=j+1; l<lines; l++){
 				Row row1 = sheet.getRow(l);
-				String compare = "";
+				StringBuffer compare = new StringBuffer("");
 				
-				for(int m=0; m<columns.length; m++){
+				for(int m=0; m<bit; m++){
 					Cell cell1 = row1.getCell(columns[m]);
-					if(cell1!=null) compare += cell1.getStringCellValue();
+					if(cell1!=null) compare.append(cell1.getStringCellValue());
 				}
 				
-				if(result.equals(compare)){
+				if(result.toString().equals(compare.toString())){
 					message.setMessage_type(Constants.RULECHECK_MESSAGE_RULE_FAIL);
 					messageList.add("第" + (j+1) + "行的主键" + keyInfo + "与第" + (l+1) +"行记录重复！");
 					break;
@@ -81,7 +129,7 @@ public class Rule4NoRepeatCheck {
 		return message;
 	}
 	
-	private ArrayList translateRules(JSONObject object){
+	private ArrayList translateRules(JSONObject object, int form_id){
 		logger.info("begin to translate the rule");
 		ArrayList al = new ArrayList();
 		JSONArray array = (JSONArray) object.get("rules");
@@ -91,7 +139,7 @@ public class Rule4NoRepeatCheck {
 			if("field".equals(ob.get("type").toString())){
 				//al.add(ob.get("field").toString());
 				String field_name = ob.get("field").toString();
-				FormField field = manager.getFieldByPhysicName(Constants.FORM_ID, field_name);
+				FormField field = manager.getFieldByPhysicName(form_id, field_name);
 				al.add(field);
 			}
 		}

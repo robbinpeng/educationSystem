@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.json.JSONObject;
 
+import com.philip.edu.basic.Constants;
 import com.philip.edu.basic.Rule;
 
 public class RuleManager {
@@ -13,8 +14,9 @@ public class RuleManager {
 	
 	private static RuleDAO dao = new RuleDAO(); 
 	
-	public MessageInfo rulesCheck(int form_id, Workbook wb){
+	public ArrayList rulesCheck(int form_id, Workbook wb){
 		MessageInfo message = null;
+		ArrayList returnMessage = new ArrayList();
 		
 		ArrayList rules = getRules(form_id);
 		
@@ -27,32 +29,44 @@ public class RuleManager {
 			switch(type){
 				case 1:
 					//
+					logger.info("处理第一类规则");
+					Rule1ConstraintCheck engine1 = new Rule1ConstraintCheck();
+					message = engine1.getMessage(wb, object, form_id);
+					returnMessage.add(message);
 					break;
 				case 2:
 					//Exclusive Check:
+					logger.info("处理第二类规则");
 					Rule2ExclusiveCheck engine2 = new Rule2ExclusiveCheck();
 					message = engine2.getMessage(wb, object, form_id);
+					returnMessage.add(message);
 					break;
 				case 3:
 					//
+					logger.info("处理第三类规则");
+					
 					break;
 				case 4:
 					//Only Check:
+					logger.info("处理第四类规则");
 					Rule4NoRepeatCheck engine4 = new Rule4NoRepeatCheck();
-					message = engine4.getMessage(wb, object);
+					message = engine4.getMessage(wb, object, form_id);
+					returnMessage.add(message);
 					break;
 				case 5:
 					//
+					logger.info("处理第五类规则");
 					break;
 				case 6:
 					//
+					logger.info("处理第六类规则");
 					break;
 				default:
 					break;
 			}
 		}
 		
-		return message;
+		return returnMessage;
 	}
 	
 	public ArrayList getRules(int form_id){

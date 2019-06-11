@@ -23,17 +23,21 @@ public class RuleManagerTest {
 		Workbook wb = null;
 		RuleManager engine = new RuleManager();
 		MessageInfo message = null;
+		ArrayList list = null;
 		
 		try {
 			in = new FileInputStream("D:/Develop/education/test/1-11.xls");
 			wb = WorkbookFactory.create(in);
 			
-			message = engine.rulesCheck(Constants.FORM_ID, wb);
-			ArrayList al = message.getMessage_info();
-			if(message.getMessage_type()==Constants.RULECHECK_MESSAGE_SUCCESS)System.out.println("上传成功！");
-			else {
-				for(int i=0; i<al.size(); i++){
-				System.out.println(al.get(i).toString());
+			list = engine.rulesCheck(Constants.FORM_ID, wb);
+			for(int j=0; j<list.size(); j++){
+				message = (MessageInfo)list.get(j);
+				if(message.getMessage_type()==Constants.RULECHECK_MESSAGE_SUCCESS){}
+				else {
+					ArrayList al = message.getMessage_info();
+					for(int i=0; i<al.size(); i++){ 
+						System.out.println(al.get(i).toString());
+					}
 				}
 			}
 

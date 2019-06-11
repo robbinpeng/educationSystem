@@ -66,4 +66,8 @@ public class Constants {
 	
 	public static final String DB_USER = "root";
 	public static final String DB_PASSWORD = "1982214";
+	
+	public static final int LINE_TYPE_FIELD_NAME = 1;
+	public static final int LINE_TYPE_OPERATOR = 2;
+	public static final int LINE_TYPE_VALUE = 3; 
 }

@@ -46,7 +46,7 @@ public class Rule2ExclusiveCheck {
 		
 		//1. fetch the sql:
 		try {
-			al = this.TranslateRuleSimple(object);
+			al = this.TranslateRuleSimple(object, form_id);
 			
 			ruleSQL = (String) al.get(0);
 			bus_name = (String) al.get(1);
@@ -88,7 +88,7 @@ public class Rule2ExclusiveCheck {
 		return message;
 	}
 	
-	private ArrayList TranslateRuleSimple(JSONObject rule) throws NotImplementException{
+	private ArrayList TranslateRuleSimple(JSONObject rule, int form_id) throws NotImplementException{
 		
 		logger.info("begin to translate rule simple.");
 		
@@ -101,19 +101,19 @@ public class Rule2ExclusiveCheck {
 		//get table:
 		JSONObject obj = (JSONObject) array.get(1);
 		String table_name = obj.get("relateForm").toString();
-		Form form = manager.getFormByName(Constants.USER_ID, table_name);
+		Form form = manager.getFormById(form_id);
 		String table = form.getPhsic_name();
 		String relate_table = form.getBus_name();
 		//get field:
 		String field = obj.get("relateField").toString();
-		FormField formField = manager.getFieldByPhysicName(Constants.FORM_ID_TEST, field);
+		FormField formField = manager.getFieldByPhysicName(form_id, field);
 		String relate_field = formField.getBus_name();
 		ruleSQL = "select * from " + table + " where " + field + "=?";
 		
 		//get check fieldName:
 		obj = (JSONObject) array.get(0);
 		String field_name = obj.get("field").toString();
-		formField = manager.getFieldByPhysicName(Constants.FORM_ID, field_name);
+		formField = manager.getFieldByPhysicName(form_id, field_name);
 		String bus_name = formField.getBus_name();
 		
 		result.add(ruleSQL);
@@ -125,22 +125,7 @@ public class Rule2ExclusiveCheck {
 	}
 	
 	private String TranslateRule(JSONObject rule){
-		String ruleSQL = new String();
-		
-		JSONArray array = (JSONArray) rule.get("rules");
-		JSONArray tempArray = new JSONArray();
-		JSONArray newArray = new JSONArray();
-		
-		for(int i=0; i<array.length(); i++){
-			JSONObject obj = (JSONObject) array.get(i);
-			if(Constants.RULE_OP_AND.equals(obj.get("type").toString())){
-				
-			} else if(Constants.RULE_FORMFIELD.equals(obj.get("type").toString()) || Constants.RULE_RELATE_FORM.equals(obj.get("type").toString())) {
-				newArray.put(obj);
-			}
-		}
-		
-		return ruleSQL;
+		return null;
 	}
 	
 	private MessageInfo checkRule(String sql, Workbook wb, int column, int lines, String bus_name, String relate_table, String relate_field){
@@ -178,6 +163,8 @@ public class Rule2ExclusiveCheck {
 		} finally {
 			DBHelper.closeConnection();
 		}
+		
+		message.setMessage_info(messageList);
 		
 		return message;
 
