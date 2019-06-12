@@ -76,3 +76,13 @@
 2019-06-12 16:53:28 [ main ] java.lang.NullPointerException
 2019-06-12 16:55:09 [ main ] java.lang.NullPointerException
 2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-12 18:14:40 [ main ] java.lang.NullPointerException
+2019-06-12 18:17:17 [ main ] 连接数据库错误！
+2019-06-12 18:19:59 [ main ] 连接数据库错误！
+2019-06-12 18:22:16 [ http-nio-8080-exec-6 ] 连接数据库错误！
+2019-06-12 18:25:08 [ main ] 连接数据库错误！
+2019-06-12 18:58:50 [ main ] 连接数据库错误！
+2019-06-12 19:20:19 [ main ] Incorrect integer value: 'p' for column 'STATUS' at row 1
+2019-06-12 22:05:49 [ http-nio-8080-exec-53 ] Table 'education.2_tbl_xqdz' doesn't exist
+2019-06-12 22:14:31 [ main ] Data truncation: Data too long for column 'TJSJ' at row 1
+2019-06-12 22:18:36 [ main ] Duplicate entry '0' for key 'PRIMARY'

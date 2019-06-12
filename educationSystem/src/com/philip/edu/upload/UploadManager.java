@@ -21,7 +21,6 @@ import com.philip.edu.basic.Constants;
 import com.philip.edu.basic.Form;
 import com.philip.edu.basic.FormField;
 import com.philip.edu.basic.FormManager;
-import com.philip.edu.rule.DBHelper;
 import com.philip.edu.rule.ExcelHelper;
 
 public class UploadManager {
@@ -29,8 +28,9 @@ public class UploadManager {
 	private Logger logger = Logger.getLogger(UploadManager.class);
 	private static FormManager formManager = new FormManager();
 	private static ExcelHelper excelHelper = new ExcelHelper();
+	private static UploadDAO dao = new UploadDAO();
 	
-	public boolean uploadData(Workbook wb, int form_id){
+	public boolean uploadData(Workbook wb, int form_id, int user_id){
 		boolean isSuccess = false;
 		
 		// check format is right:
@@ -74,6 +74,20 @@ public class UploadManager {
 			StringBuffer sql1 = new StringBuffer("insert into " + table_name + "(");
 			StringBuffer sql2 = new StringBuffer(" values(");
 			
+			//default data:
+			sql1.append("CREATOR, ");
+			sql2.append("" + user_id + ", ");
+			sql1.append("CREATE_TIME, ");
+			sql2.append("?, ");
+			sql1.append("LAST_OPERATOR, ");
+			sql2.append("" + user_id + ", ");
+			sql1.append("LAST_OPERATE_TIME, ");
+			sql2.append("?, ");
+			sql1.append("STATUS, ");
+			sql2.append("1, ");
+			sql1.append("TJSJ, ");
+			sql2.append("?, ");
+			
 			row = sheet.getRow(k);
 			for(int l=0; l<captionList.size(); l++){
 				FormField field1 = (FormField) captionList.get(l);
@@ -106,28 +120,8 @@ public class UploadManager {
 		}
 		
 		//  2、execute in database, at last commit;
-		Connection conn = null;
-		PreparedStatement ps = null;
+		isSuccess = dao.uploadData(sqlList);
 		
-		try {
-			conn = DBHelper.getConnection();
-			
-			for(int i=0; i<sqlList.size(); i++){
-				String sql = (String)sqlList.get(i);
-				
-				ps = conn.prepareStatement(sql);
-				ps.executeUpdate();
-				
-			}
-			
-			conn.commit();
-			isSuccess = true;
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			logger.error("连接数据库错误！");
-		}
-	
 		return isSuccess;
 	}
 

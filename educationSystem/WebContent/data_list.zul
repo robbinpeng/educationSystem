@@ -16,7 +16,7 @@ ArrayList datas = null;
 ArrayList al=null;
 DataInfo data = null;
 ]]></zscript>
-<listbox id="dataList" emptyMessage="系统中还没有表" >  
+<listbox id="dataList" emptyMessage="系统中还没有表" mold="paging" pageSize="20">  
 <zscript><![CDATA[
 datas = (ArrayList)Executions.getCurrent().getAttribute("datas");
 if(datas!=null){
