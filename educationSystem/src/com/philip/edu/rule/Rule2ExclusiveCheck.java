@@ -11,6 +11,7 @@ import java.util.List;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -142,7 +143,13 @@ public class Rule2ExclusiveCheck {
 			
 			for(int i=1; i<=lines-1; i++){			
 				Row row = sheet.getRow(i);
-				String fieldValue = row.getCell(column).getStringCellValue();
+				Cell cell = row.getCell(column);
+				String fieldValue="";
+				if(cell != null){
+				    cell.setCellType(CellType.STRING);
+				    fieldValue = cell.getStringCellValue();
+				}
+				fieldValue = row.getCell(column).getStringCellValue();
 				ps.setString(1, fieldValue);
 				
 				rs = ps.executeQuery();

@@ -11,6 +11,7 @@ import java.util.HashMap;
 import org.apache.log4j.Logger;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -57,7 +58,7 @@ public class UploadManager {
 		
 		for(int i=0; i<excelColumns; i++){
 			Cell cell = row.getCell(i);
-			String field_name = cell.getStringCellValue().trim();
+			String field_name = cell.getStringCellValue();
 			FormField captionField = (FormField)map.get(field_name);
 			captionList.add(captionField);
 		}
@@ -81,10 +82,20 @@ public class UploadManager {
 				
 				if(l==captionList.size()-1){
 					sql1.append(fieldName + ")");
-					sql2.append("'" + cell.getStringCellValue() + "')");
+					String testValue="";
+					if(cell != null){
+					    cell.setCellType(CellType.STRING);
+					    testValue = cell.getStringCellValue();
+					}
+					sql2.append("'" + testValue + "')");
 				} else {
 					sql1.append(fieldName + ", ");
-					sql2.append("'" + cell.getStringCellValue() + "', ");
+					String testValue="";
+					if(cell != null){
+					    cell.setCellType(CellType.STRING);
+					    testValue = cell.getStringCellValue();
+					}
+					sql2.append("'" + testValue + "', ");
 				}
 			}
 			

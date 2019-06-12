@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -122,8 +123,12 @@ public class Rule1ConstraintCheck {
 			// 0¡£precondition:
 			if(isCondition){
 				Cell conCell = row.getCell(conditionColumn);
-				String testValue = conCell.getStringCellValue();
-				
+				String testValue="";
+				if(conCell != null){
+				    conCell.setCellType(CellType.STRING);
+				    testValue = conCell.getStringCellValue();
+				}
+				 			
 				//operator:
 				if(Constants.V_EQUAL.equals(conOperator)){
 					// = 
@@ -162,7 +167,11 @@ public class Rule1ConstraintCheck {
 					switch(line.getType()){
 					case Constants.LINE_TYPE_FIELD_NAME:
 						Cell cell = row.getCell(line.getColumn());
-						String tempValue = cell.getStringCellValue();
+						String tempValue="";
+						if(cell != null){
+						    cell.setCellType(CellType.STRING);
+						    tempValue = cell.getStringCellValue();
+						}
 						int iValue = Integer.parseInt(tempValue);
 						if(Constants.V_ADD.equals(currentOperator)){
 							leftResult += iValue;
@@ -208,7 +217,11 @@ public class Rule1ConstraintCheck {
 					switch(line.getType()){
 					case Constants.LINE_TYPE_FIELD_NAME:
 						Cell cell = row.getCell(line.getColumn());
-						String tempValue = cell.getStringCellValue();
+						String tempValue="";
+						if(cell != null){
+						    cell.setCellType(CellType.STRING);
+						    tempValue = cell.getStringCellValue();
+						}
 						int iValue = Integer.parseInt(tempValue);
 						if(Constants.V_ADD.equals(currentOperator)){
 							rightResult += iValue;

@@ -6407,3 +6407,841 @@
 2019-06-11 23:59:16 [ http-nio-8080-exec-6 ] HHH000397: Using ASTQueryTranslatorFactory
 2019-06-11 23:59:34 [ main ] SQL Error: 0, SQLState: 08S01
 2019-06-11 23:59:34 [ main ] The last packet successfully received from the server was 37,160,502 milliseconds ago.  The last packet sent successfully to the server was 37,160,502 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2019-06-12 07:39:51 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 07:39:51 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 07:39:51 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 07:39:51 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 07:39:53 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 07:39:53 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 07:39:53 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 07:39:53 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 07:39:53 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 07:39:54 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 07:39:55 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@454d9a4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 07:39:56 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 08:23:47 [ http-nio-8080-exec-15 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 08:23:47 [ http-nio-8080-exec-15 ] HHH000206: hibernate.properties not found
+2019-06-12 08:23:47 [ http-nio-8080-exec-15 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 08:23:47 [ http-nio-8080-exec-15 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 08:23:48 [ http-nio-8080-exec-15 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 08:23:48 [ http-nio-8080-exec-15 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 08:23:48 [ http-nio-8080-exec-15 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 08:23:48 [ http-nio-8080-exec-15 ] HHH10001003: Autocommit mode: false
+2019-06-12 08:23:48 [ http-nio-8080-exec-15 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 08:23:49 [ http-nio-8080-exec-15 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 08:23:50 [ http-nio-8080-exec-15 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1209c3fd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 08:23:50 [ http-nio-8080-exec-15 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] 处理第一类规则
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] 处理第一类规则
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] 处理第二类规则
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] start to check the uploaded excel:
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] begin to translate rule simple.
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] begin to check whether excel format is right.
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] 处理第四类规则
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] rule 4: begin to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel columns
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 13 columns!
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to count the excel lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] the excel has 4 lines
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] begin to translate the rule
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 08:43:31 [ http-nio-8080-exec-20 ] to decide which column to check
+2019-06-12 09:17:51 [ http-nio-8080-exec-22 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 09:17:51 [ http-nio-8080-exec-22 ] HHH000206: hibernate.properties not found
+2019-06-12 09:17:51 [ http-nio-8080-exec-22 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 09:17:51 [ http-nio-8080-exec-22 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 09:17:53 [ http-nio-8080-exec-22 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 09:17:53 [ http-nio-8080-exec-22 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 09:17:53 [ http-nio-8080-exec-22 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 09:17:53 [ http-nio-8080-exec-22 ] HHH10001003: Autocommit mode: false
+2019-06-12 09:17:53 [ http-nio-8080-exec-22 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 09:17:54 [ http-nio-8080-exec-22 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 09:17:55 [ http-nio-8080-exec-22 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@359e3a33] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 09:17:55 [ http-nio-8080-exec-22 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 09:21:35 [ http-nio-8080-exec-27 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 09:21:35 [ http-nio-8080-exec-27 ] HHH000206: hibernate.properties not found
+2019-06-12 09:21:35 [ http-nio-8080-exec-27 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 09:21:35 [ http-nio-8080-exec-27 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 09:21:36 [ http-nio-8080-exec-27 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 09:21:37 [ http-nio-8080-exec-27 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 09:21:37 [ http-nio-8080-exec-27 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 09:21:37 [ http-nio-8080-exec-27 ] HHH10001003: Autocommit mode: false
+2019-06-12 09:21:37 [ http-nio-8080-exec-27 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 09:21:37 [ http-nio-8080-exec-27 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 09:21:38 [ http-nio-8080-exec-27 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2611a424] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 09:21:39 [ http-nio-8080-exec-27 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 09:27:14 [ http-nio-8080-exec-35 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 09:27:14 [ http-nio-8080-exec-35 ] HHH000206: hibernate.properties not found
+2019-06-12 09:27:14 [ http-nio-8080-exec-35 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 09:27:14 [ http-nio-8080-exec-35 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 09:27:15 [ http-nio-8080-exec-35 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 09:27:15 [ http-nio-8080-exec-35 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 09:27:15 [ http-nio-8080-exec-35 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 09:27:15 [ http-nio-8080-exec-35 ] HHH10001003: Autocommit mode: false
+2019-06-12 09:27:15 [ http-nio-8080-exec-35 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 09:27:16 [ http-nio-8080-exec-35 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 09:27:17 [ http-nio-8080-exec-35 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6aa44a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 09:27:18 [ http-nio-8080-exec-35 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 09:28:00 [ http-nio-8080-exec-42 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 09:28:00 [ http-nio-8080-exec-42 ] HHH000206: hibernate.properties not found
+2019-06-12 09:28:01 [ http-nio-8080-exec-42 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 09:28:01 [ http-nio-8080-exec-42 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 09:28:02 [ http-nio-8080-exec-42 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 09:28:02 [ http-nio-8080-exec-42 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 09:28:02 [ http-nio-8080-exec-42 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 09:28:02 [ http-nio-8080-exec-42 ] HHH10001003: Autocommit mode: false
+2019-06-12 09:28:02 [ http-nio-8080-exec-42 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 09:28:02 [ http-nio-8080-exec-42 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 09:28:04 [ http-nio-8080-exec-42 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@42f132da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 09:28:04 [ http-nio-8080-exec-42 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 10:33:41 [ http-nio-8080-exec-57 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 10:33:41 [ http-nio-8080-exec-57 ] HHH000206: hibernate.properties not found
+2019-06-12 10:33:41 [ http-nio-8080-exec-57 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 10:33:41 [ http-nio-8080-exec-57 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 10:33:43 [ http-nio-8080-exec-57 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 10:33:43 [ http-nio-8080-exec-57 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 10:33:43 [ http-nio-8080-exec-57 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 10:33:43 [ http-nio-8080-exec-57 ] HHH10001003: Autocommit mode: false
+2019-06-12 10:33:43 [ http-nio-8080-exec-57 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 10:33:44 [ http-nio-8080-exec-57 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 10:33:45 [ http-nio-8080-exec-57 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4b645521] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 10:33:45 [ http-nio-8080-exec-57 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 12:51:13 [ http-nio-8080-exec-4 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 12:51:13 [ http-nio-8080-exec-4 ] HHH000206: hibernate.properties not found
+2019-06-12 12:51:13 [ http-nio-8080-exec-4 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 12:51:13 [ http-nio-8080-exec-4 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 12:51:15 [ http-nio-8080-exec-4 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 12:51:15 [ http-nio-8080-exec-4 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 12:51:15 [ http-nio-8080-exec-4 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 12:51:15 [ http-nio-8080-exec-4 ] HHH10001003: Autocommit mode: false
+2019-06-12 12:51:15 [ http-nio-8080-exec-4 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 12:51:16 [ http-nio-8080-exec-4 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 12:51:18 [ http-nio-8080-exec-4 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@21d3885c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 12:51:18 [ http-nio-8080-exec-4 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 13:41:01 [ http-nio-8080-exec-4 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 13:41:01 [ http-nio-8080-exec-4 ] HHH000206: hibernate.properties not found
+2019-06-12 13:41:01 [ http-nio-8080-exec-4 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 13:41:01 [ http-nio-8080-exec-4 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 13:41:02 [ http-nio-8080-exec-4 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 13:41:02 [ http-nio-8080-exec-4 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 13:41:02 [ http-nio-8080-exec-4 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 13:41:02 [ http-nio-8080-exec-4 ] HHH10001003: Autocommit mode: false
+2019-06-12 13:41:02 [ http-nio-8080-exec-4 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 13:41:03 [ http-nio-8080-exec-4 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 13:41:04 [ http-nio-8080-exec-4 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ee7c16f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 13:41:05 [ http-nio-8080-exec-4 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:10:44 [ http-nio-8080-exec-18 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:10:44 [ http-nio-8080-exec-18 ] HHH000206: hibernate.properties not found
+2019-06-12 14:10:44 [ http-nio-8080-exec-18 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:10:44 [ http-nio-8080-exec-18 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:10:46 [ http-nio-8080-exec-18 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:10:46 [ http-nio-8080-exec-18 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:10:46 [ http-nio-8080-exec-18 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:10:46 [ http-nio-8080-exec-18 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:10:46 [ http-nio-8080-exec-18 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:10:46 [ http-nio-8080-exec-18 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:10:47 [ http-nio-8080-exec-18 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4c116c62] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:10:48 [ http-nio-8080-exec-18 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:35:52 [ http-nio-8080-exec-23 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:35:52 [ http-nio-8080-exec-23 ] HHH000206: hibernate.properties not found
+2019-06-12 14:35:52 [ http-nio-8080-exec-23 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:35:52 [ http-nio-8080-exec-23 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:35:54 [ http-nio-8080-exec-23 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:35:54 [ http-nio-8080-exec-23 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:35:54 [ http-nio-8080-exec-23 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:35:54 [ http-nio-8080-exec-23 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:35:54 [ http-nio-8080-exec-23 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:35:54 [ http-nio-8080-exec-23 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:35:55 [ http-nio-8080-exec-23 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@439a502c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:35:56 [ http-nio-8080-exec-23 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:36:01 [ http-nio-8080-exec-21 ] 连接数据库错误！
+2019-06-12 14:36:09 [ http-nio-8080-exec-27 ] 连接数据库错误！
+2019-06-12 14:41:28 [ http-nio-8080-exec-40 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:41:28 [ http-nio-8080-exec-40 ] HHH000206: hibernate.properties not found
+2019-06-12 14:41:28 [ http-nio-8080-exec-40 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:41:28 [ http-nio-8080-exec-40 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:41:29 [ http-nio-8080-exec-40 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:41:29 [ http-nio-8080-exec-40 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:41:29 [ http-nio-8080-exec-40 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:41:29 [ http-nio-8080-exec-40 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:41:29 [ http-nio-8080-exec-40 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:41:30 [ http-nio-8080-exec-40 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:41:31 [ http-nio-8080-exec-40 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@658a28cc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:41:32 [ http-nio-8080-exec-40 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:41:32 [ http-nio-8080-exec-40 ] 连接数据库错误！
+2019-06-12 14:44:37 [ http-nio-8080-exec-46 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:44:37 [ http-nio-8080-exec-46 ] HHH000206: hibernate.properties not found
+2019-06-12 14:44:37 [ http-nio-8080-exec-46 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:44:37 [ http-nio-8080-exec-46 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:44:39 [ http-nio-8080-exec-46 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:44:39 [ http-nio-8080-exec-46 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:44:39 [ http-nio-8080-exec-46 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:44:39 [ http-nio-8080-exec-46 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:44:39 [ http-nio-8080-exec-46 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:44:39 [ http-nio-8080-exec-46 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:44:40 [ http-nio-8080-exec-46 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@791dddf7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:44:41 [ http-nio-8080-exec-46 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:44:41 [ http-nio-8080-exec-46 ] 连接数据库错误！
+2019-06-12 14:48:46 [ http-nio-8080-exec-52 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:48:46 [ http-nio-8080-exec-52 ] HHH000206: hibernate.properties not found
+2019-06-12 14:48:47 [ http-nio-8080-exec-52 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:48:47 [ http-nio-8080-exec-52 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:48:48 [ http-nio-8080-exec-52 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:48:48 [ http-nio-8080-exec-52 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:48:48 [ http-nio-8080-exec-52 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:48:48 [ http-nio-8080-exec-52 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:48:48 [ http-nio-8080-exec-52 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:48:49 [ http-nio-8080-exec-52 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:48:50 [ http-nio-8080-exec-52 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3369a34e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:48:51 [ http-nio-8080-exec-52 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:49:59 [ http-nio-8080-exec-6 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:49:59 [ http-nio-8080-exec-6 ] HHH000206: hibernate.properties not found
+2019-06-12 14:50:00 [ http-nio-8080-exec-6 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:50:00 [ http-nio-8080-exec-6 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:50:02 [ http-nio-8080-exec-6 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:50:02 [ http-nio-8080-exec-6 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:50:02 [ http-nio-8080-exec-6 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:50:02 [ http-nio-8080-exec-6 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:50:02 [ http-nio-8080-exec-6 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:50:02 [ http-nio-8080-exec-6 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:50:04 [ http-nio-8080-exec-6 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@13f90037] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:50:04 [ http-nio-8080-exec-6 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:51:35 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:51:35 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 14:51:35 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:51:35 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:51:36 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:51:36 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:51:36 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:51:36 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:51:36 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:51:37 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:51:38 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5dd86ce6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:51:38 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 14:53:19 [ http-nio-8080-exec-2 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 14:53:19 [ http-nio-8080-exec-2 ] HHH000206: hibernate.properties not found
+2019-06-12 14:53:20 [ http-nio-8080-exec-2 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 14:53:20 [ http-nio-8080-exec-2 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 14:53:22 [ http-nio-8080-exec-2 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 14:53:22 [ http-nio-8080-exec-2 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 14:53:22 [ http-nio-8080-exec-2 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 14:53:22 [ http-nio-8080-exec-2 ] HHH10001003: Autocommit mode: false
+2019-06-12 14:53:22 [ http-nio-8080-exec-2 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 14:53:22 [ http-nio-8080-exec-2 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 14:53:24 [ http-nio-8080-exec-2 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6bf38301] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 14:53:25 [ http-nio-8080-exec-2 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 15:00:58 [ http-nio-8080-exec-9 ] form_id:2
+2019-06-12 15:00:58 [ http-nio-8080-exec-9 ] get in generate.
+2019-06-12 15:00:58 [ http-nio-8080-exec-9 ] data has:4records
+2019-06-12 15:04:48 [ http-nio-8080-exec-10 ] form_id:2
+2019-06-12 15:04:49 [ http-nio-8080-exec-10 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 15:04:49 [ http-nio-8080-exec-10 ] HHH000206: hibernate.properties not found
+2019-06-12 15:04:49 [ http-nio-8080-exec-10 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 15:04:49 [ http-nio-8080-exec-10 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 15:04:51 [ http-nio-8080-exec-10 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 15:04:51 [ http-nio-8080-exec-10 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 15:04:51 [ http-nio-8080-exec-10 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 15:04:51 [ http-nio-8080-exec-10 ] HHH10001003: Autocommit mode: false
+2019-06-12 15:04:51 [ http-nio-8080-exec-10 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 15:04:51 [ http-nio-8080-exec-10 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 15:04:52 [ http-nio-8080-exec-10 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@13187d92] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 15:04:53 [ http-nio-8080-exec-10 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 15:04:53 [ http-nio-8080-exec-10 ] get in generate.
+2019-06-12 15:04:53 [ http-nio-8080-exec-10 ] data has:4records
+2019-06-12 15:06:16 [ http-nio-8080-exec-7 ] form_id:2
+2019-06-12 15:06:16 [ http-nio-8080-exec-7 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 15:06:16 [ http-nio-8080-exec-7 ] HHH000206: hibernate.properties not found
+2019-06-12 15:06:17 [ http-nio-8080-exec-7 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 15:06:17 [ http-nio-8080-exec-7 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 15:06:18 [ http-nio-8080-exec-7 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 15:06:18 [ http-nio-8080-exec-7 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 15:06:18 [ http-nio-8080-exec-7 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 15:06:18 [ http-nio-8080-exec-7 ] HHH10001003: Autocommit mode: false
+2019-06-12 15:06:18 [ http-nio-8080-exec-7 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 15:06:18 [ http-nio-8080-exec-7 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 15:06:20 [ http-nio-8080-exec-7 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3c88bd4f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 15:06:20 [ http-nio-8080-exec-7 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 15:06:21 [ http-nio-8080-exec-7 ] get in generate.
+2019-06-12 15:06:21 [ http-nio-8080-exec-7 ] data has:4records
+2019-06-12 15:06:21 [ http-nio-8080-exec-7 ] Caption load correct
+2019-06-12 15:08:37 [ http-nio-8080-exec-12 ] form_id:2
+2019-06-12 15:08:38 [ http-nio-8080-exec-12 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 15:08:38 [ http-nio-8080-exec-12 ] HHH000206: hibernate.properties not found
+2019-06-12 15:08:38 [ http-nio-8080-exec-12 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 15:08:38 [ http-nio-8080-exec-12 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 15:08:39 [ http-nio-8080-exec-12 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 15:08:39 [ http-nio-8080-exec-12 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 15:08:39 [ http-nio-8080-exec-12 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 15:08:39 [ http-nio-8080-exec-12 ] HHH10001003: Autocommit mode: false
+2019-06-12 15:08:39 [ http-nio-8080-exec-12 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 15:08:40 [ http-nio-8080-exec-12 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 15:08:41 [ http-nio-8080-exec-12 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2466c8f0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 15:08:42 [ http-nio-8080-exec-12 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 15:08:42 [ http-nio-8080-exec-12 ] get in generate.
+2019-06-12 15:08:42 [ http-nio-8080-exec-12 ] data has:4records
+2019-06-12 15:08:42 [ http-nio-8080-exec-12 ] Caption load correct
+2019-06-12 15:16:49 [ http-nio-8080-exec-22 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 15:16:49 [ http-nio-8080-exec-22 ] HHH000206: hibernate.properties not found
+2019-06-12 15:16:49 [ http-nio-8080-exec-22 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 15:16:49 [ http-nio-8080-exec-22 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 15:16:50 [ http-nio-8080-exec-22 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 15:16:50 [ http-nio-8080-exec-22 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 15:16:50 [ http-nio-8080-exec-22 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 15:16:50 [ http-nio-8080-exec-22 ] HHH10001003: Autocommit mode: false
+2019-06-12 15:16:50 [ http-nio-8080-exec-22 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 15:16:51 [ http-nio-8080-exec-22 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 15:16:52 [ http-nio-8080-exec-22 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1a526b5b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 15:16:53 [ http-nio-8080-exec-22 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 15:16:57 [ http-nio-8080-exec-30 ] form_id:2
+2019-06-12 15:22:46 [ http-nio-8080-exec-30 ] form_id:2
+2019-06-12 15:23:03 [ http-nio-8080-exec-38 ] form_id:2
+2019-06-12 15:23:07 [ http-nio-8080-exec-33 ] form_id:3
+2019-06-12 15:23:13 [ http-nio-8080-exec-32 ] form_id:4
+2019-06-12 15:23:16 [ http-nio-8080-exec-37 ] form_id:5
+2019-06-12 15:58:44 [ http-nio-8080-exec-8 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 15:58:44 [ http-nio-8080-exec-8 ] HHH000206: hibernate.properties not found
+2019-06-12 15:58:44 [ http-nio-8080-exec-8 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 15:58:44 [ http-nio-8080-exec-8 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 15:58:47 [ http-nio-8080-exec-8 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 15:58:47 [ http-nio-8080-exec-8 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 15:58:47 [ http-nio-8080-exec-8 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 15:58:47 [ http-nio-8080-exec-8 ] HHH10001003: Autocommit mode: false
+2019-06-12 15:58:47 [ http-nio-8080-exec-8 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 15:58:47 [ http-nio-8080-exec-8 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 15:58:49 [ http-nio-8080-exec-8 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@28c7123f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 15:58:49 [ http-nio-8080-exec-8 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 15:58:54 [ http-nio-8080-exec-6 ] form_id:2
+2019-06-12 15:58:54 [ http-nio-8080-exec-6 ] 连接数据库错误！
+2019-06-12 15:59:52 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 15:59:52 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 15:59:53 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 15:59:53 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 15:59:54 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 15:59:54 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 15:59:54 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 15:59:54 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 15:59:54 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 15:59:55 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 15:59:56 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@77d6b0ee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 15:59:56 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:00:01 [ http-nio-8080-exec-6 ] form_id:2
+2019-06-12 16:00:01 [ http-nio-8080-exec-6 ] 连接数据库错误！
+2019-06-12 16:00:22 [ http-nio-8080-exec-4 ] form_id:2
+2019-06-12 16:00:22 [ http-nio-8080-exec-4 ] 连接数据库错误！
+2019-06-12 16:02:52 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:02:52 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 16:02:53 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:02:53 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:02:55 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:02:55 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:02:55 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:02:55 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:02:55 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:02:55 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:02:57 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4e3d623d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:02:57 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:03:01 [ http-nio-8080-exec-5 ] form_id:2
+2019-06-12 16:03:01 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:03:53 [ http-nio-8080-exec-4 ] form_id:2
+2019-06-12 16:03:53 [ http-nio-8080-exec-4 ] 连接数据库错误！
+2019-06-12 16:05:01 [ http-nio-8080-exec-9 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:05:01 [ http-nio-8080-exec-9 ] HHH000206: hibernate.properties not found
+2019-06-12 16:05:02 [ http-nio-8080-exec-9 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:05:02 [ http-nio-8080-exec-9 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:05:03 [ http-nio-8080-exec-9 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:05:03 [ http-nio-8080-exec-9 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:05:03 [ http-nio-8080-exec-9 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:05:03 [ http-nio-8080-exec-9 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:05:03 [ http-nio-8080-exec-9 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:05:04 [ http-nio-8080-exec-9 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:05:06 [ http-nio-8080-exec-9 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@76c52b99] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:05:06 [ http-nio-8080-exec-9 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:05:09 [ http-nio-8080-exec-3 ] form_id:2
+2019-06-12 16:05:09 [ http-nio-8080-exec-3 ] 连接数据库错误！
+2019-06-12 16:07:18 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:07:18 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 16:07:18 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:07:18 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:07:20 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:07:20 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:07:20 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:07:20 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:07:20 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:07:20 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:07:22 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@714e22e1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:07:22 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:07:26 [ http-nio-8080-exec-5 ] form_id:2
+2019-06-12 16:07:26 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:10:16 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:10:16 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 16:10:16 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:10:16 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:10:18 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:10:18 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:10:18 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:10:18 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:10:18 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:10:19 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:10:20 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3bd85513] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:10:21 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:10:24 [ http-nio-8080-exec-7 ] form_id:2
+2019-06-12 16:10:24 [ http-nio-8080-exec-7 ] 连接数据库错误！
+2019-06-12 16:12:34 [ http-nio-8080-exec-8 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:12:34 [ http-nio-8080-exec-8 ] HHH000206: hibernate.properties not found
+2019-06-12 16:12:34 [ http-nio-8080-exec-8 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:12:34 [ http-nio-8080-exec-8 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:12:35 [ http-nio-8080-exec-8 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:12:35 [ http-nio-8080-exec-8 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:12:35 [ http-nio-8080-exec-8 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:12:35 [ http-nio-8080-exec-8 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:12:35 [ http-nio-8080-exec-8 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:12:36 [ http-nio-8080-exec-8 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:12:37 [ http-nio-8080-exec-8 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@71a04903] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:12:38 [ http-nio-8080-exec-8 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:12:44 [ http-nio-8080-exec-4 ] form_id:2
+2019-06-12 16:12:44 [ http-nio-8080-exec-4 ] 连接数据库错误！
+2019-06-12 16:13:32 [ http-nio-8080-exec-6 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:13:32 [ http-nio-8080-exec-6 ] HHH000206: hibernate.properties not found
+2019-06-12 16:13:33 [ http-nio-8080-exec-6 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:13:33 [ http-nio-8080-exec-6 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:13:35 [ http-nio-8080-exec-6 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:13:35 [ http-nio-8080-exec-6 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:13:35 [ http-nio-8080-exec-6 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:13:35 [ http-nio-8080-exec-6 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:13:35 [ http-nio-8080-exec-6 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:13:35 [ http-nio-8080-exec-6 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:13:37 [ http-nio-8080-exec-6 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@48168394] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:13:38 [ http-nio-8080-exec-6 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:13:40 [ http-nio-8080-exec-10 ] form_id:2
+2019-06-12 16:13:40 [ http-nio-8080-exec-10 ] 连接数据库错误！
+2019-06-12 16:14:58 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:14:58 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 16:14:58 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:14:58 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:15:00 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:15:00 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:15:00 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:15:00 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:15:00 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:15:01 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:15:02 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5af1c77] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:15:03 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:15:06 [ http-nio-8080-exec-5 ] form_id:2
+2019-06-12 16:15:06 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:19:16 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:19:16 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 16:19:17 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:19:17 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:19:19 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:19:19 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:19:19 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:19:19 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:19:19 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:19:20 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:19:21 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@8deaf91] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:19:21 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:19:24 [ http-nio-8080-exec-5 ] form_id:2
+2019-06-12 16:19:24 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:21:29 [ http-nio-8080-exec-4 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:21:29 [ http-nio-8080-exec-4 ] HHH000206: hibernate.properties not found
+2019-06-12 16:21:30 [ http-nio-8080-exec-4 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:21:30 [ http-nio-8080-exec-4 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:21:32 [ http-nio-8080-exec-4 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:21:32 [ http-nio-8080-exec-4 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:21:32 [ http-nio-8080-exec-4 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:21:32 [ http-nio-8080-exec-4 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:21:32 [ http-nio-8080-exec-4 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:21:32 [ http-nio-8080-exec-4 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:21:34 [ http-nio-8080-exec-4 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d6c2736] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:21:34 [ http-nio-8080-exec-4 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:21:37 [ http-nio-8080-exec-6 ] form_id:2
+2019-06-12 16:21:37 [ http-nio-8080-exec-6 ] 连接数据库错误！
+2019-06-12 16:24:23 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:24:23 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 16:24:23 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:24:23 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:24:25 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:24:25 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:24:25 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:24:25 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:24:25 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:24:26 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:24:27 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1be07b24] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:24:28 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:24:30 [ http-nio-8080-exec-5 ] form_id:2
+2019-06-12 16:24:40 [ http-nio-8080-exec-10 ] form_id:2
+2019-06-12 16:27:31 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:27:31 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 16:27:32 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:27:32 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:27:34 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:27:34 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:27:34 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:27:34 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 16:27:34 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:27:35 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:27:36 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3413842a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:27:37 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:51:36 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:51:36 [ main ] HHH000206: hibernate.properties not found
+2019-06-12 16:51:36 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:51:36 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:51:38 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:51:38 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:51:38 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:51:38 [ main ] HHH10001003: Autocommit mode: false
+2019-06-12 16:51:38 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:51:38 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:51:39 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b8ee898] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:51:40 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:51:40 [ main ] 处理第一类规则
+2019-06-12 16:51:40 [ main ] to count the excel columns
+2019-06-12 16:51:40 [ main ] the excel has 13 columns!
+2019-06-12 16:51:40 [ main ] to count the excel lines
+2019-06-12 16:51:40 [ main ] the excel has 4 lines
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:51:40 [ main ] 处理第二类规则
+2019-06-12 16:51:40 [ main ] start to check the uploaded excel:
+2019-06-12 16:51:40 [ main ] begin to translate rule simple.
+2019-06-12 16:51:40 [ main ] to count the excel columns
+2019-06-12 16:51:40 [ main ] the excel has 13 columns!
+2019-06-12 16:51:40 [ main ] begin to check whether excel format is right.
+2019-06-12 16:51:40 [ main ] to count the excel columns
+2019-06-12 16:51:40 [ main ] the excel has 13 columns!
+2019-06-12 16:51:40 [ main ] to count the excel lines
+2019-06-12 16:51:40 [ main ] the excel has 4 lines
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:51:40 [ main ] java.lang.NullPointerException
+2019-06-12 16:51:40 [ main ] 处理第四类规则
+2019-06-12 16:51:40 [ main ] rule 4: begin to check
+2019-06-12 16:51:40 [ main ] to count the excel columns
+2019-06-12 16:51:40 [ main ] the excel has 13 columns!
+2019-06-12 16:51:40 [ main ] to count the excel lines
+2019-06-12 16:51:40 [ main ] the excel has 4 lines
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:51:40 [ main ] begin to translate the rule
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:51:40 [ main ] to decide which column to check
+2019-06-12 16:53:23 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:53:23 [ main ] HHH000206: hibernate.properties not found
+2019-06-12 16:53:24 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:53:24 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:53:26 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:53:26 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:53:26 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:53:26 [ main ] HHH10001003: Autocommit mode: false
+2019-06-12 16:53:26 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:53:26 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:53:27 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@32bb0072] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:53:28 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:53:28 [ main ] 处理第一类规则
+2019-06-12 16:53:28 [ main ] to count the excel columns
+2019-06-12 16:53:28 [ main ] the excel has 13 columns!
+2019-06-12 16:53:28 [ main ] to count the excel lines
+2019-06-12 16:53:28 [ main ] the excel has 4 lines
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:53:28 [ main ] 处理第二类规则
+2019-06-12 16:53:28 [ main ] start to check the uploaded excel:
+2019-06-12 16:53:28 [ main ] begin to translate rule simple.
+2019-06-12 16:53:28 [ main ] to count the excel columns
+2019-06-12 16:53:28 [ main ] the excel has 13 columns!
+2019-06-12 16:53:28 [ main ] begin to check whether excel format is right.
+2019-06-12 16:53:28 [ main ] to count the excel columns
+2019-06-12 16:53:28 [ main ] the excel has 13 columns!
+2019-06-12 16:53:28 [ main ] to count the excel lines
+2019-06-12 16:53:28 [ main ] the excel has 4 lines
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:53:28 [ main ] java.lang.NullPointerException
+2019-06-12 16:53:28 [ main ] 处理第四类规则
+2019-06-12 16:53:28 [ main ] rule 4: begin to check
+2019-06-12 16:53:28 [ main ] to count the excel columns
+2019-06-12 16:53:28 [ main ] the excel has 13 columns!
+2019-06-12 16:53:28 [ main ] to count the excel lines
+2019-06-12 16:53:28 [ main ] the excel has 4 lines
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:53:28 [ main ] begin to translate the rule
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:53:28 [ main ] to decide which column to check
+2019-06-12 16:55:03 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 16:55:03 [ main ] HHH000206: hibernate.properties not found
+2019-06-12 16:55:04 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 16:55:04 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 16:55:05 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 16:55:05 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 16:55:05 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 16:55:05 [ main ] HHH10001003: Autocommit mode: false
+2019-06-12 16:55:06 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 16:55:06 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 16:55:08 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43491b7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 16:55:08 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 16:55:09 [ main ] 处理第一类规则
+2019-06-12 16:55:09 [ main ] to count the excel columns
+2019-06-12 16:55:09 [ main ] the excel has 13 columns!
+2019-06-12 16:55:09 [ main ] to count the excel lines
+2019-06-12 16:55:09 [ main ] the excel has 4 lines
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:55:09 [ main ] 处理第二类规则
+2019-06-12 16:55:09 [ main ] start to check the uploaded excel:
+2019-06-12 16:55:09 [ main ] begin to translate rule simple.
+2019-06-12 16:55:09 [ main ] to count the excel columns
+2019-06-12 16:55:09 [ main ] the excel has 13 columns!
+2019-06-12 16:55:09 [ main ] begin to check whether excel format is right.
+2019-06-12 16:55:09 [ main ] to count the excel columns
+2019-06-12 16:55:09 [ main ] the excel has 13 columns!
+2019-06-12 16:55:09 [ main ] to count the excel lines
+2019-06-12 16:55:09 [ main ] the excel has 4 lines
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:55:09 [ main ] java.lang.NullPointerException
+2019-06-12 16:55:09 [ main ] 处理第四类规则
+2019-06-12 16:55:09 [ main ] rule 4: begin to check
+2019-06-12 16:55:09 [ main ] to count the excel columns
+2019-06-12 16:55:09 [ main ] the excel has 13 columns!
+2019-06-12 16:55:09 [ main ] to count the excel lines
+2019-06-12 16:55:09 [ main ] the excel has 4 lines
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:55:09 [ main ] begin to translate the rule
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:55:09 [ main ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] 处理第一类规则
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to count the excel lines
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] the excel has 4 lines
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] 处理第二类规则
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] start to check the uploaded excel:
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] begin to translate rule simple.
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] begin to check whether excel format is right.
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to count the excel lines
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] the excel has 4 lines
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] 处理第四类规则
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] rule 4: begin to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to count the excel columns
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] the excel has 13 columns!
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to count the excel lines
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] the excel has 4 lines
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] begin to translate the rule
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 16:56:49 [ http-nio-8080-exec-5 ] to decide which column to check
+2019-06-12 17:06:31 [ http-nio-8080-exec-12 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 17:06:31 [ http-nio-8080-exec-12 ] HHH000206: hibernate.properties not found
+2019-06-12 17:06:31 [ http-nio-8080-exec-12 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 17:06:31 [ http-nio-8080-exec-12 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 17:06:32 [ http-nio-8080-exec-12 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 17:06:32 [ http-nio-8080-exec-12 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 17:06:32 [ http-nio-8080-exec-12 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 17:06:32 [ http-nio-8080-exec-12 ] HHH10001003: Autocommit mode: false
+2019-06-12 17:06:32 [ http-nio-8080-exec-12 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 17:06:33 [ http-nio-8080-exec-12 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 17:06:34 [ http-nio-8080-exec-12 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c20610c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 17:06:34 [ http-nio-8080-exec-12 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 17:08:52 [ http-nio-8080-exec-20 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 17:08:52 [ http-nio-8080-exec-20 ] HHH000206: hibernate.properties not found
+2019-06-12 17:08:53 [ http-nio-8080-exec-20 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 17:08:53 [ http-nio-8080-exec-20 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 17:08:54 [ http-nio-8080-exec-20 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 17:08:54 [ http-nio-8080-exec-20 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 17:08:54 [ http-nio-8080-exec-20 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 17:08:54 [ http-nio-8080-exec-20 ] HHH10001003: Autocommit mode: false
+2019-06-12 17:08:54 [ http-nio-8080-exec-20 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 17:08:54 [ http-nio-8080-exec-20 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 17:08:56 [ http-nio-8080-exec-20 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@468c43b7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 17:08:56 [ http-nio-8080-exec-20 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] 处理第一类规则
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] to count the excel lines
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] the excel has 4 lines
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] 处理第二类规则
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] start to check the uploaded excel:
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] begin to translate rule simple.
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] begin to check whether excel format is right.
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-12 17:09:03 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to count the excel lines
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] the excel has 4 lines
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] 处理第四类规则
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] rule 4: begin to check
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to count the excel columns
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] the excel has 13 columns!
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to count the excel lines
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] the excel has 4 lines
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] begin to translate the rule
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:09:04 [ http-nio-8080-exec-19 ] to decide which column to check
+2019-06-12 17:11:36 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 17:11:36 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-12 17:11:37 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 17:11:37 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 17:11:39 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 17:11:39 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 17:11:39 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 17:11:39 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-12 17:11:39 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 17:11:39 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 17:11:41 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@44d3aa81] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 17:11:41 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] 处理第一类规则
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] 处理第二类规则
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] start to check the uploaded excel:
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] begin to translate rule simple.
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] begin to check whether excel format is right.
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] 处理第四类规则
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] rule 4: begin to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] begin to translate the rule
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:11:47 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] 处理第一类规则
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] 处理第二类规则
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] start to check the uploaded excel:
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] begin to translate rule simple.
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] begin to check whether excel format is right.
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] 处理第四类规则
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] rule 4: begin to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] begin to translate the rule
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-12 17:13:03 [ http-nio-8080-exec-9 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 17:13:03 [ http-nio-8080-exec-9 ] HHH000206: hibernate.properties not found
+2019-06-12 17:13:04 [ http-nio-8080-exec-9 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 17:13:04 [ http-nio-8080-exec-9 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 17:13:05 [ http-nio-8080-exec-9 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 17:13:05 [ http-nio-8080-exec-9 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 17:13:05 [ http-nio-8080-exec-9 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 17:13:05 [ http-nio-8080-exec-9 ] HHH10001003: Autocommit mode: false
+2019-06-12 17:13:05 [ http-nio-8080-exec-9 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 17:13:06 [ http-nio-8080-exec-9 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 17:13:07 [ http-nio-8080-exec-9 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10f3a8bb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 17:13:08 [ http-nio-8080-exec-9 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] 处理第一类规则
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to count the excel lines
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] the excel has 4 lines
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] 处理第二类规则
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] start to check the uploaded excel:
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] begin to translate rule simple.
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] begin to check whether excel format is right.
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to count the excel lines
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] the excel has 4 lines
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] 处理第四类规则
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] rule 4: begin to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to count the excel columns
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] the excel has 13 columns!
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to count the excel lines
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] the excel has 4 lines
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] begin to translate the rule
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:13:13 [ http-nio-8080-exec-11 ] to decide which column to check
+2019-06-12 17:14:28 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-12 17:14:28 [ main ] HHH000206: hibernate.properties not found
+2019-06-12 17:14:29 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-12 17:14:29 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-12 17:14:31 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-12 17:14:31 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-12 17:14:31 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-12 17:14:31 [ main ] HHH10001003: Autocommit mode: false
+2019-06-12 17:14:31 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-12 17:14:31 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-12 17:14:33 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@311f8821] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-12 17:14:33 [ main ] HHH000397: Using ASTQueryTranslatorFactory

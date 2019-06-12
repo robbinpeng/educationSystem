@@ -7,15 +7,17 @@
             <listheader label="待采集表" />
             <listheader label="采集状态" />
             <listheader label="数据表设计" />
+            <listheader label="数据校验" />
             <listheader label="数据模板下载" />
             <listheader label="数据文件上传" />
         </listhead>
         <template name="model" sclass="narrow">
             <listitem value="${each.id}">
                 <listcell label="${each.id}"></listcell>
-                <listcell><toolbarbutton href="/test.zul?form_id=${each.id}" label="${each.bus_name}"/></listcell>
+                <listcell><toolbarbutton href="/data_list.zul?form_id=${each.id}" label="${each.bus_name}"/></listcell>
                 <listcell label="未采集"></listcell>
                 <listcell><toolbarbutton label="数据表设计" href="/data_design.zul?form_id=${each.id}"></toolbarbutton></listcell>
+                <listcell><toolbarbutton label="数据校验" href="/rules.zul?form_id=${each.id}"/></listcell>
                 <listcell><button label="下载模板" ><attribute name="onClick"><![CDATA[Filedownload.save("/template/test.xls", null);]]></attribute></button></listcell>
                 <listcell><button label="导入数据" upload="true,maxsize=30000" forward="onUpload=formlist.onUpload(${each})"></button></listcell>
             </listitem>

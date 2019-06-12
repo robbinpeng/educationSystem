@@ -55,3 +55,24 @@
 2019-06-11 16:59:34 [ http-nio-8080-exec-20 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
 2019-06-11 17:01:39 [ http-nio-8080-exec-18 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
 2019-06-11 23:59:34 [ main ] The last packet successfully received from the server was 37,160,502 milliseconds ago.  The last packet sent successfully to the server was 37,160,502 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2019-06-12 14:36:01 [ http-nio-8080-exec-21 ] 连接数据库错误！
+2019-06-12 14:36:09 [ http-nio-8080-exec-27 ] 连接数据库错误！
+2019-06-12 14:41:32 [ http-nio-8080-exec-40 ] 连接数据库错误！
+2019-06-12 14:44:41 [ http-nio-8080-exec-46 ] 连接数据库错误！
+2019-06-12 15:58:54 [ http-nio-8080-exec-6 ] 连接数据库错误！
+2019-06-12 16:00:01 [ http-nio-8080-exec-6 ] 连接数据库错误！
+2019-06-12 16:00:22 [ http-nio-8080-exec-4 ] 连接数据库错误！
+2019-06-12 16:03:01 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:03:53 [ http-nio-8080-exec-4 ] 连接数据库错误！
+2019-06-12 16:05:09 [ http-nio-8080-exec-3 ] 连接数据库错误！
+2019-06-12 16:07:26 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:10:24 [ http-nio-8080-exec-7 ] 连接数据库错误！
+2019-06-12 16:12:44 [ http-nio-8080-exec-4 ] 连接数据库错误！
+2019-06-12 16:13:40 [ http-nio-8080-exec-10 ] 连接数据库错误！
+2019-06-12 16:15:06 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:19:24 [ http-nio-8080-exec-5 ] 连接数据库错误！
+2019-06-12 16:21:37 [ http-nio-8080-exec-6 ] 连接数据库错误！
+2019-06-12 16:51:40 [ main ] java.lang.NullPointerException
+2019-06-12 16:53:28 [ main ] java.lang.NullPointerException
+2019-06-12 16:55:09 [ main ] java.lang.NullPointerException
+2019-06-12 17:12:45 [ http-nio-8080-exec-8 ] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.

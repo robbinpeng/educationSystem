@@ -7,6 +7,59 @@ import com.philip.edu.basic.*;
 import org.zkoss.zhtml.Input;
 import org.json.*;
 ]]></zscript> 
+<window title="自定义校验" border="normal" apply="com.philip.edu.action.RuleController">
+<grid>
+<rows>
+<row align="right">
+<toolbarbutton label="返回" href="/database_list.zul"></toolbarbutton>
+</row>
+</rows>
+</grid>
+<listbox id="ruleList" emptyMessage="这张表没有规则" >
+        <listhead>
+            <listheader label="校验规则名称"/>
+            <listheader label="校验规则类别" />
+            <listheader label="校验规则内容" width="20%"/>
+            <listheader label="校验失败提示信息" />
+            <listheader label="校验规则模式" />
+            <listheader label="校验顺序" />
+            <listheader label="是否启用" />
+            <listheader label="操作" />
+        </listhead>
+        <template name="model" sclass="narrow">
+            <listitem>
+                <listcell label="${each.rule_name}"></listcell>
+                <listcell><zscript><![CDATA[switch(each.rule_class){
+				case 1:
+					self.label=Constants.DISPLAY_RULE_CLASS_1;
+					break;
+				case 2:
+					self.label=Constants.DISPLAY_RULE_CLASS_2;
+					break;
+				case 3:
+					self.label=Constants.DISPLAY_RULE_CLASS_3;
+					break;
+				case 4:
+					self.label=Constants.DISPLAY_RULE_CLASS_4;
+					break;
+				case 5:
+					self.label=Constants.DISPLAY_RULE_CLASS_5;
+					break;
+				case 6:
+					self.label=Constants.DISPLAY_RULE_CLASS_6;
+					break;
+				default:
+					break;}]]></zscript></listcell>
+                <listcell label="${each.rule_content}"></listcell>
+                <listcell label="${each.fail_information}"></listcell>
+                <listcell><zscript><![CDATA[if(each.rule_pattern=='1'){self.label=Constants.DISPLAY_RULE_PATTERN_LINE;}else{self.label=Constants.DISPLAY_RULE_PATTERN_TABLE;}]]></zscript></listcell>
+                <listcell label="${each.rule_seq}"></listcell>
+                <listcell><zscript><![CDATA[if(each.rule_active=='Y'){self.label=Constants.DISPLAY_RULE_ACTIVE;}]]></zscript></listcell>
+                <listcell><button label="删除" forward="onClick=ruleList.onDelete(${each})"/></listcell>
+            </listitem>
+        </template>
+</listbox>
+</window>
 <window title="校验设计" border="normal">
 <grid>
 <columns>

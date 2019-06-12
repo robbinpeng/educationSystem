@@ -70,4 +70,19 @@ public class Constants {
 	public static final int LINE_TYPE_FIELD_NAME = 1;
 	public static final int LINE_TYPE_OPERATOR = 2;
 	public static final int LINE_TYPE_VALUE = 3; 
+	
+	//text displayed:
+	public static final String DISPLAY_RULE_PATTERN_LINE = "行级校验";
+	public static final String DISPLAY_RULE_PATTERN_TABLE = "表级校验";
+	public static final char VALUE_RULE_PATTERN_LINE = '1';
+	public static final char VALUE_RULE_PATTERN_TABLE = '2';
+	
+	public static final String DISPLAY_RULE_CLASS_1 = "1.字段内关系校验";
+	public static final String DISPLAY_RULE_CLASS_2 = "2.排他性约束校验";
+	public static final String DISPLAY_RULE_CLASS_3 = "3.存在性校验";
+	public static final String DISPLAY_RULE_CLASS_4 = "4.唯一性校验";
+	public static final String DISPLAY_RULE_CLASS_5 = "5.外表约束校验";
+	public static final String DISPLAY_RULE_CLASS_6 = "6.时间日期校验";
+	
+	public static final String DISPLAY_RULE_ACTIVE = "已启用";
 }

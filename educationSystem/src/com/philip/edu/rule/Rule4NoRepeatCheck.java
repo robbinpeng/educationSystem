@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -68,7 +69,11 @@ public class Rule4NoRepeatCheck {
 			//1. check the precondition:
 			if(isCondition){
 				Cell conCell = row.getCell(conditionColumn);
-				String testValue = conCell.getStringCellValue();
+				String testValue="";
+				if(conCell != null){
+				    conCell.setCellType(CellType.STRING);
+				    testValue = conCell.getStringCellValue();
+				}
 				
 				//operator:
 				if(Constants.V_EQUAL.equals(conOperator)){
@@ -104,7 +109,12 @@ public class Rule4NoRepeatCheck {
 			
 			for(int k=0; k<bit; k++){
 				Cell cell = row.getCell(columns[k]);
-				if(cell!=null) result.append(cell.getStringCellValue());
+				String testValue="";
+				if(cell != null){
+				    cell.setCellType(CellType.STRING);
+				    testValue = cell.getStringCellValue();
+				    result.append(testValue);
+				}			
 			}
 			
 			for(int l=j+1; l<lines; l++){
@@ -113,7 +123,12 @@ public class Rule4NoRepeatCheck {
 				
 				for(int m=0; m<bit; m++){
 					Cell cell1 = row1.getCell(columns[m]);
-					if(cell1!=null) compare.append(cell1.getStringCellValue());
+					String testValue="";
+					if(cell1 != null){
+					    cell1.setCellType(CellType.STRING);
+					    testValue = cell1.getStringCellValue();
+					    compare.append(testValue);
+					}
 				}
 				
 				if(result.toString().equals(compare.toString())){

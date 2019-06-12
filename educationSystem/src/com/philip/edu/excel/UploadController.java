@@ -80,10 +80,12 @@ public class UploadController extends SelectorComposer<Component> {
 					if(message.getMessage_type()==Constants.RULECHECK_MESSAGE_SUCCESS){}
 					else {
 						ArrayList al = message.getMessage_info();
+						if(al.size()!=0)sMessage += message.getFail_information() + ":\n";
 						for(int i=0; i<al.size(); i++){ 
 							System.out.println(al.get(i).toString());
 							sMessage += al.get(i).toString() + "\n";
 						}
+						sMessage += "\n";
 					}
 				}
 				//create a window programmatically and use it as a modal dialog.

@@ -15,7 +15,7 @@ import com.philip.edu.basic.FormManager;
 import com.philip.edu.excel.UploadController;
 
 public class FormTableController extends SelectorComposer<Component> {
-private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 	
 	private static Logger logger = Logger.getLogger(FormTableController.class);
 	private FormManager formManager = new FormManager();

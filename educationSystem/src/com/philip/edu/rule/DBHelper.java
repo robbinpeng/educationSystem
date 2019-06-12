@@ -1,23 +1,29 @@
 package com.philip.edu.rule;
 
 
+import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 import com.philip.edu.basic.Constants;
 
 public class DBHelper {
 	
-	private static final String driver = "com.mysql.jdbc.Driver"; 
-	private static final String url = "jdbc:mysql://localhost:3306/education?useUnicode=true&characterEncoding=UTF-8";
-	private static final String username = Constants.DB_USER;
-	private static final String password = Constants.DB_PASSWORD;
+	private static String driver = ""; 
+	private static String url = "";
+	private static String username = "";
+	private static String password = "";
+	private static Properties prop = new Properties();
 	
 	private static Connection conn = null;
 	
 	static{
+		
 		try{
+			prop.load(DBHelper.class.getClassLoader().getResourceAsStream("/db.properties"));
+			driver = prop.getProperty("driver");
 			Class.forName(driver);
 		} catch(Exception ex) {
 			ex.printStackTrace();
@@ -26,6 +32,11 @@ public class DBHelper {
 	
 	public static Connection getConnection() throws Exception{
 		if(conn==null){
+			prop.load(DBHelper.class.getClassLoader().getResourceAsStream("/db.properties"));
+			url = prop.getProperty("url");
+			username = prop.getProperty("user");
+			password = prop.getProperty("password");
+			
 			conn = DriverManager.getConnection(url,username,password);
 			conn.setAutoCommit(false);
 			return conn;

@@ -1,33 +1,46 @@
 <?page title="all the dataset list" contentType="text/html;charset=UTF-8"?>
 <zk>
-<window title="字段设计" border="normal" apply="com.philip.edu.action.FormTableController">
-<listbox id="fieldList" emptyMessage="系统中还没有表" >
-        <listhead>
-            <listheader label="业务字段名"/>
-            <listheader label="物理字段名" />
-            <listheader label="必填项" />
-            <listheader label="顺序" />
-            <listheader label="数据类型" />
-            <listheader label="长度" />
-            <listheader label="显示方式" />
-            <listheader label="是否上报" />
-            <listheader label="是否隐藏" />
-            <listheader label="字段类型(计算方法)" />
-        </listhead>
-        <template name="model" sclass="narrow">
-            <listitem>
-                <listcell label="${each.bus_name}"></listcell>
-                <listcell label="${each.physic_name}"></listcell>
-                <listcell label="${each.is_required}"></listcell>
-                <listcell label="${each.sequence}"></listcell>
-                <listcell label="${each.data_type}"></listcell>
-                <listcell label="${each.length}"></listcell>
-                <listcell label="${each.dis_method}"></listcell>
-                <listcell label="${each.is_report}"></listcell>
-                <listcell label="${each.is_hidden}"></listcell>
-                <listcell label="${each.compute}"></listcell>
-            </listitem>
-        </template>
+<window id="window1" title="数据表" border="normal" apply="com.philip.edu.action.TableDataController">
+<grid>
+<rows>
+<row align="right">
+<toolbarbutton label="返回" href="/database_list.zul"></toolbarbutton>
+</row>
+</rows>
+</grid>
+<zscript><![CDATA[
+import com.philip.edu.basic.DataInfo; 
+import javax.servlet.http.HttpServletRequest;
+		
+ArrayList datas = null;
+ArrayList al=null;
+DataInfo data = null;
+]]></zscript>
+<listbox id="dataList" emptyMessage="系统中还没有表" >  
+<zscript><![CDATA[
+datas = (ArrayList)Executions.getCurrent().getAttribute("datas");
+if(datas!=null){
+	al = (ArrayList) datas.get(0);
+	Listhead head = new Listhead();
+	for(int i=0; i<al.size(); i++){
+		data = (DataInfo) al.get(i);
+		Listheader header = new Listheader(data.getValue());
+		head.appendChild(header);
+	}
+	dataList.appendChild(head);
+	
+	for(int j=1; j<datas.size(); j++){
+		ArrayList line = (ArrayList)datas.get(j);
+		Listitem item = new Listitem();
+		for(int k=0; k<line.size(); k++){
+			DataInfo data = (DataInfo)line.get(k);
+			Listcell cell = new Listcell(data.getValue());
+			item.appendChild(cell);
+		}
+		dataList.appendChild(item);
+	}
+}
+]]></zscript>
 </listbox>
 </window>
 </zk>
