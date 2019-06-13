@@ -21,7 +21,7 @@ public class FormManagerTest {
 			System.out.println("form_id:" + form.getId());
 			System.out.println("form name:" + form.getTbl_name());
 			System.out.println("form bussiness name:" + form.getBus_name());
-			
+			System.out.println("form status:" + form.getStatus().getStatus());
 		}	
 	}
 	
@@ -79,6 +79,7 @@ public class FormManagerTest {
 		System.out.println(form.getBus_name());
 		System.out.println(form.getTbl_name());
 		System.out.println(form.getPhsic_name());
+		System.out.println("form by name status:"+ form.getStatus().getStatus());
 			
 	}
 	
@@ -105,5 +106,6 @@ public class FormManagerTest {
 		System.out.println(form.getBus_name());
 		System.out.println(form.getTbl_name());
 		System.out.println(form.getPhsic_name());
+		System.out.println(form.getStatus().getStatus());
 	}
 }

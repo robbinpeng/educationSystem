@@ -13,6 +13,12 @@ public class RuleManager {
 	private Logger logger = Logger.getLogger(RuleManager.class);
 	
 	private static RuleDAO dao = new RuleDAO(); 
+	private static ExcelHelper excelHelper = new ExcelHelper();
+	
+	public boolean formatCheck(int form_id, Workbook wb){
+		// check format is right:
+		return excelHelper.is_format_right(wb,form_id);
+	}
 	
 	public ArrayList rulesCheck(int form_id, Workbook wb){
 		MessageInfo message = null;

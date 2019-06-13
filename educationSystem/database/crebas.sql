@@ -92,12 +92,11 @@ create table 4_TBL_XXJXKYDW
 /*==============================================================*/
 create table TBL_DATACOL
 (
-   id                   bigint not null auto_increment,
    user_id              bigint,
-   form_id              bigint,
+   form_id              bigint not null,
    status               char,
    update_time          timestamp,
-   primary key (id)
+   primary key (form_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*==============================================================*/
@@ -159,3 +158,5 @@ alter table TBL_FORM add constraint FK_Reference_1 foreign key (user_id)
 alter table TBL_FORM_RULES add constraint FK_Reference_3 foreign key (form_id)
       references TBL_FORM (id) on delete restrict on update restrict;
 
+alter table TBL_FORM_FILEDS add constraint FK_Reference_4 foreign key (form_id)
+      references TBL_FORM (id) on delete restrict on update restrict;

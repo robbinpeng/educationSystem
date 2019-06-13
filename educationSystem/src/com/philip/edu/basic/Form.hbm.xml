@@ -19,6 +19,8 @@
 		<property name="dependency_form" column="dependency_form" type="int" />
 		<property name="template_loc" column="template_loc" type="java.lang.String" />
 		<property name="create_time" column="create_time" type="java.util.Date" />
+		<one-to-one name="status" class="com.philip.edu.basic.FormStatus"
+			cascade="save-update"></one-to-one>
 	</class>
 	
 	<class name="com.philip.edu.basic.FormField" lazy="true" table="tbl_form_fields">
@@ -53,5 +55,19 @@
 		<property name="rule_pattern" column="rule_pattern" type="java.lang.Character" />
 		<property name="rule_seq" column="rule_seq" type="int" />
 		<property name="rule_active" column="rule_active" type="java.lang.Character" />
+	</class>
+	
+	<class name="com.philip.edu.basic.FormStatus" lazy="true" table="tbl_datacol">
+		<id name="form_id" type="int">
+			<column name="form_id"/>
+			<generator class="foreign">
+				<param name="property">form</param>
+			</generator>
+		</id>
+		<one-to-one name="form" class="com.philip.edu.basic.Form"
+			constrained="true"></one-to-one>
+		<property name="user_id" column="user_id" type="int" />
+		<property name="status" column="status" type="java.lang.Character" />
+		<property name="update_time" column="update_time" type="java.util.Date" />
 	</class>
 </hibernate-mapping>

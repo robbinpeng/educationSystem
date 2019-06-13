@@ -83,7 +83,7 @@ public class DataDAO {
 				result.add(line);
 			}
 		
-			session.getTransaction().commit();
+			//session.getTransaction().commit();
 		} catch(HibernateException e) {
 			e.printStackTrace();
 		} finally {

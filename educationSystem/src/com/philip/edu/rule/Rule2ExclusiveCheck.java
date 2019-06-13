@@ -66,7 +66,7 @@ public class Rule2ExclusiveCheck {
 		}
 
 		// 2. make sure columns are the same:
-		int excelColumns = helper.getExcelColumns(wb);
+		/*
 		boolean format_right = helper.is_format_right(wb, form_id);
 
 		if (format_right == false) {
@@ -74,13 +74,14 @@ public class Rule2ExclusiveCheck {
 			messageList.add("上传的表格与模板不符，请校验！");
 			message.setMessage_info(messageList);
 			return message;
-		}
+		}*/
 
 		// 3. make sure total lines:
 		int lines = 0;
 		lines = helper.getExcelLines(wb);
 
 		// 4. get the correct column:
+		int excelColumns = helper.getExcelColumns(wb);
 		int column = helper.getColumn2Check(wb, bus_name, excelColumns);
 
 		// 5. cycle the column to end:

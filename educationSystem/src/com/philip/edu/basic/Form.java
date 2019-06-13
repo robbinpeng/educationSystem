@@ -14,6 +14,13 @@ public class Form {
 	private String template_loc;
 	private Date create_time;
 	private String form_type;
+	private FormStatus status;
+	public FormStatus getStatus() {
+		return status;
+	}
+	public void setStatus(FormStatus status) {
+		this.status = status;
+	}
 	public int getId() {
 		return id;
 	}

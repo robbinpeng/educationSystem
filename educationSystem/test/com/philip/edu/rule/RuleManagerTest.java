@@ -53,4 +53,27 @@ public class RuleManagerTest {
 		}		
 	}
 
+	@Test
+	public void testFormatCheck(){
+		boolean test = true;
+		RuleManager manager = new RuleManager();
+		FileInputStream in = null;
+		Workbook wb = null;
+		try {
+			in = new FileInputStream("D:/Develop/education/test/1-11.xls");
+			wb = WorkbookFactory.create(in);
+			
+			test = manager.formatCheck(Constants.FORM_ID, wb);
+			assertEquals(test, true);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (EncryptedDocumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

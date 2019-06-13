@@ -85,4 +85,9 @@ public class Constants {
 	public static final String DISPLAY_RULE_CLASS_6 = "6.时间日期校验";
 	
 	public static final String DISPLAY_RULE_ACTIVE = "已启用";
+	
+	//data collection status:
+	public static final char STATUS_CREATED = 'C';
+	public static final char STATUS_UPLOADABLE = 'U';
+	public static final char STATUS_SUCCESS = 'S';
 }

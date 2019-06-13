@@ -36,9 +36,6 @@ public class UploadManager {
 		// check format is right:
 		int excelColumns = excelHelper.getExcelColumns(wb);
 		int lines = excelHelper.getExcelLines(wb);
-		boolean format_right = excelHelper.is_format_right(wb,form_id);
-		
-		if(format_right==false)return false;
 		
 		// get table_name by form_id:
 		Form form = formManager.getFormById(form_id);
@@ -124,5 +121,8 @@ public class UploadManager {
 		
 		return isSuccess;
 	}
-
+	
+	public boolean uploadUpdate(int form_id){
+		return dao.uploadUpdate(form_id);
+	}
 }

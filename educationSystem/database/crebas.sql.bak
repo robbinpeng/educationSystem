@@ -51,9 +51,9 @@ create table 2_TBL_XQDZ
    id                   bigint not null auto_increment,
    TJSJ                 timestamp,
    XQMC                 varchar(255),
-   SF                   varchar(255),
-   SQ                   varchar(255),
-   XXDZ                 varchar(255),
+   SSZZQ                varchar(255),
+   SQZ                  varchar(255),
+   DZ                   varchar(255),
    SFBDXQ               varchar(255),
    primary key (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

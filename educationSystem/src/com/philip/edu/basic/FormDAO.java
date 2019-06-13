@@ -40,11 +40,8 @@ public class FormDAO {
 			session = HibernateUtil.getSession();
 			session.beginTransaction();
 			
-			List al = session.createQuery("From Form where id=" + form_id).list();
-			for(int i=0; i<al.size(); i++){
-				form = (Form)al.get(i);
-				break;
-			}
+			form = (Form)session.get(Form.class, form_id);
+			
 		} catch(HibernateException e) {
 			e.printStackTrace();
 		} finally {
@@ -168,4 +165,5 @@ public class FormDAO {
 		
 		return field;
 	}
+	
 }
