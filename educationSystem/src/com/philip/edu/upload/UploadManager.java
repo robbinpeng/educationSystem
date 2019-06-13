@@ -122,6 +122,14 @@ public class UploadManager {
 		return isSuccess;
 	}
 	
+	public int rollbackData(Form form){
+		return dao.rollbackData(form.getPhsic_name());
+	}
+	
+	public boolean updateRollback(int form_id){
+		return dao.updateRollback(form_id);
+	}
+	
 	public boolean uploadUpdate(int form_id){
 		return dao.uploadUpdate(form_id);
 	}

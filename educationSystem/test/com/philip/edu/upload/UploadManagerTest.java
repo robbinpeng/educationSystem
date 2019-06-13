@@ -13,10 +13,13 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.junit.Test;
 
 import com.philip.edu.basic.Constants;
+import com.philip.edu.basic.Form;
+import com.philip.edu.basic.FormManager;
 
 public class UploadManagerTest {
 	
 	private static Logger logger = Logger.getLogger(UploadManagerTest.class);
+	private FormManager formManager = new FormManager();
 
 	@Test
 	public void testUploadData() {
@@ -45,4 +48,14 @@ public class UploadManagerTest {
 		}
 	}
 
+	@Test
+	public void testRollbackData() {
+		Form form = formManager.getFormById(Constants.FORM_ID);
+		UploadManager uploadManager = new UploadManager();
+		int lines = uploadManager.rollbackData(form);
+		assertNotEquals(lines, 0);
+		
+		boolean b = uploadManager.updateRollback(form.getId());
+		assertEquals(b, true);
+	}
 }

@@ -84,24 +84,28 @@ public class UploadController extends SelectorComposer<Component> {
 				boolean format_right = ruleManager.formatCheck(form.getId(), wb);
 				if (format_right) {
 					// 3.check the rules:
+					boolean checkpass = true;
 					list = engine.rulesCheck(form.getId(), wb);
 					for (int j = 0; j < list.size(); j++) {
 						message = (MessageInfo) list.get(j);
 						if (message.getMessage_type() == Constants.RULECHECK_MESSAGE_SUCCESS) {
 						} else {
 							ArrayList al = message.getMessage_info();
-							if (al.size() != 0)
+							if (al.size() != 0) {
+								checkpass = false;
 								sMessage += message.getFail_information() + ":\n";
-							for (int i = 0; i < al.size(); i++) {
-								System.out.println(al.get(i).toString());
-								sMessage += al.get(i).toString() + "\n";
+								for (int i = 0; i < al.size(); i++) {
+									System.out.println(al.get(i).toString());
+									sMessage += al.get(i).toString() + "\n";
+								}
+
+								sMessage += "\n";
 							}
-							sMessage += "\n";
 						}
 					}
 					// create a window programmatically and use it as a modal
 					// dialog.
-					if ("".equals(sMessage)) {
+					if (checkpass) {
 						// 3.save data into database;
 						boolean tempSuccess = uploadManager.uploadData(wb, form.getId(), Constants.USER_ID);
 						if (tempSuccess) {
@@ -134,6 +138,24 @@ public class UploadController extends SelectorComposer<Component> {
 			}
 		} else {
 			Messagebox.show("您上传的不是excel表格！");
+		}
+	}
+
+	@Listen("onRollback = #formlist")
+	public void rollback(Event event) {
+		Form form = (Form) event.getData();
+		int lines = uploadManager.rollbackData(form);
+		boolean success = false;
+		if(lines!=0){
+			success = uploadManager.updateRollback(form.getId());
+			if(success){
+				List<Form> forms = formManager.getForms(Constants.USER_ID);
+				formlist.setModel(new ListModelList<Form>(forms));
+			}else{
+				Messagebox.show("退回错误！");
+			}
+		}else{
+			Messagebox.show("退回错误！");
 		}
 	}
 

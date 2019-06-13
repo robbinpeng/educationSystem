@@ -906,3 +906,412 @@
 2019-06-13 18:22:57 [ http-nio-8080-exec-4 ] to decide which column to check
 2019-06-13 18:22:57 [ http-nio-8080-exec-4 ] to decide which column to check
 2019-06-13 18:22:57 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] begin to check whether excel format is right.
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to count the excel columns
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] the excel has 13 columns!
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] 处理第一类规则
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to count the excel columns
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] the excel has 13 columns!
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to count the excel lines
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] the excel has 4 lines
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] 处理第二类规则
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] start to check the uploaded excel:
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] begin to translate rule simple.
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to count the excel lines
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] the excel has 4 lines
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to count the excel columns
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] the excel has 13 columns!
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] 处理第四类规则
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] rule 4: begin to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to count the excel columns
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] the excel has 13 columns!
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to count the excel lines
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] the excel has 4 lines
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] begin to translate the rule
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:52:30 [ http-nio-8080-exec-3 ] to decide which column to check
+2019-06-13 18:53:04 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 18:53:04 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-13 18:53:05 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 18:53:05 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 18:53:07 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 18:53:07 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 18:53:07 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 18:53:07 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-13 18:53:07 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 18:53:07 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 18:53:09 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4f72a1ad] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 18:53:09 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] begin to check whether excel format is right.
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] 处理第一类规则
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] 处理第二类规则
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] start to check the uploaded excel:
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] begin to translate rule simple.
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] 处理第四类规则
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] rule 4: begin to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] begin to translate the rule
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:53:16 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:18 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 18:59:18 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-13 18:59:19 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 18:59:19 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 18:59:20 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 18:59:20 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 18:59:20 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 18:59:20 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-13 18:59:20 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 18:59:21 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 18:59:22 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b1506b8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 18:59:23 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] begin to check whether excel format is right.
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] 处理第一类规则
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] the excel has 3 lines
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] 处理第二类规则
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] start to check the uploaded excel:
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] begin to translate rule simple.
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] the excel has 3 lines
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:59:29 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] 处理第四类规则
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] rule 4: begin to check
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] the excel has 3 lines
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] begin to translate the rule
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:30 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] begin to check whether excel format is right.
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] 处理第一类规则
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] 处理第二类规则
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] start to check the uploaded excel:
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] begin to translate rule simple.
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] 处理第四类规则
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] rule 4: begin to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] begin to translate the rule
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to decide which column to check
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel columns
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 13 columns!
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] to count the excel lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] the excel has 4 lines
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '星海音乐学院', '1587', '1977', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '1387', '1257628759@qq.com')
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '北京广播学院', '2587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '3456', '1257628759@qq.com')
+2019-06-13 18:59:36 [ http-nio-8080-exec-2 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-13 19:02:26 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 19:02:26 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-13 19:02:27 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 19:02:27 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 19:02:29 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 19:02:29 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 19:02:29 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 19:02:29 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-13 19:02:29 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 19:02:29 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 19:02:31 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@361c0dee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 19:02:31 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] begin to check whether excel format is right.
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] 处理第一类规则
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] 处理第二类规则
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] start to check the uploaded excel:
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] begin to translate rule simple.
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] 处理第四类规则
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] rule 4: begin to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to count the excel columns
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] the excel has 13 columns!
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to count the excel lines
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] the excel has 4 lines
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] begin to translate the rule
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:02:37 [ http-nio-8080-exec-7 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] begin to check whether excel format is right.
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] 处理第一类规则
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] 处理第二类规则
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] start to check the uploaded excel:
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] begin to translate rule simple.
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] 处理第四类规则
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] rule 4: begin to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] begin to translate the rule
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '星海音乐学院', '1587', '1977', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '1387', '1257628759@qq.com')
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '北京广播学院', '2587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '3456', '1257628759@qq.com')
+2019-06-13 19:03:21 [ http-nio-8080-exec-4 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-13 19:06:20 [ http-nio-8080-exec-3 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 19:06:20 [ http-nio-8080-exec-3 ] HHH000206: hibernate.properties not found
+2019-06-13 19:06:21 [ http-nio-8080-exec-3 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 19:06:21 [ http-nio-8080-exec-3 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 19:06:22 [ http-nio-8080-exec-3 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 19:06:22 [ http-nio-8080-exec-3 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 19:06:22 [ http-nio-8080-exec-3 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 19:06:22 [ http-nio-8080-exec-3 ] HHH10001003: Autocommit mode: false
+2019-06-13 19:06:22 [ http-nio-8080-exec-3 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 19:06:23 [ http-nio-8080-exec-3 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 19:06:24 [ http-nio-8080-exec-3 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@593b7610] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 19:06:25 [ http-nio-8080-exec-3 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] begin to check whether excel format is right.
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] 处理第一类规则
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] 处理第二类规则
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] start to check the uploaded excel:
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] begin to translate rule simple.
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] 处理第四类规则
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] rule 4: begin to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to count the excel columns
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] the excel has 13 columns!
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to count the excel lines
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] the excel has 4 lines
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] begin to translate the rule
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:35 [ http-nio-8080-exec-8 ] to decide which column to check
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] begin to check whether excel format is right.
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] 处理第一类规则
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] 处理第二类规则
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] start to check the uploaded excel:
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] begin to translate rule simple.
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:06:58 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] 处理第四类规则
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] rule 4: begin to check
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] begin to translate the rule
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to decide which column to check
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to count the excel columns
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] the excel has 13 columns!
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] to count the excel lines
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] the excel has 4 lines
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '星海音乐学院', '1587', '1977', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '许少茹', '1387', '1257628759@qq.com')
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '北京广播学院', '2587', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '陈锋', '3456', '1257628759@qq.com')
+2019-06-13 19:06:59 [ http-nio-8080-exec-4 ] 插入数据库语句:insert into tbl_xxgk(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, XXMC, XXDM, YWMC, BXLX, XXXZ, JBZ, ZGBM, XXWZ, ZSPC, KBBKJYNF, TBFZRXM, TBFZRLXDH, TBFZRLXDZYX) values(1, ?, 1, ?, 1, ?, '上海戏剧学院', '1977', 'Xinghai  Conservatory   of   Music', '普通本科院校', '艺术院校', '省级教育部门', '省市（自治区）教育厅（委）', 'http://www.xhcom.edu.cn', '提前批招生', '1977', '拉拉', '13822288096', '1257628759@qq.com')
+2019-06-13 19:14:01 [ http-nio-8080-exec-8 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 19:14:01 [ http-nio-8080-exec-8 ] HHH000206: hibernate.properties not found
+2019-06-13 19:14:02 [ http-nio-8080-exec-8 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 19:14:02 [ http-nio-8080-exec-8 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 19:14:03 [ http-nio-8080-exec-8 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 19:14:03 [ http-nio-8080-exec-8 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 19:14:03 [ http-nio-8080-exec-8 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 19:14:03 [ http-nio-8080-exec-8 ] HHH10001003: Autocommit mode: false
+2019-06-13 19:14:03 [ http-nio-8080-exec-8 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 19:14:04 [ http-nio-8080-exec-8 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 19:14:05 [ http-nio-8080-exec-8 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b37d0c6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 19:14:06 [ http-nio-8080-exec-8 ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-13 19:37:10 [ main ] to count the excel columns
+2019-06-13 19:37:10 [ main ] the excel has 5 columns!
+2019-06-13 19:37:10 [ main ] to count the excel lines
+2019-06-13 19:37:10 [ main ] the excel has 22 lines
+2019-06-13 19:37:10 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 19:37:10 [ main ] HHH000206: hibernate.properties not found
+2019-06-13 19:37:10 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 19:37:10 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 19:37:12 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 19:37:12 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 19:37:12 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 19:37:12 [ main ] HHH10001003: Autocommit mode: false
+2019-06-13 19:37:12 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 19:37:12 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 19:37:13 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a31c2ee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 19:37:13 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '现代音乐与戏剧学院', '31', '教学院系', '谢及', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '音乐教育学院', '32', '教学院系', '辛笛', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '舞蹈学院', '33', '教学院系', '李晓燕', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '音乐学系', '34', '教学院系', '邓希路', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '作曲系', '35', '教学院系', '严冬', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '钢琴系', '36', '教学院系', '黎颂文', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '管弦系', '37', '教学院系', '严琦', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '国乐系', '38', '教学院系', '李复斌', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '声乐歌剧系', '39', '教学院系', '杨岩', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '民族声乐系', '40', '教学院系', '严冬', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '艺术管理系', '41', '教学院系', '周晓音', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '流行音乐学院', '42', '教学院系', '李海鹰', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '乐器工程系', '43', '教学院系', '郝一男', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '国际教育学院', '44', '教学院系', '陈妙琴', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '创新创业学院', '45', '教学院系', '李强', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '音乐基础部', '46', '教学院系', '林松源', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '研究生部', '47', '教学院系', '张卓', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '马克思主义学院', '48', '教学院系', '陈平', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '人文社科部', '49', '教学院系', '张建华', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '继续教育学院', '50', '教学院系', '温方', '是')
+2019-06-13 19:37:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '附属中等音乐学校', '51', '教学院系', '米恒', '是')
+2019-06-13 19:37:13 [ main ] 成功上传数据！
+2019-06-13 19:38:09 [ main ] to count the excel columns
+2019-06-13 19:38:09 [ main ] the excel has 5 columns!
+2019-06-13 19:38:09 [ main ] to count the excel lines
+2019-06-13 19:38:09 [ main ] the excel has 22 lines
+2019-06-13 19:38:09 [ main ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 19:38:09 [ main ] HHH000206: hibernate.properties not found
+2019-06-13 19:38:10 [ main ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 19:38:10 [ main ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 19:38:11 [ main ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 19:38:11 [ main ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 19:38:11 [ main ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 19:38:11 [ main ] HHH10001003: Autocommit mode: false
+2019-06-13 19:38:11 [ main ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 19:38:11 [ main ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 19:38:12 [ main ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a31c2ee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 19:38:13 [ main ] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '现代音乐与戏剧学院', '31', '教学院系', '谢及', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '音乐教育学院', '32', '教学院系', '辛笛', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '舞蹈学院', '33', '教学院系', '李晓燕', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '音乐学系', '34', '教学院系', '邓希路', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '作曲系', '35', '教学院系', '严冬', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '钢琴系', '36', '教学院系', '黎颂文', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '管弦系', '37', '教学院系', '严琦', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '国乐系', '38', '教学院系', '李复斌', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '声乐歌剧系', '39', '教学院系', '杨岩', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '民族声乐系', '40', '教学院系', '严冬', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '艺术管理系', '41', '教学院系', '周晓音', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '流行音乐学院', '42', '教学院系', '李海鹰', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '乐器工程系', '43', '教学院系', '郝一男', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '国际教育学院', '44', '教学院系', '陈妙琴', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '创新创业学院', '45', '教学院系', '李强', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '音乐基础部', '46', '教学院系', '林松源', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '研究生部', '47', '教学院系', '张卓', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '马克思主义学院', '48', '教学院系', '陈平', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '人文社科部', '49', '教学院系', '张建华', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '继续教育学院', '50', '教学院系', '温方', '是')
+2019-06-13 19:38:13 [ main ] 插入数据库语句:insert into tbl_xxjxkydw(CREATOR, CREATE_TIME, LAST_OPERATOR, LAST_OPERATE_TIME, STATUS, TJSJ, JXKYDWMC, DWH, DWZN, DWFZR, SFKH) values(1, ?, 1, ?, 1, ?, '附属中等音乐学校', '51', '教学院系', '米恒', '是')
+2019-06-13 19:38:13 [ main ] 成功上传数据！
+2019-06-13 19:49:53 [ http-nio-8080-exec-4 ] HHH000412: Hibernate Core {5.2.17.Final}
+2019-06-13 19:49:53 [ http-nio-8080-exec-4 ] HHH000206: hibernate.properties not found
+2019-06-13 19:49:54 [ http-nio-8080-exec-4 ] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-13 19:49:54 [ http-nio-8080-exec-4 ] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-06-13 19:49:55 [ http-nio-8080-exec-4 ] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-13 19:49:55 [ http-nio-8080-exec-4 ] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/education]
+2019-06-13 19:49:55 [ http-nio-8080-exec-4 ] HHH10001001: Connection properties: {user=root, password=****}
+2019-06-13 19:49:55 [ http-nio-8080-exec-4 ] HHH10001003: Autocommit mode: false
+2019-06-13 19:49:55 [ http-nio-8080-exec-4 ] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-13 19:49:56 [ http-nio-8080-exec-4 ] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-13 19:49:57 [ http-nio-8080-exec-4 ] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@28cea3bc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-13 19:49:58 [ http-nio-8080-exec-4 ] HHH000397: Using ASTQueryTranslatorFactory

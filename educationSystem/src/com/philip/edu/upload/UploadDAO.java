@@ -73,6 +73,7 @@ public class UploadDAO {
 				session.save(status1);
 			}
 			
+			session.getTransaction().commit();
 			isSuccess = true;
 		} catch(HibernateException e) {
 			e.printStackTrace();
@@ -84,4 +85,67 @@ public class UploadDAO {
 		return isSuccess;
 	}
 
+	public int rollbackData(String table_name){
+		int deleted = 0;
+		Session session = null;
+		String sql = null;
+		
+		try{
+			session = HibernateUtil.getSession();
+			session.beginTransaction();
+			
+			sql = "delete from " + table_name;
+			
+			Query query = session.createSQLQuery(sql);
+			deleted = query.executeUpdate();
+			
+			session.getTransaction().commit();
+			
+		} catch(HibernateException e) {
+			e.printStackTrace();
+			session.getTransaction().rollback();
+		} finally {
+			HibernateUtil.closeSession(session);
+		}
+		
+		return deleted;
+	}
+	
+	public boolean updateRollback(int form_id){
+		boolean isSuccess = false;
+		Session session = null;
+		
+		try{
+			//1.update self status to uploadable;
+			session = HibernateUtil.getSession();
+			session.beginTransaction();
+			
+			FormStatus status = session.get(FormStatus.class, form_id);
+			
+			status.setStatus(Constants.STATUS_UPLOADABLE);
+			session.save(status);
+			
+			//2.update depency table to uploadable;
+			Query query = session.createQuery("From Form where dependency_form="+form_id);
+			ArrayList list = (ArrayList)query.getResultList();
+			for(int i=0; i<list.size(); i++){
+				Form form = (Form)list.get(i);
+				
+				FormStatus status1 = session.get(FormStatus.class, form.getId());
+				
+				status1.setStatus(Constants.STATUS_CREATED);
+				session.save(status1);
+			}
+			
+			session.getTransaction().commit();
+			isSuccess = true;
+		} catch(HibernateException e) {
+			e.printStackTrace();
+			session.getTransaction().rollback();
+		} finally {
+			HibernateUtil.closeSession(session);
+		}
+		
+		return isSuccess;
+	}
 }
