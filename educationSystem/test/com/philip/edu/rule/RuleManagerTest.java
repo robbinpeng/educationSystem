@@ -26,7 +26,7 @@ public class RuleManagerTest {
 		ArrayList list = null;
 		
 		try {
-			in = new FileInputStream("D:/Develop/education/test/1-11.xls");
+			in = new FileInputStream("D:/Develop/education/test/1-111.xls");
 			wb = WorkbookFactory.create(in);
 			
 			list = engine.rulesCheck(Constants.FORM_ID, wb);

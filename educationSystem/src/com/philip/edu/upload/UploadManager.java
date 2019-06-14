@@ -55,7 +55,10 @@ public class UploadManager {
 		
 		for(int i=0; i<excelColumns; i++){
 			Cell cell = row.getCell(i);
-			String field_name = cell.getStringCellValue();
+			
+			if(cell==null)continue;
+			Object value = excelHelper.getCellValue(cell);
+			String field_name = value.toString();
 			FormField captionField = (FormField)map.get(field_name);
 			captionList.add(captionField);
 		}
@@ -90,22 +93,21 @@ public class UploadManager {
 				FormField field1 = (FormField) captionList.get(l);
 				String fieldName = field1.getPhysic_name();
 				Cell cell = row.getCell(l);	
+				if(cell==null)continue;
 				
 				if(l==captionList.size()-1){
 					sql1.append(fieldName + ")");
 					String testValue="";
-					if(cell != null){
-					    cell.setCellType(CellType.STRING);
-					    testValue = cell.getStringCellValue();
-					}
+					Object value = excelHelper.getCellValue(cell);
+					testValue = value.toString();
+					
 					sql2.append("'" + testValue + "')");
 				} else {
 					sql1.append(fieldName + ", ");
 					String testValue="";
-					if(cell != null){
-					    cell.setCellType(CellType.STRING);
-					    testValue = cell.getStringCellValue();
-					}
+					Object value = excelHelper.getCellValue(cell);
+					testValue = value.toString();
+					
 					sql2.append("'" + testValue + "', ");
 				}
 			}

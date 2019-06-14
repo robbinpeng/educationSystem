@@ -8,6 +8,7 @@ public class Constants {
 	public static final String FIELD_NAME = "XQMC";
 	public static final int RULE_CLASS = 3;
 	public static final char RULE_ACTIVE = 'Y';
+	public static final int LAP_YEAR = 1900;
 	
 	//Operator:
 	public static final String LESST = "<";
@@ -58,6 +59,8 @@ public class Constants {
 	public static final String RULE_MONTH = "month";
 	public static final String RULE_DAY = "day";
 	public static final String RULE_SIMPLE_ADD = "sAdd";
+	public static final String RULE_TEXTBOX_DATE ="textDate";
+	public static final String RULE_DATE_FORMAT = "format";
 	
 	public static final int RULECHECK_MESSAGE_NOT_IMPLEMENT = 0;
 	public static final int RULECHECK_MESSAGE_SUCCESS = 1;

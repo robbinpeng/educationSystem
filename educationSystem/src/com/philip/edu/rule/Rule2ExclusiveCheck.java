@@ -143,12 +143,11 @@ public class Rule2ExclusiveCheck {
 		for (int i = 1; i <= lines - 1; i++) {
 			Row row = sheet.getRow(i);
 			Cell cell = row.getCell(column);
+			if(cell==null)continue;
 			String fieldValue = "";
-			if (cell != null) {
-				cell.setCellType(CellType.STRING);
-				fieldValue = cell.getStringCellValue();
-			}
-			fieldValue = row.getCell(column).getStringCellValue();
+			Object value = helper.getCellValue(cell);
+			
+			fieldValue = value.toString();
 			ArrayList al = dao.getRelateField(sql, fieldValue);
 
 			if (al != null && al.size() != 0) {

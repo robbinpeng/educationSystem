@@ -123,12 +123,11 @@ public class Rule1ConstraintCheck {
 			// 0¡£precondition:
 			if(isCondition){
 				Cell conCell = row.getCell(conditionColumn);
+				if(conCell== null)continue;
 				String testValue="";
-				if(conCell != null){
-				    conCell.setCellType(CellType.STRING);
-				    testValue = conCell.getStringCellValue();
-				}
-				 			
+				Object value = helper.getCellValue(conCell);
+				testValue = value.toString();
+				
 				//operator:
 				if(Constants.V_EQUAL.equals(conOperator)){
 					// = 
@@ -167,11 +166,11 @@ public class Rule1ConstraintCheck {
 					switch(line.getType()){
 					case Constants.LINE_TYPE_FIELD_NAME:
 						Cell cell = row.getCell(line.getColumn());
+						if(cell==null)continue;
 						String tempValue="";
-						if(cell != null){
-						    cell.setCellType(CellType.STRING);
-						    tempValue = cell.getStringCellValue();
-						}
+						Object value = helper.getCellValue(cell);
+						tempValue = value.toString();
+						
 						int iValue = Integer.parseInt(tempValue);
 						if(Constants.V_ADD.equals(currentOperator)){
 							leftResult += iValue;
@@ -217,11 +216,11 @@ public class Rule1ConstraintCheck {
 					switch(line.getType()){
 					case Constants.LINE_TYPE_FIELD_NAME:
 						Cell cell = row.getCell(line.getColumn());
+						if(cell==null)continue;
 						String tempValue="";
-						if(cell != null){
-						    cell.setCellType(CellType.STRING);
-						    tempValue = cell.getStringCellValue();
-						}
+						Object value = helper.getCellValue(cell);
+						tempValue = value.toString();
+						
 						int iValue = Integer.parseInt(tempValue);
 						if(Constants.V_ADD.equals(currentOperator)){
 							rightResult += iValue;

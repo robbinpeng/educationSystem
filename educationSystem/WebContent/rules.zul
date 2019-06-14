@@ -68,7 +68,7 @@ import org.json.*;
 </columns>
 <rows>
 <row>
-<cell>校验规则模式：<combobox id="rule_pattern" width="300px"><comboitem label="行级校验" value="1"/><comboitem label="表级校验" value="2"/></combobox> </cell>
+<cell>校验规则模式：<combobox id="rule_pattern" width="300px" onAfterRender="self.setSelectedIndex(1)"><comboitem label="行级校验" value="1"/><comboitem label="表级校验" value="2"/></combobox> </cell>
 <cell>校验规则名称：<textbox id="rule_name" width="300px" /></cell>
 </row>
 <row>
@@ -120,11 +120,11 @@ import org.json.*;
         <tabpanel><button label="前置条件+" onClick="addCondition6()"/><button label="表字段+" onClick="addFormField6()"/><button label="运算符+" onClick="addOperator6()"/><button label="关系运算符+" onClick="addRelaOp6()"/><button label="文本框+" onClick="addText6()"/><button label="自然年+" onClick="addYear6()"/><button label="月份+" onClick="addMonth6()"/><button label="日期+" onClick="addDay6()"/>
         	<html><![CDATA[<hr/>]]></html>
         <window id="window6" xmlns:h="http://www.w3.org/1999/xhtml">
-        	<div><h:input type="hidden" value="n"/>校验内容如下(如果有前置条件请先设置前置条件)：
+        	<div><h:input type="hidden" value="r"/>校验内容如下(如果有前置条件请先设置前置条件)：
         	日期格式：<combobox id="dateFormat">
-        		<comboitem label="yyyy-mm-dd"/>
-        		<comboitem label="yyyy-mm"/>
-        		<comboitem label="yyyy"/>
+        		<comboitem label="yyyy-mm-dd" value="yyyy-mm-dd"/>
+        		<comboitem label="yyyy-mm" value="yyyy-mm"/>
+        		<comboitem label="yyyy" value="yyyy"/>
         	</combobox></div>
         </window>
         </tabpanel>
@@ -155,6 +155,7 @@ import org.json.*;
     	Comboitem item = new Comboitem(form.getBus_name());
     	item.setValue(form.getTbl_name());
     	formCom.appendChild(item);
+    	if(i==0)formCom.setSelectedItem(item);
     }
     //fields:
     ArrayList fields = manager.getFormFields(Constants.FORM_ID);
@@ -163,6 +164,7 @@ import org.json.*;
     	Comboitem item = new Comboitem(field.getBus_name());
     	item.setValue(field.getPhysic_name());
     	fieldCom.appendChild(item);
+    	if(i==0)fieldCom.setSelectedItem(item);
     }
     //operator:
     Comboitem item = new Comboitem(Constants.ADD);
@@ -186,6 +188,7 @@ import org.json.*;
     item = new Comboitem(Constants.EQUAL);
     item.setValue(Constants.V_EQUAL);
     opCom.appendChild(item);
+    opCom.setSelectedItem(item);
     item = new Comboitem(Constants.NOEQUAL);
     item.setValue(Constants.V_NOEQUAL);
     opCom.appendChild(item);
@@ -200,6 +203,7 @@ import org.json.*;
     Comboitem itemOp = new Comboitem(Constants.AND);
 	itemOp.setValue(Constants.V_AND);
 	opCom2.appendChild(itemOp);
+	opCom2.setSelectedItem(itemOp);
     
     //1.1 Condition div:	
 	Div[] divCon1 = new Div[20];
@@ -726,6 +730,7 @@ import org.json.*;
 		Comboitem op4Item = new Comboitem(Constants.ADD);
 		op4Item.setValue(Constants.V_ADD);
 		op4Com.appendChild(op4Item);
+		op4Com.setSelectedItem(op4Item);
 		divOp4[indexOp4].appendChild(op4Com);
 		    	
 		Image imageTemp = (Image)image.clone();
@@ -989,6 +994,7 @@ import org.json.*;
 		Comboitem cItem = new Comboitem(Constants.OR);
 		cItem.setValue(Constants.V_OR);
 		tempCom.appendChild(cItem);
+		tempCom.setSelectedItem(cItem);
 		divOpR6[indexOpR6].appendChild(tempCom);
 	    	
 	    Image imageTemp = (Image)image.clone();
@@ -1012,7 +1018,7 @@ import org.json.*;
 		divText6[indexText6] = (Div)div.clone();
 		Input input = new Input();
 		input.setType("hidden");
-		input.setValue("d");
+		input.setValue("s");
 		divText6[indexText6].appendChild(input);
 		divText6[indexText6].appendChild(new Textbox());
 		
@@ -1121,7 +1127,8 @@ import org.json.*;
 			//Messagebox.show("winodw1");
 			Rule rule = new Rule();
 			rule.setUser_id(Constants.USER_ID);
-			rule.setForm_id(Constants.FORM_ID);
+			String sForm_id = (String)Executions.getCurrent().getParameter("form_id");
+			rule.setForm_id(Integer.parseInt(sForm_id));
 			rule.setRule_seq(Integer.parseInt(rule_seq.getValue()));
 			rule.setFail_information(fail_information.getValue());
 			rule.setRule_pattern(rule_pattern.getSelectedItem().getValue().charAt(0));
@@ -1190,15 +1197,28 @@ import org.json.*;
 			//Messagebox.show("winodw6");
 			rules = getWindowRules(window6);
 			if(rules!=null){
+				//add format:
+				List al = window6.getChildren();
+				Div div = (Div)al.get(0);
+				Combobox comDate = div.getLastChild();
+				String format = comDate.getSelectedItem().getValue();
+				JSONArray array = rules.getJSONArray("rules");
+				JSONObject formatObj = new JSONObject();
+				formatObj.put("format",format).put("type",Constants.RULE_DATE_FORMAT);
+				array.put(formatObj);
+				JSONObject newRule = new JSONObject();
+				newRule.put("rules",array);
+				
+				//
 				rule.setRule_class(6);
-				rule.setRule_content(rules.toString());
+				rule.setRule_content(newRule.toString());
 				
 				manager.saveRule(rule);
 				is_new = true;
 			}
 			
 		if(is_new)Messagebox.show("规则成功保存！");
-		else Messagebox.show("没有条件没选中!");
+		else Messagebox.show("没有规则被保存!");
 	}
 	
 	JSONObject getWindowRules(Window window){
@@ -1211,7 +1231,7 @@ import org.json.*;
 			List divChildren = divRule.getChildren();
 			Input input = (Input)divChildren.get(0);
 			char type = input.getValue().charAt(0);
-			System.out.println("type is " + type);
+			//System.out.println("type is " + type);
 			switch(type){
 				case 'a':
 					//Combobox,Combobox,Textbox.
@@ -1330,6 +1350,27 @@ import org.json.*;
 					JSONObject fieldObj = new JSONObject(true);
 					fieldObj.put("value",Constants.V_ADD).put("type",Constants.RULE_SIMPLE_ADD);
 					rulesArray.put(fieldObj);
+					break;
+				case 'r':
+					//date format:
+					Combobox format = divRule.getLastChild();
+					break;
+				case 's':
+					//Textbox
+					JSONObject textObj = new JSONObject(true);
+					List al = window.getChildren();
+					Div div = (Div)al.get(0);
+					Combobox comDate = div.getLastChild();
+					String format = comDate.getSelectedItem().getValue();
+					Textbox textS = (Textbox)divChildren.get(1);
+					if(format.length()==textS.getValue().length()){
+						JSONObject textObj = new JSONObject(true);
+						textObj.put("format",format).put("value",textS.getValue()).put("type",Constants.RULE_TEXTBOX_DATE);
+						rulesArray.put(textObj);
+					} else {
+						Messagebox.show("文本框中输入的日期格式不正确！");
+					}
+					break;
 				default:
 					//do nothing.
 			}

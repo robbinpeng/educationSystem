@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -46,7 +48,11 @@ public class ExcelHelper {
 		int i = 1;
 		while(i > 0){
 			Cell cell = row.getCell(i-1);
-			if(cell==null || "".equals(cell.getStringCellValue().trim()))break;
+			
+			if(cell==null){break;}
+			
+			Object cellValue = this.getCellValue(cell);
+			if(cellValue==null || "".equals(cellValue.toString()))break;
 			i++;
 		}
 		excelColumns = i -1;
@@ -66,7 +72,10 @@ public class ExcelHelper {
 			Row row1 = sheet.getRow(index);
 			if(row1==null)break;
 			Cell cell1 = row1.getCell(0);
-			if(cell1==null || "".equals(cell1.getStringCellValue().trim()))break;
+			if(cell1==null)break;
+			Object value = this.getCellValue(cell1);
+			
+			if(value==null || "".equals(value.toString()))break;
 			index++;
 		}
 		lines = index;
@@ -75,6 +84,28 @@ public class ExcelHelper {
 		
 		return lines;
 		
+	}
+	
+	public Object getCellValue(Cell cell) {
+		Object cellValue = null;
+		
+		CellType cellType = cell.getCellTypeEnum();// CellType.forInt(cell.getCellType());
+		if (cellType == CellType.STRING) {
+			cellValue = cell.getStringCellValue();
+		} else if (cellType == CellType.NUMERIC) {
+			if (DateUtil.isCellDateFormatted(cell)) {
+				cellValue = cell.getDateCellValue();
+			} else {
+				cellValue = cell.getNumericCellValue();
+			}
+		} else if (cellType == CellType.BOOLEAN) {
+			cellValue = cell.getBooleanCellValue();
+		} else if (cellType == CellType.FORMULA) {
+			cellValue = cell.getCellFormula();
+		} else if (cellType == CellType.BLANK) {
+			cellValue = "";
+		}
+		return cellValue;
 	}
 	
 	public int getColumn2Check(Workbook wb, String bus_name, int columnTotal){
@@ -86,7 +117,10 @@ public class ExcelHelper {
 		
 		for(int i=0; i<columnTotal; i++){
 			Cell cell = row.getCell(i);
-			if(cell!=null && bus_name.trim().equals(cell.getStringCellValue().trim())){
+			
+			if(cell==null){column=i;break;}
+			Object value = this.getCellValue(cell);
+			if(cell!=null && bus_name.trim().equals(value.toString())){
 				column = i;
 				break;
 			}

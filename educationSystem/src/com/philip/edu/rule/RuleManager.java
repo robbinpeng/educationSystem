@@ -69,6 +69,10 @@ public class RuleManager {
 				case 6:
 					//
 					logger.info("处理第六类规则");
+					Rule6TimeCheck engine6 = new Rule6TimeCheck();
+					message = engine6.getMessage(wb, object, form_id);
+					message.setFail_information(rule.getRule_name() + rule.getFail_information());
+					returnMessage.add(message);
 					break;
 				default:
 					break;

@@ -70,10 +70,9 @@ public class Rule4NoRepeatCheck {
 			if(isCondition){
 				Cell conCell = row.getCell(conditionColumn);
 				String testValue="";
-				if(conCell != null){
-				    conCell.setCellType(CellType.STRING);
-				    testValue = conCell.getStringCellValue();
-				}
+				if(conCell==null)continue;
+				Object value = helper.getCellValue(conCell);
+				testValue = value.toString();
 				
 				//operator:
 				if(Constants.V_EQUAL.equals(conOperator)){
@@ -111,8 +110,9 @@ public class Rule4NoRepeatCheck {
 				Cell cell = row.getCell(columns[k]);
 				String testValue="";
 				if(cell != null){
-				    cell.setCellType(CellType.STRING);
-				    testValue = cell.getStringCellValue();
+					Object value = helper.getCellValue(cell);
+					
+					testValue = value.toString();
 				    result.append(testValue);
 				}			
 			}
@@ -125,8 +125,8 @@ public class Rule4NoRepeatCheck {
 					Cell cell1 = row1.getCell(columns[m]);
 					String testValue="";
 					if(cell1 != null){
-					    cell1.setCellType(CellType.STRING);
-					    testValue = cell1.getStringCellValue();
+						Object value = helper.getCellValue(cell1);
+						testValue = value.toString();
 					    compare.append(testValue);
 					}
 				}

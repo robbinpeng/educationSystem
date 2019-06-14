@@ -4,13 +4,13 @@
 /*==============================================================*/
 
 
-drop table if exists 1_TBL_XXGK;
+drop table if exists TBL_XXGK;
 
-drop table if exists 2_TBL_XQDZ;
+drop table if exists TBL_XQDZ;
 
-drop table if exists 3_TBL_XXXGDZDW;
+drop table if exists TBL_XXXGDZDW;
 
-drop table if exists 4_TBL_XXJXKYDW;
+drop table if exists TBL_XXJXKYDW;
 
 drop table if exists TBL_DATACOL;
 
@@ -20,72 +20,93 @@ drop table if exists TBL_FORM_RULES;
 
 drop table if exists TBL_USER;
 
-/*==============================================================*/
-/* Table: 1_TBL_XXGK                                            */
-/*==============================================================*/
-create table 1_TBL_XXGK
-(
-   id                   bigint not null auto_increment,
-   TJSJ                 timestamp,
-   XXMC                 varchar(255),
-   XXDM                 varchar(255),
-   YWMC                 varchar(255),
-   BXLX                 varchar(255),
-   XXXZ                 varchar(255),
-   JBZ                  varchar(255),
-   ZGBM                 varchar(255),
-   XXWZ                 varchar(255),
-   ZSPC                 varchar(255),
-   KBBKJYNF             varchar(255),
-   TBFZRXM              varchar(255),
-   TBFZRLXDH            varchar(255),
-   TBFZRLXDZYX          varchar(255),
-   primary key (id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--表1-1 学校概况
 
-/*==============================================================*/
-/* Table: 2_TBL_XQDZ                                            */
-/*==============================================================*/
-create table 2_TBL_XQDZ
-(
-   id                   bigint not null auto_increment,
-   TJSJ                 timestamp,
-   XQMC                 varchar(255),
-   SSZZQ                varchar(255),
-   SQZ                  varchar(255),
-   DZ                   varchar(255),
-   SFBDXQ               varchar(255),
-   primary key (id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-/*==============================================================*/
-/* Table: 3_TBL_XXXGDZDW                                        */
-/*==============================================================*/
-create table 3_TBL_XXXGDZDW
-(
-   id                   bigint not null auto_increment,
-   TJSJ                 timestamp,
-   DZDWMC               varchar(255),
-   DWH                  varchar(255),
-   DWZN                 varchar(255),
-   DWFZR                varchar(255),
-   primary key (id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+ CREATE TABLE TBL_XXGK 
+   (	ID bigint not null auto_increment, 
+	CREATOR bigint, 
+	CREATE_TIME VARCHAR(50), 
+	LAST_OPERATOR bigint, 
+	LAST_OPERATE_TIME NVARCHAR(50), 
+	STATUS int, 
+	TASK_ID bigint, 
+	XXMC VARCHAR(100), 
+	XXDM VARCHAR(100), 
+	YWMC VARCHAR(200), 
+	BXLX VARCHAR(20), 
+	XXXZ VARCHAR(20), 
+	JBZ VARCHAR(50), 
+	ZGBM VARCHAR(50), 
+	XXWZ VARCHAR(200), 
+	ZSPC VARCHAR(500), 
+	KBBKJYNF VARCHAR(4), 
+	TJSJ VARCHAR(100), 
+	TBFZRXM VARCHAR(50), 
+	TBFZRLXDH VARCHAR(50), 
+	TBFZRLXDZYX VARCHAR(100), 
+	TASK_VER_ int,
+	primary key (ID)
+   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-/*==============================================================*/
-/* Table: 4_TBL_XXJXKYDW                                        */
-/*==============================================================*/
-create table 4_TBL_XXJXKYDW
-(
-   id                   bigint not null auto_increment,
-   TJSJ                 timestamp,
-   JXKYDWMC             varchar(255),
-   DWH                  varchar(255),
-   DWZN                 varchar(255),
-   DWFZR                varchar(255),
-   SFKH                 varchar(255),
-   primary key (id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--表1-2 校区及地址
+
+  CREATE TABLE TBL_XQDZ 
+   (	ID BIGINT not null auto_increment, 
+	CREATOR bigint, 
+	CREATE_TIME varchar(50), 
+	LAST_OPERATOR bigint, 
+	LAST_OPERATE_TIME varchar(50), 
+	STATUS int, 
+	TASK_ID bigint, 
+	TJSJ varchar(100), 
+	XQMC varchar(100), 
+	DZ varchar(200), 
+	SSZZQ varchar(10), 
+	SQZ varchar(200), 
+	SFBDXQ varchar(20), 
+	TASK_VER_ int,
+	primary key (ID)
+   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--表1-3 学校相关党政单位
+
+  CREATE TABLE TBL_XXXGDZDW 
+   (	ID BIGINT not null auto_increment, 
+	CREATOR bigint, 
+	CREATE_TIME varchar(50), 
+	LAST_OPERATOR bigint, 
+	LAST_OPERATE_TIME varchar(50), 
+	STATUS int, 
+	TASK_ID bigint, 
+	TJSJ varchar(100), 
+	DZDWMC varchar(200), 
+	DWH varchar(20), 
+	DWZN varchar(20), 
+	DWFZR varchar(50), 
+	TASK_VER_ int,
+	primary key (ID)
+   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+   --表1-4 学校教学科研单位
+
+     CREATE TABLE TBL_XXJXKYDW 
+   (	ID BIGINT not null auto_increment, 
+	CREATOR bigint, 
+	CREATE_TIME varchar(50), 
+	LAST_OPERATOR bigint, 
+	LAST_OPERATE_TIME varchar(50), 
+	STATUS int, 
+	TASK_ID bigint, 
+	TJSJ varchar(100), 
+	JXKYDWMC varchar(200), 
+	DWH varchar(20), 
+	DWFZR varchar(50), 
+	SFKH varchar(100), 
+	DWZN varchar(50), 
+	TASK_VER_ int,
+	primary key (ID)
+   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*==============================================================*/
 /* Table: TBL_DATACOL                                           */
