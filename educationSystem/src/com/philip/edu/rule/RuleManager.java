@@ -65,6 +65,10 @@ public class RuleManager {
 				case 5:
 					//
 					logger.info("处理第五类规则");
+					Rule5OutsideConstraintCheck engine5 = new Rule5OutsideConstraintCheck();
+					message = engine5.getMessage(wb, object, form_id);
+					message.setFail_information(rule.getRule_name() + rule.getFail_information());
+					returnMessage.add(message);
 					break;
 				case 6:
 					//
@@ -89,4 +93,5 @@ public class RuleManager {
 	public boolean deleteRule(int rule_id){
 		return dao.deleteRule(rule_id);
 	}
+	
 }

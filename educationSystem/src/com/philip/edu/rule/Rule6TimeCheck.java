@@ -121,7 +121,7 @@ public class Rule6TimeCheck {
 						}
 					} catch (NumberFormatException e) {
 						message.setMessage_type(Constants.RULECHECK_MESSAGE_RULE_FAIL);
-						messageList.add("第" + (i + 1) + "行的条件不是日期格式！");
+						messageList.add("第" + (i + 1) + "行的条件不是数字格式！");
 					}
 
 				}
@@ -316,7 +316,7 @@ public class Rule6TimeCheck {
 						break;
 					}
 				} else if(Constants.V_GREATTE.equals(sOP)){
-					if(!(leftLDate.isAfter(rightLDate))){
+					if(!(leftLDate.isAfter(rightLDate))&&!(leftLDate.isEqual(rightLDate))){
 						message.setMessage_type(Constants.RULECHECK_MESSAGE_RULE_FAIL);
 						messageList.add("第" + (i+1) + "行的不等式不成立！");
 						break;
@@ -328,7 +328,7 @@ public class Rule6TimeCheck {
 						break;
 					}
 				} else if(Constants.V_LESSTE.equals(sOP)){
-					if(!(leftLDate.isBefore(rightLDate))){
+					if(!(leftLDate.isBefore(rightLDate)&&!(leftLDate.isEqual(rightLDate)))){
 						message.setMessage_type(Constants.RULECHECK_MESSAGE_RULE_FAIL);
 						messageList.add("第" + (i+1) + "行的不等式不成立！");
 						break;

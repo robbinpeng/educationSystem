@@ -5,6 +5,8 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.zkoss.zk.ui.Component;
 import org.zkoss.zk.ui.Executions;
+import org.zkoss.zk.ui.Session;
+import org.zkoss.zk.ui.Sessions;
 import org.zkoss.zk.ui.event.Event;
 import org.zkoss.zk.ui.select.SelectorComposer;
 import org.zkoss.zk.ui.select.annotation.Listen;
@@ -34,6 +36,8 @@ public class RuleController  extends SelectorComposer<Component> {
 		super.doAfterCompose(window);
 		
 		String sForm = Executions.getCurrent().getParameter("form_id");
+		Session session = Sessions.getCurrent();
+		session.setAttribute("form_id", sForm);
 		int form_id = Integer.parseInt(sForm);
 		List<Rule> rules = ruleManager.getRules(form_id);
 		listModel = new ListModelList<Rule>(rules);

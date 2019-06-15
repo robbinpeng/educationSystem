@@ -6,6 +6,7 @@ import org.zkoss.zk.ui.metainfo.ZScript;
 import com.philip.edu.basic.*;
 import org.zkoss.zhtml.Input;
 import org.json.*;
+import org.zkoss.zul.Label;
 ]]></zscript> 
 <window title="自定义校验" border="normal" apply="com.philip.edu.action.RuleController">
 <grid>
@@ -111,7 +112,7 @@ import org.json.*;
         	<div><h:input type="hidden" value="n"/>校验内容如下(最多支持四个字段组成的联合主键)：</div>
         </window>
         </tabpanel>
-        <tabpanel><button label="表字段+" onClick="addFormField5()"/><button label="表字段和+" onClick="addFormFieldSum5()"/><button label="运算符+" onClick="addOperator5()"/><button label="关联表+" onClick="addRelateForm5()"/><button label="汇总表+" onClick="addForm5()"/><button label="汇总表条件+"/>
+        <tabpanel><button label="表字段+" onClick="addFormField5()"/><button label="表字段和+" onClick="addFormFieldSum5()"/><button label="运算符+" onClick="addOperator5()"/><button label="关联表+" onClick="addRelateForm5()"/><button label="汇总表+" onClick="addForm5()"/><button label="汇总表条件+" onClick="addRelateCondition()"/>
         	<html><![CDATA[<hr/>]]></html>
         <window id="window5" xmlns:h="http://www.w3.org/1999/xhtml">
         	<div><h:input type="hidden" value="n"/>校验内容如下：</div>
@@ -875,13 +876,22 @@ import org.json.*;
 	//5.5 add forms:
 	Div[] divForm5 = new Div[20];
 	int indexForm5 = 0;
+	int indexRForm56 = 0;
+	Combobox formCom56 = null;
+	
+	Combobox[] fieldsChangeCom56 = new Combobox[20];
 	void addForm5(){
 		divForm5[indexForm5] = (Div)div.clone();
 		Input input = new Input();
 		input.setType("hidden");
-		input.setValue("j");
+		input.setValue("t");
 		divForm5[indexForm5].appendChild(input);
-	    divForm5[indexForm5].appendChild((Combobox)formCom.clone());
+		formCom56 = formCom.clone();
+	    ZScript script = new ZScript("java","loadFields56("+indexRForm56+")");
+	    EventHandler evthdl1 = new EventHandler(script);
+		formCom56.addEventHandler("onChange",evthdl1);
+		fieldsChangeCom56[indexRForm56] = fieldCom.clone();
+	    divForm5[indexForm5].appendChild(formCom56);
 	    	
 	    Image imageTemp = (Image)image.clone();
 	    ZScript script = new ZScript("java","delForm5("+indexForm5+")");
@@ -895,7 +905,53 @@ import org.json.*;
 		
 	void delForm5(int index){
 		window5.removeChild(divForm5[index]);
-	}	
+	}
+	
+	//5.6 relateForm conditions:
+	Div[] divRForm56 = new Div[20];
+	Combobox formCom56 = null;
+	
+	void addRelateCondition(){
+		divRForm56[indexRForm56] = (Div)div.clone();
+		Input input = new Input();
+		input.setType("hidden");
+		input.setValue("x");
+		divRForm56[indexRForm56].appendChild(input);
+		fieldsChangeCom56[indexRForm56] = fieldCom.clone();
+		divRForm56[indexRForm56].appendChild(fieldsChangeCom56[indexRForm56]);
+		divRForm56[indexRForm56].appendChild(new Label("="));
+
+		divRForm56[indexRForm56].appendChild(fieldCom.clone());
+		
+		Image imageTemp = (Image)image.clone();
+	    ZScript script = new ZScript("java","delRForm56("+indexRForm56+")");
+	    EventHandler evthdl = new EventHandler(script);
+	    imageTemp.addEventHandler("onClick", evthdl);
+	    divRForm56[indexRForm56].appendChild(imageTemp);
+	    window5.appendChild(divRForm56[indexRForm56]);
+	    
+	    indexRForm56++;
+	}
+	
+	void loadFields56(int index){
+		//Messagebox.show(formCom2.getSelectedItem().getValue());
+		System.out.println("get here1");
+		ArrayList fields56 = manager.getFormFieldsByFormName(Constants.USER_ID,formCom56.getSelectedItem().getValue());
+		System.out.println("get here2");
+		fieldsChangeCom56[index].getItems().clear();
+		
+		for(int i=0; i<fields56.size(); i++){
+	    	FormField field = (FormField)fields56.get(i);
+	    	Comboitem item = new Comboitem(field.getBus_name());
+	    	item.setValue(field.getPhysic_name());
+	    	fieldsChangeCom56[index].appendChild(item);
+	    }
+	}
+	
+	void delRForm56(int index){
+		window5.removeChild(divRForm56[index]);
+	}
+	
 	
 	//6.1 pre condition:
 	Div[] divCon6 = new Div[20];
@@ -1127,7 +1183,9 @@ import org.json.*;
 			//Messagebox.show("winodw1");
 			Rule rule = new Rule();
 			rule.setUser_id(Constants.USER_ID);
-			String sForm_id = (String)Executions.getCurrent().getParameter("form_id");
+			Session session = Sessions.getCurrent();
+			String sForm_id = (String)session.getAttribute("form_id");
+			System.out.println("form_id:"+sForm_id);
 			rule.setForm_id(Integer.parseInt(sForm_id));
 			rule.setRule_seq(Integer.parseInt(rule_seq.getValue()));
 			rule.setFail_information(fail_information.getValue());
@@ -1135,6 +1193,7 @@ import org.json.*;
 			rule.setRule_name(rule_name.getValue());
 			rule.setRule_active(Constants.RULE_ACTIVE);
 			
+			//window1:
 			JSONObject rules = getWindowRules(window1);
 			if(rules!=null){
 				rule.setRule_class(1);
@@ -1370,6 +1429,26 @@ import org.json.*;
 					} else {
 						Messagebox.show("文本框中输入的日期格式不正确！");
 					}
+					break;
+				case 't':
+					//汇总表：
+					JSONObject fieldObj = new JSONObject(true);
+					Combobox fieldCom = (Combobox)divChildren.get(1);
+					String fieldValue = fieldCom.getSelectedItem().getValue();
+					fieldObj.put("form",fieldValue).put("type",Constants.RULE_);
+					rulesArray.put(fieldObj);
+					break;
+				case 'x':
+					//汇总条件:
+					//Combobox,label,Combobox:
+					JSONObject fieldSumObj = new JSONObject(true);
+					Combobox fieldSumCom = (Combobox)divChildren.get(1);
+					String fieldSumValue = fieldSumCom.getSelectedItem().getValue();
+					fieldSumObj.put("sumLine",fieldSumValue).put("type",Constants.RULE_FIELD_SUM);
+					Combobox fieldTotalCom = (Combobox)divChildren.get(3);
+					String fieldTotalValue = fieldTotalCom.getSelectedItem().getValue();
+					fieldSumObj.put("sumTotal",fieldTotalValue);
+					rulesArray.put(fieldSumObj);
 					break;
 				default:
 					//do nothing.

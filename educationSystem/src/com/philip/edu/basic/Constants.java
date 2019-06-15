@@ -61,6 +61,8 @@ public class Constants {
 	public static final String RULE_SIMPLE_ADD = "sAdd";
 	public static final String RULE_TEXTBOX_DATE ="textDate";
 	public static final String RULE_DATE_FORMAT = "format";
+	public static final String RULE_FIELD_SUM = "fieldSum";
+	public static final String RULE_FORM_SUM = "form";
 	
 	public static final int RULECHECK_MESSAGE_NOT_IMPLEMENT = 0;
 	public static final int RULECHECK_MESSAGE_SUCCESS = 1;
