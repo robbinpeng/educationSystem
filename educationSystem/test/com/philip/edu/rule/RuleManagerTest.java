@@ -41,6 +41,20 @@ public class RuleManagerTest {
 				}
 			}
 
+			in = new FileInputStream("D:/Develop/education/test/1-11.xls");
+			wb = WorkbookFactory.create(in);
+			
+			list = engine.rulesCheck(Constants.FORM_ID, wb);
+			for(int j=0; j<list.size(); j++){
+				message = (MessageInfo)list.get(j);
+				if(message.getMessage_type()==Constants.RULECHECK_MESSAGE_SUCCESS){}
+				else {
+					ArrayList al = message.getMessage_info();
+					for(int i=0; i<al.size(); i++){ 
+						System.out.println(al.get(i).toString());
+					}
+				}
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
